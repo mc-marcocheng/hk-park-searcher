@@ -1,4 +1,4 @@
-# Park Searcher
+# Hong Kong Park Searcher
 
 ![Park Searcher Preview](assets/preview.png)
 
@@ -6,12 +6,14 @@
 
 A web application to find street workout parks in Hong Kong.
 
-## 提交資料 Contribute
+## 提交資料與貢獻 Contribute
 
-如果你發現有公園漏咗或者資料有錯，歡迎填寫以下 Google Form 話比我哋知：
-**[香港街健公園資料提交](https://forms.gle/tBqyQ5meYqtdXcja7)**
+我們非常歡迎任何形式的貢獻！無論是提交新公園資料、報告錯誤或改進程式碼。
 
-Help us keep the data up to date! If you know a park that's missing or has incorrect information, please let us know via the form above.
+We welcome all forms of contribution! Whether it's submitting new park data, reporting bugs, or improving the code.
+
+- **提交資料 Submit Data**: [香港街健公園資料提交 (Google Form)](https://forms.gle/tBqyQ5meYqtdXcja7)
+- **貢獻指南 Contributing Guide**: 請參閱 [CONTRIBUTING.md](CONTRIBUTING.md) 了解更多詳情。
 
 ## Setup
 
