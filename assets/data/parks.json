@@ -17,14 +17,7 @@
             "en": "Kennedy Town Praya, Sai Wan",
             "zh": "西環堅尼地城海旁"
         },
-        "equipment": [
-            {
-                "type": "parallel_bars",
-                "images": [
-                    "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1458_1.jpg"
-                ]
-            }
-        ],
+        "equipment": [],
         "park_images": [
             "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1951_1.jpg"
         ],
