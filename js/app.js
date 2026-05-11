@@ -1,3 +1,8 @@
+import { equipmentDict, getEquipmentName } from "./dict.js";
+import { parksData, fetchParks, calculateDistances } from "./data.js";
+import { map, initMap, renderMarkers, updateLocationMarker } from "./map.js";
+import { renderList, renderScrollFooter } from "./ui.js";
+
 let activeFilters = [];
 let dropPinMode = false;
 let currentSearchQuery = "";
@@ -10,13 +15,26 @@ let displayedItems = [];
 const itemsPerPage = 8;
 let isLoadingMore = false;
 
+// Debounce utility
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
 function initCollapsibleHeader() {
     const header = document.querySelector("#search-aside .border-b");
     const title = header.querySelector("h1");
 
     // Add collapsible functionality on ANY short screen (regardless of width)
     function checkAndToggleCollapsible() {
-        const isShortScreen = window.innerHeight <= 600; // Removed width constraint
+        const isShortScreen = window.innerHeight <= 600;
         const existingToggle = title.querySelector(".header-toggle");
 
         if (isShortScreen && !existingToggle) {
@@ -55,8 +73,8 @@ function initCollapsibleHeader() {
     // Initial check
     checkAndToggleCollapsible();
 
-    // Check on window resize
-    window.addEventListener("resize", checkAndToggleCollapsible);
+    // Check on window resize (debounced)
+    window.addEventListener("resize", debounce(checkAndToggleCollapsible, 150));
 }
 
 function toggleHeaderCollapse() {
@@ -220,15 +238,18 @@ function updateMobileVisibility() {
     }
 }
 
-// Add a resize listener to handle window snapping
-window.addEventListener("resize", () => {
-    if (window.innerWidth >= 768) {
-        const aside = document.getElementById("search-aside");
-        aside.classList.remove("panel-hidden");
-        // Reset map focus state for desktop
-        isMapFocused = false;
-    }
-});
+// Add a resize listener to handle window snapping (debounced)
+window.addEventListener(
+    "resize",
+    debounce(() => {
+        if (window.innerWidth >= 768) {
+            const aside = document.getElementById("search-aside");
+            aside.classList.remove("panel-hidden");
+            // Reset map focus state for desktop
+            isMapFocused = false;
+        }
+    }, 150)
+);
 
 /**
  * Populates the filter pill container based on dictionary keys
@@ -314,10 +335,13 @@ function setupFilterCollapse() {
     }
 }
 
-// Re-check on window resize
-window.addEventListener("resize", () => {
-    setupFilterCollapse();
-});
+// Re-check on window resize (debounced)
+window.addEventListener(
+    "resize",
+    debounce(() => {
+        setupFilterCollapse();
+    }, 150)
+);
 
 /**
  * Filters the master parksData and triggers UI re-renders
@@ -434,6 +458,9 @@ function loadMoreItems() {
 
     renderScrollFooter(currentFilteredData.length, displayedItems.length, isLoadingMore);
 }
+
+// Attach toggleHeaderCollapse to window for inline HTML onclick handler
+window.toggleHeaderCollapse = toggleHeaderCollapse;
 
 // Start the engine
 start();

@@ -1,7 +1,6 @@
-let parksData = [];
-let userLocation = null;
+export let parksData = [];
 
-async function fetchParks() {
+export async function fetchParks() {
     try {
         const res = await fetch("./assets/data/parks.json");
         parksData = await res.json();
@@ -10,8 +9,7 @@ async function fetchParks() {
     }
 }
 
-function calculateDistances(lat, lng) {
-    userLocation = { lat, lng };
+export function calculateDistances(lat, lng) {
     parksData.forEach((p) => {
         p.distance = getHaversine(lat, lng, p.coords.lat, p.coords.lng);
     });

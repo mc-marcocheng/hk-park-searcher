@@ -1,4 +1,4 @@
-const equipmentDict = {
+export const equipmentDict = {
     high_pull_up_bar: "高單槓",
     low_bar: "低單槓",
     parallel_bars: "雙槓",
@@ -14,6 +14,6 @@ const equipmentDict = {
 };
 
 // Fallback utility to safely get translation
-function getEquipmentName(type) {
+export function getEquipmentName(type) {
     return equipmentDict[type] || type.replace(/_/g, " ");
 }

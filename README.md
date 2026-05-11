@@ -1,6 +1,17 @@
 # Park Searcher
 
+![Park Searcher Preview](assets/preview.png)
+
+係一個幫你搵香港街頭健身公園嘅網頁。如果你想搵附近邊度有單槓、雙槓或者其他健身設施，呢度就啱晒你。
+
 A web application to find street workout parks in Hong Kong.
+
+## 提交資料 Contribute
+
+如果你發現有公園漏咗或者資料有錯，歡迎填寫以下 Google Form 話比我哋知：
+**[香港街健公園資料提交](https://forms.gle/tBqyQ5meYqtdXcja7)**
+
+Help us keep the data up to date! If you know a park that's missing or has incorrect information, please let us know via the form above.
 
 ## Setup
 

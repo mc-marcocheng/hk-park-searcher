@@ -1,3 +1,6 @@
+import { parksData } from "./data.js";
+import { getEquipmentName } from "./dict.js";
+
 // Modal Gallery State
 let currentModalImages = [];
 let currentImageIndex = 0;
@@ -12,7 +15,7 @@ function placeholderImage(text = "No Image") {
     return `data:image/svg+xml,${encodeURIComponent(svg)}`;
 }
 
-function renderList(parks, newlyAdded = []) {
+export function renderList(parks, newlyAdded = []) {
     const container = document.getElementById("park-list");
 
     if (parks.length === 0) {
@@ -65,7 +68,7 @@ function createParkCardHTML(p, animate = false) {
 `;
 }
 
-function renderScrollFooter(totalItems, displayedCount, isLoading) {
+export function renderScrollFooter(totalItems, displayedCount, isLoading) {
     const container = document.getElementById("pagination");
 
     if (totalItems === 0) {
@@ -101,7 +104,7 @@ function renderScrollFooter(totalItems, displayedCount, isLoading) {
     }
 }
 
-function openModal(id) {
+export function openModal(id) {
     const p = parksData.find((x) => x.id === id);
     if (!p) return;
 
@@ -200,7 +203,7 @@ function openModal(id) {
                         ? `
                     <div class="mt-6 rounded-2xl bg-slate-50 p-5 border border-slate-200">
                         <div class="prose prose-sm prose-slate max-w-none text-slate-700 font-medium">
-                            ${marked.parse(p.comment)}
+                            ${DOMPurify.sanitize(marked.parse(p.comment))}
                         </div>
                     </div>
                 `
@@ -238,7 +241,7 @@ function updateModalImageDisplay() {
 /**
  * Moves to the next image in the array
  */
-function nextModalImage() {
+export function nextModalImage() {
     if (currentModalImages.length <= 1) return;
     currentImageIndex = (currentImageIndex + 1) % currentModalImages.length;
     updateModalImageDisplay();
@@ -247,7 +250,7 @@ function nextModalImage() {
 /**
  * Moves to the previous image in the array
  */
-function prevModalImage() {
+export function prevModalImage() {
     if (currentModalImages.length <= 1) return;
     currentImageIndex =
         (currentImageIndex - 1 + currentModalImages.length) % currentModalImages.length;
@@ -257,7 +260,7 @@ function prevModalImage() {
 /**
  * Jumps to a specific image and scrolls the modal up
  */
-function jumpToImage(imgUrl) {
+export function jumpToImage(imgUrl) {
     const idx = currentModalImages.indexOf(imgUrl);
     if (idx !== -1) {
         currentImageIndex = idx;
@@ -270,9 +273,16 @@ function jumpToImage(imgUrl) {
     }
 }
 
-function closeModal() {
+export function closeModal() {
     const modal = document.getElementById("park-modal");
     document.body.classList.remove("modal-open");
     modal.classList.add("hidden");
     modal.classList.remove("flex");
 }
+
+// Attach to window for inline HTML onclick handlers
+window.openModal = openModal;
+window.closeModal = closeModal;
+window.prevModalImage = prevModalImage;
+window.nextModalImage = nextModalImage;
+window.jumpToImage = jumpToImage;
