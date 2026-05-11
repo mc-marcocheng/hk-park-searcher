@@ -1,0 +1,23 @@
+{
+    "name": "park-searcher",
+    "version": "1.0.0",
+    "description": "Park Searcher",
+    "scripts": {
+        "start": "echo \"Use a static server like npx serve or python -m http.server\"",
+        "lint": "eslint js/**/*.js",
+        "lint:fix": "eslint js/**/*.js --fix",
+        "format": "prettier --write \"**/*.{js,html,css,json}\"",
+        "prepare": "husky",
+        "images": "node scripts/optimize-images.mjs",
+        "images:clean": "node scripts/optimize-images.mjs --clean"
+    },
+    "author": "McCheng",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^10.2.0",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.4.0",
+        "prettier": "^3.8.1",
+        "sharp": "^0.34.5"
+    }
+}

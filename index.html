@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-HK">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <title>香港街健 | 公園搜尋</title>
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛝</text></svg>"
+        />
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <link rel="stylesheet" href="./css/park-searcher.css" />
+    </head>
+    <body class="h-screen w-screen overflow-hidden bg-slate-900 font-sans antialiased">
+        <div id="map" class="absolute inset-0 z-0"></div>
+
+        <div
+            id="pin-indicator"
+            class="fixed top-6 left-1/2 -translate-x-1/2 z-[200] rounded-full bg-blue-600 px-6 py-3 text-sm font-bold text-white shadow-xl shadow-blue-500/30 transition-all duration-300 opacity-0 pointer-events-none translate-y-[-20px]"
+        >
+            📍 請在地圖上點擊以選擇您的位置
+        </div>
+
+        <div
+            class="relative z-10 flex h-full w-full flex-col p-0 md:flex-row md:p-6 pointer-events-none"
+        >
+            <aside
+                id="search-aside"
+                class="glass-panel pointer-events-auto flex h-[85%] w-full flex-col overflow-hidden rounded-t-[40px] shadow-2xl transition-transform duration-500 ease-in-out md:h-full md:w-[420px] md:rounded-3xl"
+            >
+                <div class="border-b border-white/20 p-5 md:p-6">
+                    <h1 class="mb-4 text-2xl font-black tracking-tight text-slate-800">
+                        香港街健公園
+                    </h1>
+
+                    <div class="space-y-3">
+                        <input
+                            type="text"
+                            id="search-input"
+                            placeholder="搜尋公園..."
+                            class="w-full rounded-2xl border border-white/40 bg-white/50 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-blue-500/50 transition"
+                        />
+
+                        <div class="flex gap-2">
+                            <button
+                                id="btn-geolocate"
+                                class="flex-1 rounded-xl bg-blue-600 px-3 py-3 text-xs font-bold text-white shadow-lg transition hover:bg-blue-700 active:scale-95"
+                            >
+                                附近公園
+                            </button>
+                            <button
+                                id="btn-drop-pin"
+                                class="flex-1 rounded-xl border border-blue-200 bg-white/60 px-3 py-3 text-xs font-bold text-blue-600 transition hover:bg-white/80 active:scale-95"
+                            >
+                                選擇位置
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 flex items-center gap-2" id="filter-container-wrapper">
+                        <div id="filter-container" class="flex flex-wrap gap-2 flex-1"></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-1 flex-col overflow-hidden">
+                    <div id="park-list" class="flex-1 overflow-y-auto p-4 space-y-4 pb-20"></div>
+
+                    <div
+                        id="pagination"
+                        class="border-t border-white/20 bg-white/30 px-4 py-3 backdrop-blur-md"
+                    ></div>
+                </div>
+            </aside>
+        </div>
+
+        <button
+            id="mobile-view-toggle"
+            class="fixed top-6 right-4 z-[110] flex items-center gap-2 rounded-2xl bg-slate-900/80 px-4 py-3 text-xs font-black text-white shadow-2xl backdrop-blur-md transition-all active:scale-95 md:hidden pointer-events-auto"
+        >
+            <span id="toggle-icon">🗺️</span>
+            <span id="toggle-text">查看地圖</span>
+        </button>
+
+        <div id="park-modal" class="fixed inset-0 z-[150] hidden items-center justify-center p-4">
+            <div
+                class="absolute inset-0 bg-slate-900/60 backdrop-blur-md transition-opacity"
+                onclick="closeModal()"
+            ></div>
+            <div
+                class="glass-panel relative max-h-[95vh] w-full max-w-2xl overflow-hidden rounded-3xl shadow-2xl animate-fade-in-up flex flex-col"
+            >
+                <button
+                    onclick="closeModal()"
+                    class="absolute right-4 top-4 z-20 rounded-full bg-black/40 p-2 text-white backdrop-blur-sm transition hover:bg-black/60"
+                >
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
+                </button>
+                <div id="modal-content" class="overflow-y-auto w-full flex-1"></div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="./js/dict.js"></script>
+        <script src="./js/data.js"></script>
+        <script src="./js/map.js"></script>
+        <script src="./js/ui.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
