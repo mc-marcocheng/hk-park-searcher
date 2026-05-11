@@ -108,9 +108,12 @@ body {
         padding: 1rem !important;
     }
 
+    #search-aside .header-main {
+        margin-bottom: 0.75rem !important;
+    }
+
     #search-aside h1 {
         font-size: 1.25rem !important;
-        margin-bottom: 0.75rem !important;
         display: flex;
         align-items: center;
     }
@@ -144,9 +147,12 @@ body {
         padding: 1rem !important;
     }
 
+    #search-aside .header-main {
+        margin-bottom: 0.5rem !important;
+    }
+
     #search-aside h1 {
         font-size: 1.25rem !important;
-        margin-bottom: 0.5rem !important;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -191,9 +197,12 @@ body {
         padding: 0.75rem !important;
     }
 
+    #search-aside .header-main {
+        margin-bottom: 0.5rem !important;
+    }
+
     #search-aside h1 {
         font-size: 1.125rem !important;
-        margin-bottom: 0.5rem !important;
     }
 
     .header-toggle {
