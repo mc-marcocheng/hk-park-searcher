@@ -1,7 +1,8 @@
-import { districts, equipmentTypes } from "./contribution-catalog.js";
+import { districts, equipmentLabels, equipmentTypes } from "./contribution-catalog.js";
 
 const IMAGE_LIMITS = {
-    maxCount: 4,
+    maxCount: 8,
+    maxProcessedBytes: 3 * 1024 * 1024,
     maxOriginalBytes: 12 * 1024 * 1024,
     maxSourcePixels: 40_000_000,
 
@@ -35,15 +36,14 @@ const startedAt = Date.now();
 let map;
 let marker;
 let turnstileWidgetId = null;
-const selectedEquipment = new Set();
 const processedImages = [];
 
 document.addEventListener("DOMContentLoaded", () => {
     initThemeToggle();
     populateDistricts();
-    populateEquipment();
     initMap();
-    initImageUploader();
+    populateEquipmentPhotoFields();
+    initImageUploaders();
     initForm();
 });
 
@@ -77,7 +77,9 @@ function initThemeToggle() {
         updateControl();
 
         if (window.turnstile && turnstileWidgetId !== null) {
-            window.turnstile.reset(turnstileWidgetId);
+            window.turnstile.remove(turnstileWidgetId);
+            turnstileWidgetId = null;
+            renderTurnstile();
         }
     };
 
@@ -100,34 +102,46 @@ function populateDistricts() {
     }
 }
 
-function populateEquipment() {
-    const container = document.getElementById("equipment-options");
+const equipmentHelp = {
+    high_pull_up_bar: "如有高單槓，請上傳照片。沒有請跳過。",
+    low_bar: "如有低單槓，請上傳照片。沒有請跳過。",
+    parallel_bars: "如有雙槓，請上傳照片。沒有請跳過。",
+    monkey_bars: "如有攀爬架，請上傳照片。沒有請跳過。",
+    sit_up_bench: "如有仰臥板，請上傳照片。沒有請跳過。",
+    others: "如有以上未列出的器材，請在此上傳照片。",
+};
+
+function populateEquipmentPhotoFields() {
+    const container = document.getElementById("equipment-photo-fields");
     if (!container) return;
 
     for (const type of equipmentTypes) {
-        const label = document.createElement("label");
-        label.className = "checkbox-label";
+        const section = document.createElement("section");
+        section.className = "equipment-photo-field";
+
+        const heading = document.createElement("h3");
+        heading.textContent = `${equipmentLabels[type]}照片`;
+
+        const help = document.createElement("p");
+        help.className = "form-help";
+        help.textContent = equipmentHelp[type];
 
         const input = document.createElement("input");
-        input.type = "checkbox";
-        input.name = "equipment";
-        input.value = type;
+        input.id = `equipment-image-${type}`;
+        input.className = "file-input";
+        input.type = "file";
+        input.accept = "image/jpeg,image/png,image/webp";
+        input.multiple = true;
+        input.dataset.role = "equipment";
+        input.dataset.equipmentType = type;
+        input.setAttribute("aria-label", `${equipmentLabels[type]}照片`);
 
-        input.addEventListener("change", () => {
-            if (input.checked) {
-                selectedEquipment.add(type);
-            } else {
-                selectedEquipment.delete(type);
-            }
-            rerenderImageRoleSelects();
-        });
+        const previews = document.createElement("div");
+        previews.id = `equipment-preview-${type}`;
+        previews.className = "image-preview-list";
 
-        const span = document.createElement("span");
-        span.textContent = type;
-
-        label.appendChild(input);
-        label.appendChild(span);
-        container.appendChild(label);
+        section.append(heading, help, input, previews);
+        container.appendChild(section);
     }
 }
 
@@ -201,111 +215,117 @@ function syncCoordsFromInputs() {
     lngInput.addEventListener("change", update);
 }
 
-function initImageUploader() {
-    const input = document.getElementById("image-input");
-    if (!input) return;
+function initImageUploaders() {
+    const parkInput = document.getElementById("park-image-input");
 
-    input.addEventListener("change", async () => {
-        const files = Array.from(input.files || []);
+    parkInput?.addEventListener("change", async () => {
+        await addSelectedFiles(parkInput, "park", null);
+    });
 
-        for (const file of files) {
-            if (processedImages.length >= IMAGE_LIMITS.maxCount) {
-                showFieldError("images-error", `最多只能上載 ${IMAGE_LIMITS.maxCount} 張相片。`);
-                break;
-            }
-
-            try {
-                const result = await processSourceImage(file);
-                processedImages.push({
-                    clientId: crypto.randomUUID(),
-                    role: "park",
-                    equipmentType: null,
-                    med: result.med,
-                    thumb: result.thumb,
-                    previewUrl: URL.createObjectURL(result.med.blob),
-                });
-            } catch (error) {
-                showFieldError("images-error", error.message);
-            }
-        }
-
-        input.value = "";
-        renderImagePreviews();
+    document.querySelectorAll('#equipment-photo-fields input[type="file"]').forEach((input) => {
+        input.addEventListener("change", async () => {
+            await addSelectedFiles(input, "equipment", input.dataset.equipmentType);
+        });
     });
 }
 
+async function addSelectedFiles(input, role, equipmentType) {
+    const files = Array.from(input.files || []);
+    input.disabled = true;
+
+    try {
+        for (const file of files) {
+            if (processedImages.length >= IMAGE_LIMITS.maxCount) {
+                throw new Error(`所有欄位合計最多只能上載 ${IMAGE_LIMITS.maxCount} 張照片。`);
+            }
+
+            const result = await processSourceImage(file);
+            const processedBytes = processedImages.reduce(
+                (total, image) => total + image.med.blob.size + image.thumb.blob.size,
+                0
+            );
+
+            if (
+                processedBytes + result.med.blob.size + result.thumb.blob.size >
+                IMAGE_LIMITS.maxProcessedBytes
+            ) {
+                throw new Error("處理後的照片總大小過大，請移除部分照片。");
+            }
+
+            processedImages.push({
+                clientId: crypto.randomUUID(),
+                role,
+                equipmentType: role === "equipment" ? equipmentType : null,
+                med: result.med,
+                thumb: result.thumb,
+                previewUrl: URL.createObjectURL(result.med.blob),
+            });
+        }
+    } catch (error) {
+        showFieldError("images-error", error.message);
+    } finally {
+        input.value = "";
+        input.disabled = false;
+        renderImagePreviews();
+    }
+}
+
 function renderImagePreviews() {
-    const list = document.getElementById("image-preview-list");
-    if (!list) return;
+    const parkList = document.getElementById("park-image-preview-list");
+    if (parkList) parkList.innerHTML = "";
 
-    list.innerHTML = "";
+    for (const type of equipmentTypes) {
+        const list = document.getElementById(`equipment-preview-${type}`);
+        if (list) list.innerHTML = "";
+    }
 
-    processedImages.forEach((image, index) => {
+    processedImages.forEach((image) => {
+        const list =
+            image.role === "park"
+                ? parkList
+                : document.getElementById(`equipment-preview-${image.equipmentType}`);
+
+        if (!list) return;
+
         const preview = document.createElement("div");
         preview.className = "image-preview";
 
         const img = document.createElement("img");
         img.src = image.previewUrl;
-        img.alt = "已處理的相片預覽";
+        img.alt =
+            image.role === "park"
+                ? "公園環境照片預覽"
+                : `${equipmentLabels[image.equipmentType]}照片預覽`;
 
         const controls = document.createElement("div");
 
-        const roleLabel = document.createElement("label");
-        roleLabel.className = "form-label";
-        roleLabel.textContent = "相片用途";
-
-        const roleSelect = document.createElement("select");
-        roleSelect.className = "select-input";
-        roleSelect.dataset.index = String(index);
-
-        const parkOption = document.createElement("option");
-        parkOption.value = "park";
-        parkOption.textContent = "公園整體相片";
-        roleSelect.appendChild(parkOption);
-
-        for (const type of selectedEquipment) {
-            const option = document.createElement("option");
-            option.value = `equipment:${type}`;
-            option.textContent = `器材：${type}`;
-            roleSelect.appendChild(option);
-        }
-
-        roleSelect.value =
-            image.role === "park" ? "park" : `equipment:${image.equipmentType || ""}`;
-
-        roleSelect.addEventListener("change", () => {
-            const value = roleSelect.value;
-            if (value === "park") {
-                image.role = "park";
-                image.equipmentType = null;
-            } else {
-                image.role = "equipment";
-                image.equipmentType = value.slice("equipment:".length);
-            }
-        });
+        const description = document.createElement("p");
+        description.className = "form-label";
+        description.textContent =
+            image.role === "park"
+                ? "公園全景／環境照片"
+                : `${equipmentLabels[image.equipmentType]}照片`;
 
         const removeButton = document.createElement("button");
         removeButton.type = "button";
         removeButton.className = "button-tertiary";
-        removeButton.textContent = "移除相片";
+        removeButton.textContent = "移除照片";
         removeButton.addEventListener("click", () => {
-            URL.revokeObjectURL(image.previewUrl);
-            processedImages.splice(index, 1);
-            renderImagePreviews();
+            const index = processedImages.findIndex(
+                (candidate) => candidate.clientId === image.clientId
+            );
+
+            if (index !== -1) {
+                URL.revokeObjectURL(processedImages[index].previewUrl);
+                processedImages.splice(index, 1);
+                renderImagePreviews();
+            }
         });
 
-        controls.appendChild(roleLabel);
-        controls.appendChild(roleSelect);
-        controls.appendChild(removeButton);
-
-        preview.appendChild(img);
-        preview.appendChild(controls);
+        controls.append(description, removeButton);
+        preview.append(img, controls);
         list.appendChild(preview);
     });
-}
-
-function rerenderImageRoleSelects() {
-    renderImagePreviews();
 }
 
 function initForm() {
@@ -428,13 +448,18 @@ function validateForm() {
         if (!firstInvalidId) firstInvalidId = "lat";
     }
 
-    for (const image of processedImages) {
-        if (image.role === "equipment" && !selectedEquipment.has(image.equipmentType)) {
-            showFieldError("images-error", "相片指定的器材類型未被選取。");
-            errors.push("images");
-            if (!firstInvalidId) firstInvalidId = "images";
-            break;
-        }
+    if (!processedImages.some((image) => image.role === "park")) {
+        showFieldError("images-error", "請至少上傳一張公園全景／環境照片。");
+        setInvalid("park-image-input", true);
+        errors.push("images");
+        if (!firstInvalidId) firstInvalidId = "park-image-input";
+    }
+
+    const selectedRating = document.querySelector('input[name="quality"]:checked');
+    if (!selectedRating) {
+        showFieldError("quality-error", "請為公園評分。");
+        errors.push("quality");
+        if (!firstInvalidId) firstInvalidId = "quality-rating";
     }
 
     const comment = document.getElementById("comment").value;
@@ -504,7 +529,7 @@ async function handleSubmit(form) {
     const serialized = JSON.stringify(payload);
     const payloadBytes = new TextEncoder().encode(serialized).byteLength;
 
-    if (payloadBytes > 2.8 * 1024 * 1024) {
+    if (payloadBytes > 4 * 1024 * 1024) {
         status.textContent = "投稿資料太大，請移除部分相片後再試。";
         return;
     }
@@ -561,6 +586,16 @@ async function buildPayload(turnstileToken) {
         });
     }
 
+    const submittedEquipment = [
+        ...new Set(
+            processedImages
+                .filter((image) => image.role === "equipment")
+                .map((image) => image.equipmentType)
+        ),
+    ];
+
+    const quality = Number(document.querySelector('input[name="quality"]:checked')?.value);
+
     return {
         submissionVersion: 1,
         submissionKey,
@@ -581,7 +616,10 @@ async function buildPayload(turnstileToken) {
                 lat: Number.parseFloat(document.getElementById("lat").value),
                 lng: Number.parseFloat(document.getElementById("lng").value),
             },
-            equipment: Array.from(selectedEquipment),
+            equipment: submittedEquipment,
+            metrics: {
+                quality,
+            },
             comment: document.getElementById("comment").value,
         },
         images,

@@ -348,3 +348,102 @@ html[data-theme="dark"] .field-error {
         scroll-behavior: auto !important;
     }
 }
+
+.file-input {
+    display: block;
+    width: 100%;
+    margin-top: 14px;
+    padding: 14px;
+    border: 1px dashed var(--color-line-strong);
+    border-radius: var(--rounded-md);
+    color: var(--color-body);
+    background: var(--color-canvas-soft);
+}
+
+.equipment-examples {
+    display: block;
+    width: min(100%, 640px);
+    height: auto;
+    margin-top: 20px;
+    margin-inline: auto;
+    border: 1px solid var(--color-line);
+    border-radius: var(--rounded-lg);
+    background: var(--color-card);
+}
+
+.equipment-photo-fields {
+    display: grid;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.equipment-photo-field {
+    padding: 18px;
+    border: 1px solid var(--color-line);
+    border-radius: var(--rounded-lg);
+    background: var(--color-canvas-soft);
+}
+
+.equipment-photo-field h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.equipment-photo-field .form-help {
+    margin-bottom: 12px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.checkbox-label input {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+    accent-color: var(--color-primary);
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 12px;
+}
+
+.star-rating input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.star-rating label {
+    cursor: pointer;
+    color: var(--color-line);
+    font-size: 42px;
+    line-height: 1;
+    transition:
+        color 140ms ease,
+        transform 140ms ease;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input:checked ~ label {
+    color: #e2a400;
+}
+
+.star-rating label:hover {
+    transform: translateY(-2px);
+}
+
+.star-rating input:focus-visible + label {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+    border-radius: 4px;
+}

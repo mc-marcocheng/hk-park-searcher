@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { validateSubmission } from "../lib/schema.js";
+import { equipmentTypes } from "../lib/catalog.js";
 
 function makeValidSubmission(overrides = {}) {
     return {
@@ -11,10 +12,11 @@ function makeValidSubmission(overrides = {}) {
         turnstileToken: "token-abc",
         park: {
             name: { zh: "測試公園", en: "Test Park" },
-            districtCode: "YTM",
+            districtCode: "yau_tsim_mong",
             address: { zh: "測試路1號", en: "1 Test Road" },
             coords: { lat: 22.316, lng: 114.17 },
-            equipment: ["健身器材"],
+            equipment: ["high_pull_up_bar"],
+            metrics: { quality: 4 },
             comment: "hello",
         },
         images: [
@@ -26,14 +28,33 @@ function makeValidSubmission(overrides = {}) {
                     mime: "image/webp",
                     width: 800,
                     height: 1200,
-                    byteLength: 100000,
+                    byteLength: 38,
                     base64: "UklGRhIAAABXRUJQVlA4TAYAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
                 },
                 thumb: {
                     mime: "image/webp",
                     width: 200,
                     height: 300,
-                    byteLength: 20000,
+                    byteLength: 38,
+                    base64: "UklGRhIAAABXRUJQVlA4TAYAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+                },
+            },
+            {
+                clientId: "123e4567-e89b-12d3-a456-426614174002",
+                role: "equipment",
+                equipmentType: "high_pull_up_bar",
+                med: {
+                    mime: "image/webp",
+                    width: 800,
+                    height: 1200,
+                    byteLength: 38,
+                    base64: "UklGRhIAAABXRUJQVlA4TAYAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+                },
+                thumb: {
+                    mime: "image/webp",
+                    width: 200,
+                    height: 300,
+                    byteLength: 38,
                     base64: "UklGRhIAAABXRUJQVlA4TAYAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
                 },
             },
@@ -83,9 +104,59 @@ test("rejects too many images", () => {
         clientId: `123e4567-e89b-12d3-a456-42661417400${i}`,
         role: "park",
         equipmentType: null,
-        med: { mime: "image/webp", width: 800, height: 1200, byteLength: 1000, base64: "AAA=" },
-        thumb: { mime: "image/webp", width: 200, height: 300, byteLength: 500, base64: "AAA=" },
+        med: { mime: "image/webp", width: 800, height: 1200, byteLength: 2, base64: "AAA=" },
+        thumb: { mime: "image/webp", width: 200, height: 300, byteLength: 2, base64: "AAA=" },
     }));
     const result = validateSubmission(makeValidSubmission({ images }));
     assert.equal(result.success, false);
+});
+
+test("rejects submission without a park environment image", () => {
+    const submission = makeValidSubmission();
+    submission.images = submission.images.filter((image) => image.role === "equipment");
+    const result = validateSubmission(submission);
+    assert.equal(result.success, false);
+});
+
+test("rejects rating below 1", () => {
+    const result = validateSubmission(makeValidSubmission({ park: { metrics: { quality: 0 } } }));
+    assert.equal(result.success, false);
+});
+
+test("rejects rating above 5", () => {
+    const result = validateSubmission(makeValidSubmission({ park: { metrics: { quality: 6 } } }));
+    assert.equal(result.success, false);
+});
+
+test("rejects duplicate image UUIDs", () => {
+    const submission = makeValidSubmission();
+    submission.images[1].clientId = submission.images[0].clientId;
+    const result = validateSubmission(submission);
+    assert.equal(result.success, false);
+});
+
+test("rejects equipment image not listed in park.equipment", () => {
+    const submission = makeValidSubmission();
+    submission.images[1].equipmentType = "low_bar";
+    const result = validateSubmission(submission);
+    assert.equal(result.success, false);
+});
+
+test("rejects listed equipment without a corresponding image", () => {
+    const submission = makeValidSubmission();
+    submission.images = submission.images.filter((image) => image.role === "park");
+    const result = validateSubmission(submission);
+    assert.equal(result.success, false);
+});
+
+test("frontend and backend catalogues use the same equipment codes", () => {
+    const expected = [
+        "high_pull_up_bar",
+        "low_bar",
+        "parallel_bars",
+        "monkey_bars",
+        "sit_up_bench",
+        "others",
+    ];
+    assert.deepEqual(equipmentTypes, expected);
 });

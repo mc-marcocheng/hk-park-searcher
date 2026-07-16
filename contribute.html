@@ -205,35 +205,55 @@
                         <fieldset class="form-card">
                             <legend>
                                 <span class="form-step">03</span>
-                                場內器材
+                                公園環境照片
                             </legend>
 
-                            <p class="form-help">選擇場內的器材類型（選填，但建議至少選一項）。</p>
+                            <div class="form-group">
+                                <label class="form-label" for="park-image-input">
+                                    公園全景／環境照片 <span aria-hidden="true">*</span>
+                                </label>
 
-                            <div id="equipment-options"></div>
-                            <p class="field-error" id="equipment-error" hidden></p>
+                                <p class="form-help">
+                                    請上傳能看到公園整體環境的照片，例如入口、全景、周邊環境等。
+                                </p>
+
+                                <input
+                                    id="park-image-input"
+                                    class="file-input"
+                                    type="file"
+                                    accept="image/jpeg,image/png,image/webp"
+                                    multiple
+                                    required
+                                    aria-required="true"
+                                />
+
+                                <div id="park-image-preview-list" class="image-preview-list"></div>
+                                <p class="field-error" id="images-error" hidden></p>
+                            </div>
                         </fieldset>
 
                         <fieldset class="form-card">
                             <legend>
                                 <span class="form-step">04</span>
-                                相片
+                                器材記錄
                             </legend>
 
-                            <input
-                                id="image-input"
-                                type="file"
-                                accept="image/jpeg,image/png,image/webp"
-                                multiple
-                            />
-
                             <p class="form-help">
-                                最多 4 張，每張原始檔最多 12 MB。相片會在你的瀏覽器中轉換成
-                                WebP；原始檔不會上載。
+                                請在對應的欄位上傳該公園內有的器材照片。沒有的器材請直接跳過。
                             </p>
 
-                            <div id="image-preview-list" class="image-preview-list"></div>
-                            <p class="field-error" id="images-error" hidden></p>
+                            <img
+                                class="equipment-examples"
+                                src="./assets/images/equipment-examples.png"
+                                alt="街健器材種類參考圖片"
+                                loading="lazy"
+                            />
+
+                            <div id="equipment-photo-fields" class="equipment-photo-fields"></div>
+
+                            <p class="form-help">
+                                所有欄位合計最多 8 張照片，每張原始檔最多 12 MB。
+                            </p>
                         </fieldset>
 
                         <fieldset class="form-card">
@@ -250,8 +270,54 @@
                                     class="textarea-input"
                                     maxlength="2000"
                                 ></textarea>
-                                <p class="form-help">選填，純文字，最多 2,000 個字元。</p>
+                                <p class="form-help">
+                                    任何補充資料，例如：開放時間、器材狀況、其他器材名稱、前往方式等。
+                                </p>
                                 <p class="field-error" id="comment-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="form-label" id="quality-rating-label">
+                                    公園評分 <span aria-hidden="true">*</span>
+                                </span>
+
+                                <p class="form-help">
+                                    請根據你的整體訓練體驗評分，可考慮器材種類、器材質素、場地空間、地面狀況等因素。
+                                </p>
+
+                                <div
+                                    id="quality-rating"
+                                    class="star-rating"
+                                    role="radiogroup"
+                                    aria-labelledby="quality-rating-label"
+                                >
+                                    <input id="quality-5" name="quality" type="radio" value="5" />
+                                    <label for="quality-5" title="5 星"
+                                        ><span aria-hidden="true">★</span></label
+                                    >
+
+                                    <input id="quality-4" name="quality" type="radio" value="4" />
+                                    <label for="quality-4" title="4 星"
+                                        ><span aria-hidden="true">★</span></label
+                                    >
+
+                                    <input id="quality-3" name="quality" type="radio" value="3" />
+                                    <label for="quality-3" title="3 星"
+                                        ><span aria-hidden="true">★</span></label
+                                    >
+
+                                    <input id="quality-2" name="quality" type="radio" value="2" />
+                                    <label for="quality-2" title="2 星"
+                                        ><span aria-hidden="true">★</span></label
+                                    >
+
+                                    <input id="quality-1" name="quality" type="radio" value="1" />
+                                    <label for="quality-1" title="1 星"
+                                        ><span aria-hidden="true">★</span></label
+                                    >
+                                </div>
+
+                                <p class="field-error" id="quality-error" hidden></p>
                             </div>
 
                             <div class="form-group">
@@ -295,13 +361,6 @@
                                 </label>
                                 <p class="field-error" id="attest-public-error" hidden></p>
                             </div>
-
-                            <p class="form-help">
-                                投稿資料及相片會透過公開 GitHub Pull Request
-                                提交。請勿提供電話、電郵或其他私人資料。系統會在瀏覽器中縮小相片，並在伺服器重新編碼以移除相片
-                                metadata。系統會以不可逆的雜湊識別碼進行短期流量限制，並使用
-                                Cloudflare Turnstile 防止濫用。
-                            </p>
                         </fieldset>
 
                         <div id="turnstile-container"></div>
@@ -335,7 +394,6 @@
                                 <li>只提交可公開的公園資料。</li>
                                 <li>不要填寫電話、電郵或其他私人資料。</li>
                                 <li>只上載由你拍攝或獲授權使用的相片。</li>
-                                <li>相片中的 EXIF 及 GPS 資料會被移除。</li>
                                 <li>Pull Request 及提交內容會公開顯示。</li>
                             </ul>
                         </div>

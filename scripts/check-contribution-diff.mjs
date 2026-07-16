@@ -17,20 +17,16 @@ function fail(message) {
     process.exit(1);
 }
 
-function parseRef(headRef) {
-    const match = /^contribution\/(park-\d{8}-[a-f0-9]{8})$/.exec(headRef || "");
-    if (!match) {
+function validateRef(headRef) {
+    if (!/^contribution\/park-\d{8}-[a-f0-9]{8}$/.test(headRef || "")) {
         fail(`Unexpected contribution branch name: ${headRef}`);
     }
-    return match[1];
 }
 
 async function getDiff(base, head) {
-    const { stdout } = await execFileAsync(
-        "git",
-        ["diff", "--name-status", base, head],
-        { maxBuffer: 10 * 1024 * 1024 },
-    );
+    const { stdout } = await execFileAsync("git", ["diff", "--name-status", base, head], {
+        maxBuffer: 10 * 1024 * 1024,
+    });
 
     return stdout
         .split("\n")
@@ -42,44 +38,24 @@ async function getDiff(base, head) {
         });
 }
 
-function buildAllowedPaths(id) {
-    const paths = new Set([`data/parks/${id}.json`]);
-    for (const kind of ["med", "thumb"]) {
-        paths.add(`assets/images/parks/${id}/${kind}`);
-    }
-    return paths;
-}
-
 async function main() {
     if (!BASE_SHA || !HEAD_SHA || !HEAD_REF) {
         fail("BASE_SHA, HEAD_SHA and HEAD_REF must be provided.");
     }
 
-    const id = parseRef(HEAD_REF);
-    if (!SAFE_NAME.test(id)) {
-        fail(`Unsafe submission id: ${id}`);
-    }
+    validateRef(HEAD_REF);
 
-    const allowed = buildAllowedPaths(id);
     const changes = await getDiff(BASE_SHA, HEAD_SHA);
 
-    let parkJsonCount = 0;
+    let parkJsonPath = null;
     const imageFiles = [];
     const seenPaths = new Set();
 
     for (const change of changes) {
         const { status, path: filePath } = change;
 
-        if (status === "D") {
-            fail(`Deletion not allowed: ${filePath}`);
-        }
-
-        if (status === "R") {
-            fail(`Rename not allowed: ${filePath}`);
-        }
-
-        if (status !== "A" && status !== "M") {
-            fail(`Unsupported change status "${status}" for ${filePath}`);
+        if (!status.startsWith("A")) {
+            fail(`Contribution files must be newly added: ${filePath}`);
         }
 
         if (seenPaths.has(filePath)) {
@@ -87,31 +63,34 @@ async function main() {
         }
         seenPaths.add(filePath);
 
-        if (filePath === `data/parks/${id}.json`) {
-            parkJsonCount++;
+        const parkMatch = /^data\/parks\/([a-z0-9][a-z0-9_-]{2,79})\.json$/.exec(filePath);
+        if (parkMatch) {
+            if (parkJsonPath) {
+                fail(`Multiple park JSON files found: ${filePath}`);
+            }
+            parkJsonPath = filePath;
             continue;
         }
 
-        const imageMatch = new RegExp(
-            `^assets/images/parks/${id}/(med|thumb)/([^/]+)\\.webp$`,
-        ).exec(filePath);
+        const imageMatch =
+            /^assets\/images\/parks\/[a-z0-9][a-z0-9_-]{2,79}\/(med|thumb)\/([^/]+)\.webp$/.exec(
+                filePath
+            );
 
         if (!imageMatch) {
             fail(`Path not permitted on contribution branch: ${filePath}`);
         }
 
-        const kind = imageMatch[1];
         const basename = imageMatch[2];
-
         if (!IMAGE_BASENAME.test(basename)) {
             fail(`Unsafe image basename: ${basename}`);
         }
 
-        imageFiles.push({ kind, basename, path: filePath });
+        imageFiles.push({ kind: imageMatch[1], basename, path: filePath });
     }
 
-    if (parkJsonCount !== 1) {
-        fail(`Expected exactly one park JSON file, found ${parkJsonCount}.`);
+    if (!parkJsonPath) {
+        fail("Expected exactly one park JSON file, found none.");
     }
 
     const medNames = new Set();
@@ -132,14 +111,19 @@ async function main() {
         }
     }
 
-    if (imageFiles.length > 8) {
-        fail(`Too many image files: ${imageFiles.length} (max 8).`);
+    if (medNames.size > 8 || imageFiles.length > 16) {
+        fail("Too many submitted images; maximum is 8 med/thumb pairs.");
     }
 
     // Validate that every image referenced by the JSON exists and there are
-    // no unreferenced images.
-    const parkJsonPath = path.join(process.cwd(), `data/parks/${id}.json`);
-    const park = JSON.parse(await fs.readFile(parkJsonPath, "utf8"));
+    // no unreferenced images, and that the JSON id matches its filename.
+    const parkJsonFullPath = path.join(process.cwd(), parkJsonPath);
+    const park = JSON.parse(await fs.readFile(parkJsonFullPath, "utf8"));
+
+    const expectedId = path.basename(parkJsonPath, ".json");
+    if (park.id !== expectedId) {
+        fail(`Park JSON id "${park.id}" does not match filename "${expectedId}".`);
+    }
 
     const referenced = new Set([
         ...(park.park_images || []),
@@ -159,7 +143,7 @@ async function main() {
     }
 
     console.log(
-        `Contribution diff OK: 1 park JSON, ${imageFiles.length} images, id=${id}`,
+        `Contribution diff OK: 1 park JSON, ${imageFiles.length} images, path=${parkJsonPath}`
     );
 }
 

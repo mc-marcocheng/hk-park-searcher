@@ -5,23 +5,32 @@ import { createContributionPullRequest } from "../lib/github.js";
 const IDEMPOTENCY_TTL_MS = 10 * 60 * 1000;
 
 export default async function handler(request, response) {
-    if (request.method !== "POST") {
-        response.status(405).json({ message: "Method not allowed" });
-        return;
-    }
-
     const origin = request.headers.origin;
+
     if (!isOriginAllowed(origin)) {
         response.status(403).json({ message: "Origin not allowed" });
         return;
     }
 
-    response.setHeader("Access-Control-Allow-Origin", origin || "*");
+    response.setHeader("Access-Control-Allow-Origin", origin);
     response.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
     response.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    response.setHeader("Vary", "Origin");
 
     if (request.method === "OPTIONS") {
         response.status(204).end();
+        return;
+    }
+
+    if (request.method !== "POST") {
+        response.setHeader("Allow", "POST, OPTIONS");
+        response.status(405).json({ message: "Method not allowed" });
+        return;
+    }
+
+    const contentLength = Number(request.headers["content-length"] || 0);
+    if (contentLength > 4.2 * 1024 * 1024) {
+        response.status(413).json({ message: "Submission payload is too large" });
         return;
     }
 
@@ -79,6 +88,7 @@ export default async function handler(request, response) {
         const result = await createContributionPullRequest(data);
         response.status(201).json(result);
     } catch (error) {
+        console.error("Contribution creation failed:", error);
         await releaseLock(lockKey);
         response.status(500).json({ message: "Failed to create contribution" });
     }

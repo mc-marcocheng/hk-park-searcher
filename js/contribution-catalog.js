@@ -1,12 +1,14 @@
 // Frontend catalog. Keep in sync with backend/lib/catalog.js.
-export const equipmentTypes = [
-    "high_pull_up_bar",
-    "low_bar",
-    "parallel_bars",
-    "monkey_bars",
-    "sit_up_bench",
-    "others",
-];
+export const equipmentLabels = {
+    high_pull_up_bar: "高單槓",
+    low_bar: "低單槓",
+    parallel_bars: "雙槓",
+    monkey_bars: "攀爬架",
+    sit_up_bench: "仰臥板",
+    others: "其他器材",
+};
+
+export const equipmentTypes = Object.keys(equipmentLabels);
 
 export const districts = {
     central_western: { zh: "中西區", en: "Central and Western" },
