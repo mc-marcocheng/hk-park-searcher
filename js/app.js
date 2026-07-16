@@ -28,6 +28,57 @@ function debounce(func, wait) {
     };
 }
 
+function initThemeToggle() {
+    const root = document.documentElement;
+    const button = document.getElementById("theme-toggle");
+    const icon = document.getElementById("theme-icon");
+    const label = document.getElementById("theme-label");
+
+    if (!button || !icon || !label) return;
+
+    const updateControl = () => {
+        const isDark = root.dataset.theme === "dark";
+        const actionLabel = isDark ? "切換至淺色模式" : "切換至深色模式";
+
+        icon.textContent = isDark ? "☀" : "☾";
+        label.textContent = actionLabel;
+        button.setAttribute("aria-label", actionLabel);
+        button.title = actionLabel;
+    };
+
+    const setTheme = (theme, persist = true) => {
+        root.dataset.theme = theme;
+
+        if (persist) {
+            try {
+                localStorage.setItem("park-theme", theme);
+            } catch {
+                // Storage may be unavailable in private browsing.
+            }
+        }
+
+        updateControl();
+    };
+
+    button.addEventListener("click", () => {
+        setTheme(root.dataset.theme === "dark" ? "light" : "dark");
+    });
+
+    const colorScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+    colorScheme.addEventListener?.("change", (event) => {
+        try {
+            if (localStorage.getItem("park-theme")) return;
+        } catch {
+            // Continue using the system preference.
+        }
+
+        setTheme(event.matches ? "dark" : "light", false);
+    });
+
+    updateControl();
+}
+
 function initCollapsibleHeader() {
     const header = document.querySelector("#search-aside .border-b");
     const title = header.querySelector("h1");
@@ -44,6 +95,13 @@ function initCollapsibleHeader() {
             toggleBtn.className =
                 "header-toggle ml-2 text-sm opacity-60 hover:opacity-100 transition-all duration-200 transform hover:scale-110";
             toggleBtn.title = "收合搜尋選項";
+            toggleBtn.type = "button";
+            toggleBtn.setAttribute("aria-controls", "search-controls");
+            toggleBtn.setAttribute("aria-expanded", String(!isHeaderCollapsed));
+            toggleBtn.setAttribute(
+                "aria-label",
+                isHeaderCollapsed ? "展開搜尋選項" : "收合搜尋選項"
+            );
 
             toggleBtn.onclick = (e) => {
                 e.preventDefault();
@@ -87,51 +145,48 @@ function toggleHeaderCollapse() {
 
 function collapseHeader() {
     const header = document.querySelector("#search-aside .border-b");
-    const toggleBtn = header.querySelector(".header-toggle");
-    const searchControls = header.querySelector(".space-y-3");
-    const filterContainer = header.querySelector("#filter-container");
+    const toggleBtn = header?.querySelector(".header-toggle");
 
-    // Add collapsed class and hide elements
+    if (!header) return;
+
     header.classList.add("collapsed");
-    searchControls.style.display = "none";
-    filterContainer.style.display = "none";
 
-    // Update toggle button
     if (toggleBtn) {
-        toggleBtn.innerHTML = "▲";
+        toggleBtn.textContent = "▲";
         toggleBtn.title = "展開搜尋選項";
+        toggleBtn.setAttribute("aria-label", "展開搜尋選項");
+        toggleBtn.setAttribute("aria-expanded", "false");
     }
 
     isHeaderCollapsed = true;
-
-    // Add a subtle animation
-    header.style.transition = "padding 0.3s ease";
 }
 
 function expandHeader() {
     const header = document.querySelector("#search-aside .border-b");
-    const toggleBtn = header.querySelector(".header-toggle");
-    const searchControls = header.querySelector(".space-y-3");
-    const filterContainer = header.querySelector("#filter-container");
+    const toggleBtn = header?.querySelector(".header-toggle");
 
-    // Remove collapsed class and show elements
+    if (!header) return;
+
     header.classList.remove("collapsed");
-    searchControls.style.display = "block";
-    filterContainer.style.display = "flex";
 
-    // Update toggle button
     if (toggleBtn) {
-        toggleBtn.innerHTML = "▼";
+        toggleBtn.textContent = "▼";
         toggleBtn.title = "收合搜尋選項";
+        toggleBtn.setAttribute("aria-label", "收合搜尋選項");
+        toggleBtn.setAttribute("aria-expanded", "true");
     }
 
     isHeaderCollapsed = false;
+
+    requestAnimationFrame(setupFilterCollapse);
 }
 
 /**
  * Entry point: Initializes data, map, and event listeners
  */
 async function start() {
+    initThemeToggle();
+
     await fetchParks();
     initMap("map");
     initFilters();
@@ -182,8 +237,7 @@ async function start() {
 
         document.getElementById("map").classList.add("cursor-crosshair");
         const indicator = document.getElementById("pin-indicator");
-        indicator.classList.remove("opacity-0", "translate-y-[-20px]");
-        indicator.classList.add("opacity-100", "translate-y-0");
+        indicator.classList.add("is-visible");
     });
 
     // --- Map Click Logic (for Drop Pin) ---
@@ -202,8 +256,7 @@ async function start() {
 
         document.getElementById("map").classList.remove("cursor-crosshair");
         const indicator = document.getElementById("pin-indicator");
-        indicator.classList.add("opacity-0", "translate-y-[-20px]");
-        indicator.classList.remove("opacity-100", "translate-y-0");
+        indicator.classList.remove("is-visible");
     });
 
     updateView();
@@ -218,38 +271,27 @@ function updateMobileVisibility() {
     const toggleIcon = document.getElementById("toggle-icon");
     const toggleBtn = document.getElementById("mobile-view-toggle");
 
-    // Only proceed with toggle logic if we are on mobile
+    if (!aside || !toggleText || !toggleIcon || !toggleBtn) return;
+
     if (window.innerWidth < 768) {
+        aside.classList.toggle("panel-hidden", isMapFocused);
+        toggleBtn.classList.toggle("is-map-focused", isMapFocused);
+        toggleBtn.setAttribute("aria-pressed", String(isMapFocused));
+
         if (isMapFocused) {
-            aside.classList.add("panel-hidden");
             toggleText.innerText = "查看列表";
-            toggleIcon.innerText = "📋";
-            toggleBtn.classList.replace("bg-slate-900/80", "bg-blue-600");
+            toggleIcon.innerText = "☷";
         } else {
-            aside.classList.remove("panel-hidden");
             toggleText.innerText = "查看地圖";
-            toggleIcon.innerText = "🗺️";
-            toggleBtn.classList.replace("bg-blue-600", "bg-slate-900/80");
+            toggleIcon.innerText = "⌖";
         }
     } else {
-        // Desktop cleanup: Ensure class is removed if user resizes window
         aside.classList.remove("panel-hidden");
+        toggleBtn.classList.remove("is-map-focused");
+        toggleBtn.setAttribute("aria-pressed", "false");
         isMapFocused = false;
     }
 }
-
-// Add a resize listener to handle window snapping (debounced)
-window.addEventListener(
-    "resize",
-    debounce(() => {
-        if (window.innerWidth >= 768) {
-            const aside = document.getElementById("search-aside");
-            aside.classList.remove("panel-hidden");
-            // Reset map focus state for desktop
-            isMapFocused = false;
-        }
-    }, 150)
-);
 
 /**
  * Populates the filter pill container based on dictionary keys
@@ -267,8 +309,13 @@ function initFilters() {
 
     // Add event listeners for filter pills
     document.querySelectorAll(".filter-pill").forEach((pill) => {
+        pill.type = "button";
+        pill.setAttribute("aria-pressed", "false");
+
         pill.addEventListener("click", () => {
             pill.classList.toggle("active");
+            pill.setAttribute("aria-pressed", String(pill.classList.contains("active")));
+
             const val = pill.dataset.value;
             activeFilters = pill.classList.contains("active")
                 ? [...activeFilters, val]
@@ -314,6 +361,9 @@ function setupFilterCollapse() {
         const btn = document.createElement("button");
         btn.className = "show-more-btn";
         btn.title = "顯示更多";
+        btn.type = "button";
+        btn.setAttribute("aria-controls", "filter-container");
+        btn.setAttribute("aria-expanded", "false");
         btn.innerHTML = `
             <svg class="icon-chevron" style="transition:transform 0.2s;" width="18" height="18" viewBox
             ="0 0 20 20" fill="none">
@@ -321,15 +371,14 @@ function setupFilterCollapse() {
             </svg>
         `;
         btn.onclick = () => {
-            if (container.classList.contains("collapsed")) {
-                container.classList.remove("collapsed");
-                btn.title = "收合篩選器材";
-                btn.querySelector(".icon-chevron").style.transform = "rotate(180deg)";
-            } else {
-                container.classList.add("collapsed");
-                btn.title = "顯示更多";
-                btn.querySelector(".icon-chevron").style.transform = "rotate(0deg)";
-            }
+            const isCollapsed = container.classList.contains("collapsed");
+
+            container.classList.toggle("collapsed", !isCollapsed);
+            btn.title = isCollapsed ? "收合篩選器材" : "顯示更多";
+            btn.setAttribute("aria-expanded", String(isCollapsed));
+            btn.querySelector(".icon-chevron").style.transform = isCollapsed
+                ? "rotate(180deg)"
+                : "rotate(0deg)";
         };
         wrapper.appendChild(btn);
     }
@@ -339,6 +388,7 @@ function setupFilterCollapse() {
 window.addEventListener(
     "resize",
     debounce(() => {
+        updateMobileVisibility();
         setupFilterCollapse();
     }, 150)
 );

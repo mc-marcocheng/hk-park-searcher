@@ -40,32 +40,43 @@ function createParkCardHTML(p, animate = false) {
             ? buildImagePath(p.id, p.park_images[0], "thumb")
             : placeholderImage();
 
-    const district =
-        p.district && p.district.zh
-            ? p.district.zh
-            : p.district && p.district.en
-              ? p.district.en
-              : "未知";
-
+    const district = p.district?.zh || p.district?.en || "未知";
+    const parkName = p.name?.zh || p.name?.en || "未命名公園";
+    const englishName = p.name?.en || "";
     const animateClass = animate ? " animate-new" : "";
 
+    const distanceHTML = Number.isFinite(p.distance)
+        ? `<p class="park-distance mt-1">距離 ${p.distance.toFixed(2)} 公里</p>`
+        : "";
+
     return `
-    <div class="park-card glass-panel${animateClass} flex cursor-pointer gap-4 rounded-2xl p-3 transition" onclick="openModal('${p.id}')">
-        <div class="h-20 w-20 flex-shrink-0 overflow-hidden rounded-xl bg-slate-200 shadow-sm">
-            <img src="${thumbSrc}"
-                 loading="lazy"
-                 decoding="async"
-                 width="80" height="80"
-                 alt="${p.name.zh || p.name.en}"
-                 class="h-full w-full object-cover">
-        </div>
-        <div class="flex-1 overflow-hidden flex flex-col justify-center">
-            <h3 class="truncate text-base font-black text-slate-800">${p.name.zh || p.name.en}</h3>
-            <p class="truncate text-xs font-semibold text-slate-500">${p.name.en || ""} • ${district}</p>
-            ${p.distance ? `<p class="mt-1 text-xs font-bold text-blue-600">距離 ${p.distance.toFixed(2)} 公里</p>` : ""}
-        </div>
-    </div>
-`;
+        <button
+            type="button"
+            class="park-card${animateClass}"
+            onclick="openModal('${p.id}')"
+            aria-label="查看 ${parkName} 詳情"
+        >
+            <div class="h-20 w-20 flex-shrink-0 overflow-hidden">
+                <img
+                    src="${thumbSrc}"
+                    loading="lazy"
+                    decoding="async"
+                    width="80"
+                    height="80"
+                    alt="${parkName}"
+                    class="h-full w-full object-cover"
+                >
+            </div>
+
+            <div class="flex min-w-0 flex-1 flex-col justify-center overflow-hidden">
+                <h3 class="truncate">${parkName}</h3>
+                <p class="truncate">${englishName}${englishName ? " · " : ""}${district}</p>
+                ${distanceHTML}
+            </div>
+
+            <span class="sr-only">開啟公園資料</span>
+        </button>
+    `;
 }
 
 export function renderScrollFooter(totalItems, displayedCount, isLoading) {
@@ -83,11 +94,12 @@ export function renderScrollFooter(totalItems, displayedCount, isLoading) {
     if (isLoading) {
         // Show loading indicator only when actively loading
         container.innerHTML = `
-            <div class="flex items-center justify-center gap-2 text-xs text-slate-500">
-                <svg class="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
-                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2.5-8a8 8 0 017.5 7.5H17a8 8 0 00-7.5-7.5z"></path>
-                </svg>
+            <div
+                class="flex items-center justify-center gap-2 text-xs text-slate-500"
+                role="status"
+                aria-live="polite"
+            >
+                <span class="loading-spinner" aria-hidden="true"></span>
                 <span>載入中...</span>
             </div>
         `;
@@ -157,10 +169,20 @@ export function openModal(id) {
                 currentModalImages.length > 1
                     ? `
                 <div class="absolute inset-0 flex items-center justify-between px-4 z-30 pointer-events-none">
-                    <button onclick="prevModalImage()" class="pointer-events-auto rounded-full bg-black/30 p-3 text-white backdrop-blur-md transition hover:bg-black/60 focus:outline-none">
+                    <button
+                        type="button"
+                        onclick="prevModalImage()"
+                        aria-label="上一張相片"
+                        class="pointer-events-auto rounded-full bg-black/30 p-3 text-white backdrop-blur-md transition hover:bg-black/60 focus:outline-none"
+                    >
                         <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
                     </button>
-                    <button onclick="nextModalImage()" class="pointer-events-auto rounded-full bg-black/30 p-3 text-white backdrop-blur-md transition hover:bg-black/60 focus:outline-none">
+                    <button
+                        type="button"
+                        onclick="nextModalImage()"
+                        aria-label="下一張相片"
+                        class="pointer-events-auto rounded-full bg-black/30 p-3 text-white backdrop-blur-md transition hover:bg-black/60 focus:outline-none"
+                    >
                         <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                     </button>
                 </div>
@@ -172,7 +194,7 @@ export function openModal(id) {
             }
 
             <div class="absolute bottom-6 left-8 z-20 text-white pr-24">
-                <h2 class="text-3xl font-black drop-shadow-xl leading-tight">${p.name.zh || p.name.en}</h2>
+                <h2 id="modal-title" class="text-3xl font-black drop-shadow-xl leading-tight">${p.name.zh || p.name.en}</h2>
                 <p class="text-base font-bold opacity-80">${p.name.en || ""}</p>
             </div>
         </div>
@@ -286,3 +308,16 @@ window.closeModal = closeModal;
 window.prevModalImage = prevModalImage;
 window.nextModalImage = nextModalImage;
 window.jumpToImage = jumpToImage;
+
+document.addEventListener("keydown", (event) => {
+    const modal = document.getElementById("park-modal");
+    if (!modal || modal.classList.contains("hidden")) return;
+
+    if (event.key === "Escape") {
+        closeModal();
+    } else if (event.key === "ArrowLeft") {
+        prevModalImage();
+    } else if (event.key === "ArrowRight") {
+        nextModalImage();
+    }
+});
