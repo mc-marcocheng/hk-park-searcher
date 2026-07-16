@@ -1,0 +1,36 @@
+{
+  "id": "contrib-park-54a43d35",
+  "name": {
+    "zh": "街健公園",
+    "en": "Park"
+  },
+  "coords": {
+    "lat": 22.354437,
+    "lng": 114.134388
+  },
+  "district": {
+    "zh": "深水埗區",
+    "en": "Sham Shui Po"
+  },
+  "address": {
+    "zh": "addr 1",
+    "en": "addr 2"
+  },
+  "equipment": [
+    {
+      "type": "parallel_bars",
+      "images": [
+        "bd92d8d4-6f71-4544-bf20-09b97d1ac624"
+      ]
+    }
+  ],
+  "park_images": [
+    "e1c79e32-69e1-4228-a531-976a9ba14fb3"
+  ],
+  "metrics": {
+    "quality": 3
+  },
+  "comment": "Comment",
+  "comment_format": "plain",
+  "contributedAt": "2026-07-16T18:49:02.034Z"
+}
