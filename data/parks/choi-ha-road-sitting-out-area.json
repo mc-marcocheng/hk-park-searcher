@@ -1,0 +1,27 @@
+{
+    "id": "choi-ha-road-sitting-out-area",
+    "name": {
+        "en": "Choi Ha Road Sitting-out Area",
+        "zh": "彩霞道休憩處"
+    },
+    "coords": {
+        "lat": 22.323333,
+        "lng": 114.217222
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "3 Choi Ha Road, Jordan Valley, Kwun Tong",
+        "zh": "觀塘佐敦谷彩霞道3號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1571_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

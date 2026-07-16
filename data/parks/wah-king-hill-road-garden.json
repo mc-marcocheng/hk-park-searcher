@@ -1,0 +1,27 @@
+{
+    "id": "wah-king-hill-road-garden",
+    "name": {
+        "en": "Wah King Hill Road Garden",
+        "zh": "華景山路花園"
+    },
+    "coords": {
+        "lat": 22.352222,
+        "lng": 114.137222
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Wah King Hill Road, Kwai Chung",
+        "zh": "葵涌華景山路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1720_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

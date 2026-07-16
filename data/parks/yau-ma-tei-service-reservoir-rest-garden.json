@@ -1,0 +1,27 @@
+{
+    "id": "yau-ma-tei-service-reservoir-rest-garden",
+    "name": {
+        "en": "Yau Ma Tei Service Reservoir Rest Garden",
+        "zh": "油麻地配水庫休憩花園"
+    },
+    "coords": {
+        "lat": 22.312222,
+        "lng": 114.172778
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "King's Park Rise, Yau Ma Tei",
+        "zh": "油麻地京士柏道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1675_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

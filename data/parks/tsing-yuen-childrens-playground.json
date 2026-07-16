@@ -1,0 +1,27 @@
+{
+    "id": "tsing-yuen-childrens-playground",
+    "name": {
+        "en": "Tsing Yuen Children's Playground",
+        "zh": "青圓兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.362778,
+        "lng": 114.045833
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Lung Yue Road, Sham Tseng, Tsuen Wan",
+        "zh": "荃灣深井龍如路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1880_1880.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "hin-tin-playground",
+    "name": {
+        "en": "Hin Tin Playground",
+        "zh": "顯田遊樂場"
+    },
+    "coords": {
+        "lat": 22.365,
+        "lng": 114.171944
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Che Kung Miu Road, Tai Wai",
+        "zh": "大圍車公廟路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1787_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

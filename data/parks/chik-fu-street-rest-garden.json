@@ -1,0 +1,27 @@
+{
+    "id": "chik-fu-street-rest-garden",
+    "name": {
+        "en": "Chik Fu Street Rest Garden",
+        "zh": "積富街休憩花園"
+    },
+    "coords": {
+        "lat": 22.374722,
+        "lng": 114.178611
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Chik Fu Street, Tai Wai",
+        "zh": "大圍積富街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1784_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

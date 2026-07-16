@@ -1,0 +1,27 @@
+{
+    "id": "shing-mun-valley-park",
+    "name": {
+        "en": "Shing Mun Valley Park",
+        "zh": "城門谷公園"
+    },
+    "coords": {
+        "lat": 22.377222,
+        "lng": 114.129722
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "21 Shing Mun Road, Shek Wai Kok Estate, Tsuen Wan",
+        "zh": "荃灣石圍角邨城門道21號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1877_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "che-kung-miu-road-playground",
+    "name": {
+        "en": "Che Kung Miu Road Playground",
+        "zh": "車公廟路遊樂場"
+    },
+    "coords": {
+        "lat": 22.369167,
+        "lng": 114.176389
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Che Kung Miu Road, Tai Wai",
+        "zh": "大圍車公廟路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1783_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

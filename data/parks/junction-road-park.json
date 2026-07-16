@@ -1,0 +1,27 @@
+{
+    "id": "junction-road-park",
+    "name": {
+        "en": "Junction Road Park",
+        "zh": "聯合道公園"
+    },
+    "coords": {
+        "lat": 22.338889,
+        "lng": 114.184167
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "195, Junction Road, Kowloon City",
+        "zh": "九龍城聯合道195號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1559_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

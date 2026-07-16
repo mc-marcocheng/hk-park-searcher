@@ -1,0 +1,27 @@
+{
+    "id": "tong-ming-street-park",
+    "name": {
+        "en": "Tong Ming Street Park",
+        "zh": "唐明街公園"
+    },
+    "coords": {
+        "lat": 22.309722,
+        "lng": 114.259167
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Tong Ming Street, Tseung Kwan O",
+        "zh": "將軍澳唐明街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1778_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

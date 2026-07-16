@@ -1,0 +1,27 @@
+{
+    "id": "wong-nai-chung-reservoir-park-fitness-trail",
+    "name": {
+        "en": "Wong Nai Chung Reservoir Park Fitness Trail",
+        "zh": "黃泥涌水塘公園健身徑"
+    },
+    "coords": {
+        "lat": 22.256667,
+        "lng": 114.194167
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Tai Tam Reservoir Road, Wong Nai Chung",
+        "zh": "黃泥涌大潭水塘道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1530_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ko-po-playground",
+    "name": {
+        "en": "Ko Po Playground",
+        "zh": "高埔遊樂場"
+    },
+    "coords": {
+        "lat": 22.440833,
+        "lng": 114.0575
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Ko Po Road, Kam Tin, Yuen Long",
+        "zh": "元朗錦田高埔路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1922_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

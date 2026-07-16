@@ -1,0 +1,27 @@
+{
+    "id": "wing-hing-sitting-out-area",
+    "name": {
+        "en": "Wing Hing Sitting-out Area",
+        "zh": "永慶休憩處"
+    },
+    "coords": {
+        "lat": 22.431111,
+        "lng": 114.094722
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Wing Hing Wai, Pat Heung, Yuen Long",
+        "zh": "元朗八鄉永慶圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1947_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

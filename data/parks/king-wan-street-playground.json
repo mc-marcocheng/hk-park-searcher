@@ -1,0 +1,27 @@
+{
+    "id": "king-wan-street-playground",
+    "name": {
+        "en": "King Wan Street Playground",
+        "zh": "景雲街遊樂場"
+    },
+    "coords": {
+        "lat": 22.309167,
+        "lng": 114.184722
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "King Wan Street, To Kwa Wan, Kowloon.",
+        "zh": "九龍土瓜灣景雲街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/King_Wan.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

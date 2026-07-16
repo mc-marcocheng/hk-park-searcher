@@ -1,0 +1,27 @@
+{
+    "id": "kin-tak-street-playground",
+    "name": {
+        "en": "Kin Tak Street Playground",
+        "zh": "建德街遊樂場"
+    },
+    "coords": {
+        "lat": 22.441389,
+        "lng": 114.031111
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Kin Tak Street, Yuen Long",
+        "zh": "元朗建德街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1921_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

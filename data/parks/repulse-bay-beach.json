@@ -1,0 +1,27 @@
+{
+    "id": "repulse-bay-beach",
+    "name": {
+        "en": "Repulse Bay Beach",
+        "zh": "淺水灣泳灘"
+    },
+    "coords": {
+        "lat": 22.238611,
+        "lng": 114.195278
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Beach Road, Repulse Bay",
+        "zh": "淺水灣海灘道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2032_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "hong-kong-velodrome-park",
+    "name": {
+        "en": "Hong Kong Velodrome Park",
+        "zh": "香港單車館公園"
+    },
+    "coords": {
+        "lat": 22.313611,
+        "lng": 114.261667
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "105-109 Po Hong Road, Hang Hau, Tseung Kwan O",
+        "zh": "將軍澳坑口寶康路105-109號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1757_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

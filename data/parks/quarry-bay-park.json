@@ -1,0 +1,27 @@
+{
+    "id": "quarry-bay-park",
+    "name": {
+        "en": "Quarry Bay Park",
+        "zh": "鰂魚涌公園"
+    },
+    "coords": {
+        "lat": 22.286389,
+        "lng": 114.221111
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Tai Koo Shing, Quarry Bay",
+        "zh": "鰂魚涌太古城"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1498_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

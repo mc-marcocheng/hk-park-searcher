@@ -1,0 +1,27 @@
+{
+    "id": "san-wan-road-garden",
+    "name": {
+        "en": "San Wan Road Garden",
+        "zh": "新運路花園"
+    },
+    "coords": {
+        "lat": 22.500278,
+        "lng": 114.130833
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "3 Chi Cheong Road, Sheung Shui",
+        "zh": "上水智昌路3號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1739_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

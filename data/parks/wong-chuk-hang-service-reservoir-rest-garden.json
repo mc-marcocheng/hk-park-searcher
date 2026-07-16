@@ -1,0 +1,27 @@
+{
+    "id": "wong-chuk-hang-service-reservoir-rest-garden",
+    "name": {
+        "en": "Wong Chuk Hang Service Reservoir Rest Garden",
+        "zh": "黃竹坑配水庫休憩花園"
+    },
+    "coords": {
+        "lat": 22.243889,
+        "lng": 114.167222
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Roof Top, Wong Chuk Hang Service Reservoir, Aberdeen",
+        "zh": "香港仔黃竹坑配水庫頂"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1528_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

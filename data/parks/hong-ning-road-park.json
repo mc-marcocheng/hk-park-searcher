@@ -1,0 +1,27 @@
+{
+    "id": "hong-ning-road-park",
+    "name": {
+        "en": "Hong Ning Road Park",
+        "zh": "康寧道公園"
+    },
+    "coords": {
+        "lat": 22.320556,
+        "lng": 114.226111
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "180 Hong Ning Road, Kwun Tong",
+        "zh": "觀塘康寧道180號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1577_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

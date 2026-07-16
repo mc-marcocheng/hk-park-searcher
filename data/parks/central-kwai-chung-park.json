@@ -1,0 +1,27 @@
+{
+    "id": "central-kwai-chung-park",
+    "name": {
+        "en": "Central Kwai Chung Park",
+        "zh": "中葵涌公園"
+    },
+    "coords": {
+        "lat": 22.356111,
+        "lng": 114.132778
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "San Kwai Street, Kwai Chung",
+        "zh": "葵涌新葵街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1691_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

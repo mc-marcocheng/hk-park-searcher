@@ -1,0 +1,27 @@
+{
+    "id": "ping-yeung-village-garden",
+    "name": {
+        "en": "Ping Yeung Village Garden",
+        "zh": "坪洋村花園"
+    },
+    "coords": {
+        "lat": 22.535,
+        "lng": 114.162778
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Ping Yeung Village, Ta Kwu Ling",
+        "zh": "打鼓嶺坪洋村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1736_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ma-yau-tong-central-sitting-out-area",
+    "name": {
+        "en": "Ma Yau Tong Central Sitting-out Area",
+        "zh": "馬游塘中休憩處"
+    },
+    "coords": {
+        "lat": 22.310833,
+        "lng": 114.241944
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Ma Yau Tong, Kwun Tong",
+        "zh": "觀塘馬游塘"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1588_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

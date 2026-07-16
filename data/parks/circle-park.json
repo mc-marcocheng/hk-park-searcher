@@ -1,0 +1,27 @@
+{
+    "id": "circle-park",
+    "name": {
+        "en": "Circle Park",
+        "zh": "圓環公園"
+    },
+    "coords": {
+        "lat": 22.37,
+        "lng": 114.122778
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Tsuen Wan Garden, Castle Peak Road - Tseun Wan",
+        "zh": "荃灣花園青山公路-荃灣段"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1864_1864.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

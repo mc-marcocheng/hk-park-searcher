@@ -1,0 +1,27 @@
+{
+    "id": "sai-kung-waterfront-park",
+    "name": {
+        "en": "Sai Kung Waterfront Park",
+        "zh": "西貢海濱公園"
+    },
+    "coords": {
+        "lat": 22.382222,
+        "lng": 114.274444
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Wai Man Road, Sai Kung",
+        "zh": "西貢惠民路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1768_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

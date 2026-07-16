@@ -1,0 +1,27 @@
+{
+    "id": "on-chit-street-playground",
+    "name": {
+        "en": "On Chit Street Playground",
+        "zh": "安捷街遊樂場"
+    },
+    "coords": {
+        "lat": 22.369722,
+        "lng": 114.140833
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "On Chit Street, Kwai Chung",
+        "zh": "葵涌安捷街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1705_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

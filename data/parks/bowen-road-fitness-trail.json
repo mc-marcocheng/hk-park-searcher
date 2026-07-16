@@ -1,0 +1,27 @@
+{
+    "id": "bowen-road-fitness-trail",
+    "name": {
+        "en": "Bowen Road Fitness Trail",
+        "zh": "寶雲道健身徑"
+    },
+    "coords": {
+        "lat": 22.273889,
+        "lng": 114.169167
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Bowen Road, Wan Chai",
+        "zh": "灣仔寶雲道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1964_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

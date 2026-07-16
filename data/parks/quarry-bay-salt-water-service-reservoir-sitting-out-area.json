@@ -1,0 +1,27 @@
+{
+    "id": "quarry-bay-salt-water-service-reservoir-sitting-out-area",
+    "name": {
+        "en": "Quarry Bay Salt Water Service Reservoir Sitting-out Area",
+        "zh": "鰂魚涌海水配水庫休憩處"
+    },
+    "coords": {
+        "lat": 22.281667,
+        "lng": 114.210833
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Mount Parker Road, Quarry Bay",
+        "zh": "鰂魚涌柏架山道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1499_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

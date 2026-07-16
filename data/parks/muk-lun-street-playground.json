@@ -1,0 +1,27 @@
+{
+    "id": "muk-lun-street-playground",
+    "name": {
+        "en": "Muk Lun Street Playground",
+        "zh": "睦鄰街遊樂場"
+    },
+    "coords": {
+        "lat": 22.341389,
+        "lng": 114.196667
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "7 Muk Lun Street, Wong Tai Sin",
+        "zh": "黃大仙睦鄰街7號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1640_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

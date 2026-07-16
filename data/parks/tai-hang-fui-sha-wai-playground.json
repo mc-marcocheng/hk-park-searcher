@@ -1,0 +1,27 @@
+{
+    "id": "tai-hang-fui-sha-wai-playground",
+    "name": {
+        "en": "Tai Hang Fui Sha Wai Playground",
+        "zh": "泰亨灰沙圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.470278,
+        "lng": 114.151111
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tai Hang Fui Sha Wai, Tai Wo Service Road West, Lam Tsuen, Tai Po",
+        "zh": "大埔林村大窩西支路泰亨灰沙圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1841_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

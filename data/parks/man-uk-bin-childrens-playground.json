@@ -1,0 +1,27 @@
+{
+    "id": "man-uk-bin-childrens-playground",
+    "name": {
+        "en": "Man Uk Bin Children's Playground",
+        "zh": "萬屋邊兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.526389,
+        "lng": 114.184722
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Man Uk Bin Village, Sha Tau Kok",
+        "zh": "沙頭角萬屋邊村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1730_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

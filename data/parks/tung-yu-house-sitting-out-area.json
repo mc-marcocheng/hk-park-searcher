@@ -1,0 +1,30 @@
+{
+    "id": "tung-yu-house-sitting-out-area",
+    "name": {
+        "en": "Tung Yu House Sitting-out Area",
+        "zh": "東裕樓休憩處"
+    },
+    "coords": {
+        "lat": 22.331307,
+        "lng": 114.170664
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Tong Yam Street, Shek Kip Mei",
+        "zh": "石硤尾棠蔭街"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": ["other_1", "other_2"]
+        }
+    ],
+    "park_images": ["overview_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

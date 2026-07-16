@@ -1,0 +1,27 @@
+{
+    "id": "essex-crescent-rest-garden",
+    "name": {
+        "en": "Essex Crescent Rest Garden",
+        "zh": "雅息士道休憩花園"
+    },
+    "coords": {
+        "lat": 22.328611,
+        "lng": 114.177222
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Essex Crescent Road, Kowloon Tong",
+        "zh": "九龍塘雅息士道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1551_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

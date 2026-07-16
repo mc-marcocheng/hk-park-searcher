@@ -1,0 +1,27 @@
+{
+    "id": "fan-leng-lau-road-playground",
+    "name": {
+        "en": "Fan Leng Lau Road Playground",
+        "zh": "粉嶺樓路遊樂場"
+    },
+    "coords": {
+        "lat": 22.500278,
+        "lng": 114.140833
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Fan Leng Lau Road, Luen Wo Hui, Fanling",
+        "zh": "粉嶺聯和墟粉嶺樓路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1722_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "chung-nga-road-childrens-playground",
+    "name": {
+        "en": "Chung Nga Road Children's Playground",
+        "zh": "頌雅路兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.4575,
+        "lng": 114.169722
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Chung Nga Road, Tai Po",
+        "zh": "大埔頌雅路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1814_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

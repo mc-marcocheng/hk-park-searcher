@@ -1,0 +1,27 @@
+{
+    "id": "lohas-park-road-sitting-out-area",
+    "name": {
+        "en": "Lohas Park Road Sitting-out Area",
+        "zh": "康城路休憩處"
+    },
+    "coords": {
+        "lat": 22.298056,
+        "lng": 114.261111
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "-",
+        "zh": "-"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3135_lohas.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

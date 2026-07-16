@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-king-circuit-playground",
+    "name": {
+        "en": "Tsuen King Circuit Playground",
+        "zh": "荃景圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.379444,
+        "lng": 114.106389
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Tsuen King Circuit, Tsuen Wan",
+        "zh": "荃灣荃景圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1883_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

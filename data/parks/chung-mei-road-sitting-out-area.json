@@ -1,0 +1,27 @@
+{
+    "id": "chung-mei-road-sitting-out-area",
+    "name": {
+        "en": "Chung Mei Road Sitting-out Area",
+        "zh": "涌美路休憩處"
+    },
+    "coords": {
+        "lat": 22.351111,
+        "lng": 114.020833
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Chung Mei Road, Tsing Yi",
+        "zh": "青衣涌美路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2089_21.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

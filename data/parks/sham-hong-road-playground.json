@@ -1,0 +1,27 @@
+{
+    "id": "sham-hong-road-playground",
+    "name": {
+        "en": "Sham Hong Road Playground",
+        "zh": "深康路遊樂場"
+    },
+    "coords": {
+        "lat": 22.368611,
+        "lng": 114.059444
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Sham Hong Road, Castle Peak Road - Sham Tseng, Tsuen Wan",
+        "zh": "荃灣青山公路深井段深康路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1873_1873.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

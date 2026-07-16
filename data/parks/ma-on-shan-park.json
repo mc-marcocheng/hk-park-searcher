@@ -1,0 +1,27 @@
+{
+    "id": "ma-on-shan-park",
+    "name": {
+        "en": "Ma On Shan Park",
+        "zh": "馬鞍山公園"
+    },
+    "coords": {
+        "lat": 22.426944,
+        "lng": 114.231389
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "No. 12, On Chun Street, Ma On Shan",
+        "zh": "馬鞍山鞍駿街12號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1790_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

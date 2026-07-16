@@ -1,0 +1,27 @@
+{
+    "id": "shek-pai-tau-sitting-out-area",
+    "name": {
+        "en": "Shek Pai Tau Sitting-out Area",
+        "zh": "石排頭休憩處"
+    },
+    "coords": {
+        "lat": 22.401111,
+        "lng": 113.966944
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Shek Pai Tau Road, Tuen Mun",
+        "zh": "屯門石排頭路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2437_Shek_Pai_Tau.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

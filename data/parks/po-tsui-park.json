@@ -1,0 +1,27 @@
+{
+    "id": "po-tsui-park",
+    "name": {
+        "en": "Po Tsui Park",
+        "zh": "寶翠公園"
+    },
+    "coords": {
+        "lat": 22.325,
+        "lng": 114.253333
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "No. 16, Yuk Nga Lane, Po Lam, Tseung Kwan O",
+        "zh": "將軍澳寶琳毓雅里16號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1766_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "wing-ling-tsuen-sitting-out-area",
+    "name": {
+        "en": "Wing Ling Tsuen Sitting-out Area",
+        "zh": "永寧村休憩處"
+    },
+    "coords": {
+        "lat": 22.501389,
+        "lng": 114.149444
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Wing Ling Tsuen, Wing Ning Wai, Lung Yeuk Tau, Fanling",
+        "zh": "粉嶺龍躍頭永寧圍永寧村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1751_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

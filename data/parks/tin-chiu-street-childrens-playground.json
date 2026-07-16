@@ -1,0 +1,27 @@
+{
+    "id": "tin-chiu-street-childrens-playground",
+    "name": {
+        "en": "Tin Chiu Street Children's Playground",
+        "zh": "電照街兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.293056,
+        "lng": 114.203333
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Tin Chiu Street, North Point",
+        "zh": "北角電照街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1510_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tin-chak-estate-elderly-fitness-corner",
+    "name": {
+        "en": "Tin Chak Estate Elderly Fitness Corner",
+        "zh": "天澤邨長者健體設施"
+    },
+    "coords": {
+        "lat": 22.468056,
+        "lng": 113.998333
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Chak Estate, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍天澤邨"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1934_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

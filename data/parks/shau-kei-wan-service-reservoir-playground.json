@@ -1,0 +1,27 @@
+{
+    "id": "shau-kei-wan-service-reservoir-playground",
+    "name": {
+        "en": "Shau Kei Wan Service Reservoir Playground",
+        "zh": "筲箕灣配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.281944,
+        "lng": 114.2175
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Yiu Hing Road, Shau Kei Wan",
+        "zh": "筲箕灣耀興道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1503_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

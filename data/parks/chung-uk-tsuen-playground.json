@@ -1,0 +1,27 @@
+{
+    "id": "chung-uk-tsuen-playground",
+    "name": {
+        "en": "Chung Uk Tsuen Playground",
+        "zh": "鍾屋村遊樂場"
+    },
+    "coords": {
+        "lat": 22.763056,
+        "lng": 114.2375
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Chung Uk Tsuen, Lam Kam Road, Tai Po",
+        "zh": "大埔林錦公路鍾屋村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1816_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

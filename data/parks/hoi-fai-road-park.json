@@ -1,0 +1,27 @@
+{
+    "id": "hoi-fai-road-park",
+    "name": {
+        "en": "Hoi Fai Road Park",
+        "zh": "海輝道公園"
+    },
+    "coords": {
+        "lat": 22.536667,
+        "lng": 114.270278
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "Hoi Fai Road, Tai Kok Tsui, Kowloon",
+        "zh": "九龍大角咀海輝道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3033_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

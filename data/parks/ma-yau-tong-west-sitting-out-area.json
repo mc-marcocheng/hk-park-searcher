@@ -1,0 +1,27 @@
+{
+    "id": "ma-yau-tong-west-sitting-out-area",
+    "name": {
+        "en": "Ma Yau Tong West Sitting-out Area",
+        "zh": "馬游塘西休憩處"
+    },
+    "coords": {
+        "lat": 22.313056,
+        "lng": 114.235556
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Tseung Kwan O Road, Tsui Ping (South) Estate, Kwun Tong",
+        "zh": "觀塘翠屏南邨將軍澳道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1589_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

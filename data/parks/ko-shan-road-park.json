@@ -1,0 +1,27 @@
+{
+    "id": "ko-shan-road-park",
+    "name": {
+        "en": "Ko Shan Road Park",
+        "zh": "高山道公園"
+    },
+    "coords": {
+        "lat": 22.314167,
+        "lng": 114.185556
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "77, Ko Shan Road, Hung Hom",
+        "zh": "紅墈高山道77號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1561_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tai-wan-to-sitting-out-area",
+    "name": {
+        "en": "Tai Wan To Sitting-out Area",
+        "zh": "大灣肚休憩處"
+    },
+    "coords": {
+        "lat": 22.500278,
+        "lng": 114.130556
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Tai Wan To, Yung Shue Wan, Lamma Island",
+        "zh": "南丫島榕樹灣大灣肚"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3067_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

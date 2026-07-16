@@ -1,0 +1,27 @@
+{
+    "id": "maple-street-playground",
+    "name": {
+        "en": "Maple Street Playground",
+        "zh": "楓樹街遊樂場"
+    },
+    "coords": {
+        "lat": 22.327778,
+        "lng": 114.165278
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "2M Wong Chuk Street, Sham Shui Po",
+        "zh": "深水埗黃竹街2M"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1609_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

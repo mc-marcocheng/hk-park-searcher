@@ -1,0 +1,37 @@
+{
+    "id": "fa-hui-park",
+    "name": {
+        "en": "Fa Hui Park",
+        "zh": "花墟公園"
+    },
+    "coords": {
+        "lat": 22.327778,
+        "lng": 114.174444
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Fa Hui Park, Boundary Street, Kowloon",
+        "zh": "九龍界限街花墟公園"
+    },
+    "equipment": [
+        {
+            "type": "monkey_bars",
+            "images": ["monkey_bar_1"]
+        },
+        {
+            "type": "others",
+            "images": ["other_1", "other_2", "other_3"]
+        }
+    ],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1605_1.jpg",
+        "overview_1"
+    ],
+    "metrics": {
+        "quality": 2
+    },
+    "comment": "攀爬架枝槓係幼嘅"
+}

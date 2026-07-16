@@ -1,0 +1,27 @@
+{
+    "id": "ferry-street-playground",
+    "name": {
+        "en": "Ferry Street Playground",
+        "zh": "渡船街遊樂場"
+    },
+    "coords": {
+        "lat": 22.313889,
+        "lng": 114.167222
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "230 Ferry Streeti, Mong Kok",
+        "zh": "旺角渡船街230號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1655_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

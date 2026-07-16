@@ -1,0 +1,27 @@
+{
+    "id": "shan-tong-new-village-garden",
+    "name": {
+        "en": "Shan Tong New Village Garden",
+        "zh": "山塘新村花園"
+    },
+    "coords": {
+        "lat": 22.440556,
+        "lng": 114.169444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Shan Tong New Village, Shan Tong Road, Tai Po",
+        "zh": "大埔山塘路山塘新村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1837_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "kwun-tong-promenade",
+    "name": {
+        "en": "Kwun Tong Promenade",
+        "zh": "觀塘海濱花園"
+    },
+    "coords": {
+        "lat": 22.3125,
+        "lng": 114.216944
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "80 Hoi Bun Road, Kwun Tong",
+        "zh": "觀塘海濱道80號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1582_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

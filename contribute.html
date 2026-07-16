@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="zh-HK">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="./js/theme-bootstrap.js"></script>
+
+        <title>提交公園資料 | 香港街健</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <link rel="stylesheet" href="./css/contribution.css" />
+
+        <script src="./js/contribution-config.js" defer></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+        <script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+            defer
+        ></script>
+        <script type="module" src="./js/contribution.js"></script>
+    </head>
+
+    <body class="contribution-page">
+        <header class="contribution-nav">
+            <div class="container contribution-nav__inner">
+                <a class="nav-brand" href="./index.html">
+                    香港街健<span aria-hidden="true">.</span>
+                </a>
+
+                <div class="contribution-nav__actions">
+                    <button
+                        id="theme-toggle"
+                        class="button-icon-circular"
+                        type="button"
+                        aria-label="切換至深色模式"
+                    >
+                        <span id="theme-icon" aria-hidden="true">☾</span>
+                    </button>
+
+                    <a class="button-tertiary" href="./index.html">返回公園地圖</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="contribution-hero">
+                <div class="container contribution-hero__inner">
+                    <p class="eyebrow">COMMUNITY CONTRIBUTION</p>
+                    <h1>提交新的<mark>街健公園</mark></h1>
+                    <p class="contribution-hero__lead">
+                        提交後，系統會建立一個公開 GitHub Pull Request。
+                        資料經管理員審核及合併後才會顯示在公園地圖。
+                    </p>
+                </div>
+            </section>
+
+            <section class="contribution-section">
+                <div class="container contribution-layout">
+                    <form id="contribution-form" novalidate>
+                        <div
+                            id="error-summary"
+                            class="form-message form-message--error"
+                            role="alert"
+                            tabindex="-1"
+                            hidden
+                        ></div>
+
+                        <fieldset class="form-card">
+                            <legend>
+                                <span class="form-step">01</span>
+                                公園資料
+                            </legend>
+
+                            <div class="form-group">
+                                <label class="form-label" for="name-zh">
+                                    公園中文名稱 <span aria-hidden="true">*</span>
+                                </label>
+                                <input
+                                    id="name-zh"
+                                    name="name-zh"
+                                    class="text-input"
+                                    type="text"
+                                    maxlength="100"
+                                    required
+                                    aria-required="true"
+                                />
+                                <p class="form-help">2–100 個字元。</p>
+                                <p class="field-error" id="name-zh-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="name-en"> 公園英文名稱 </label>
+                                <input
+                                    id="name-en"
+                                    name="name-en"
+                                    class="text-input"
+                                    type="text"
+                                    maxlength="120"
+                                />
+                                <p class="form-help">選填，最多 120 個字元。</p>
+                                <p class="field-error" id="name-en-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="district">
+                                    地區 <span aria-hidden="true">*</span>
+                                </label>
+                                <select
+                                    id="district"
+                                    name="district"
+                                    class="select-input"
+                                    required
+                                    aria-required="true"
+                                >
+                                    <option value="">請選擇地區</option>
+                                </select>
+                                <p class="field-error" id="district-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="address-zh">
+                                    中文地址 <span aria-hidden="true">*</span>
+                                </label>
+                                <input
+                                    id="address-zh"
+                                    name="address-zh"
+                                    class="text-input"
+                                    type="text"
+                                    maxlength="200"
+                                    required
+                                    aria-required="true"
+                                />
+                                <p class="form-help">3–200 個字元。</p>
+                                <p class="field-error" id="address-zh-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="address-en"> 英文地址 </label>
+                                <input
+                                    id="address-en"
+                                    name="address-en"
+                                    class="text-input"
+                                    type="text"
+                                    maxlength="240"
+                                />
+                                <p class="form-help">選填，最多 240 個字元。</p>
+                                <p class="field-error" id="address-en-error" hidden></p>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-card">
+                            <legend>
+                                <span class="form-step">02</span>
+                                公園位置
+                            </legend>
+
+                            <p class="form-help">
+                                在下方地圖上點擊以選擇位置，或使用下方的經緯度輸入框。
+                            </p>
+
+                            <div id="contribution-map" aria-label="選擇公園位置"></div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="lat">
+                                    緯度 (Latitude) <span aria-hidden="true">*</span>
+                                </label>
+                                <input
+                                    id="lat"
+                                    name="lat"
+                                    class="text-input"
+                                    type="number"
+                                    step="0.000001"
+                                    inputmode="decimal"
+                                    required
+                                    aria-required="true"
+                                />
+                                <p class="field-error" id="lat-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="lng">
+                                    經度 (Longitude) <span aria-hidden="true">*</span>
+                                </label>
+                                <input
+                                    id="lng"
+                                    name="lng"
+                                    class="text-input"
+                                    type="number"
+                                    step="0.000001"
+                                    inputmode="decimal"
+                                    required
+                                    aria-required="true"
+                                />
+                                <p class="field-error" id="lng-error" hidden></p>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-card">
+                            <legend>
+                                <span class="form-step">03</span>
+                                場內器材
+                            </legend>
+
+                            <p class="form-help">選擇場內的器材類型（選填，但建議至少選一項）。</p>
+
+                            <div id="equipment-options"></div>
+                            <p class="field-error" id="equipment-error" hidden></p>
+                        </fieldset>
+
+                        <fieldset class="form-card">
+                            <legend>
+                                <span class="form-step">04</span>
+                                相片
+                            </legend>
+
+                            <input
+                                id="image-input"
+                                type="file"
+                                accept="image/jpeg,image/png,image/webp"
+                                multiple
+                            />
+
+                            <p class="form-help">
+                                最多 4 張，每張原始檔最多 12 MB。相片會在你的瀏覽器中轉換成
+                                WebP；原始檔不會上載。
+                            </p>
+
+                            <div id="image-preview-list" class="image-preview-list"></div>
+                            <p class="field-error" id="images-error" hidden></p>
+                        </fieldset>
+
+                        <fieldset class="form-card">
+                            <legend>
+                                <span class="form-step">05</span>
+                                備註及確認
+                            </legend>
+
+                            <div class="form-group">
+                                <label class="form-label" for="comment"> 備註 </label>
+                                <textarea
+                                    id="comment"
+                                    name="comment"
+                                    class="textarea-input"
+                                    maxlength="2000"
+                                ></textarea>
+                                <p class="form-help">選填，純文字，最多 2,000 個字元。</p>
+                                <p class="field-error" id="comment-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input
+                                        id="attest-accurate"
+                                        name="attest-accurate"
+                                        type="checkbox"
+                                        required
+                                        aria-required="true"
+                                    />
+                                    <span>我確認以上提交的資料準確無誤。</span>
+                                </label>
+                                <p class="field-error" id="attest-accurate-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input
+                                        id="attest-image-rights"
+                                        name="attest-image-rights"
+                                        type="checkbox"
+                                        required
+                                        aria-required="true"
+                                    />
+                                    <span>我擁有或已獲授權使用所上載的相片。</span>
+                                </label>
+                                <p class="field-error" id="attest-image-rights-error" hidden></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input
+                                        id="attest-public"
+                                        name="attest-public"
+                                        type="checkbox"
+                                        required
+                                        aria-required="true"
+                                    />
+                                    <span>我明白此投稿會以公開 Pull Request 形式提交。</span>
+                                </label>
+                                <p class="field-error" id="attest-public-error" hidden></p>
+                            </div>
+
+                            <p class="form-help">
+                                投稿資料及相片會透過公開 GitHub Pull Request
+                                提交。請勿提供電話、電郵或其他私人資料。系統會在瀏覽器中縮小相片，並在伺服器重新編碼以移除相片
+                                metadata。系統會以不可逆的雜湊識別碼進行短期流量限制，並使用
+                                Cloudflare Turnstile 防止濫用。
+                            </p>
+                        </fieldset>
+
+                        <div id="turnstile-container"></div>
+
+                        <div class="form-submit-panel">
+                            <button id="submit-button" class="button-primary" type="submit">
+                                建立投稿 Pull Request
+                            </button>
+
+                            <p id="submit-status" role="status" aria-live="polite"></p>
+                        </div>
+
+                        <!-- Honeypot: hidden visually but not type=hidden -->
+                        <div class="form-trap" aria-hidden="true">
+                            <label for="website">網站</label>
+                            <input
+                                id="website"
+                                name="website"
+                                type="text"
+                                tabindex="-1"
+                                autocomplete="off"
+                            />
+                        </div>
+                    </form>
+
+                    <aside class="submission-guide">
+                        <div class="card-outlined">
+                            <p class="eyebrow">BEFORE SUBMITTING</p>
+                            <h2>投稿須知</h2>
+                            <ul>
+                                <li>只提交可公開的公園資料。</li>
+                                <li>不要填寫電話、電郵或其他私人資料。</li>
+                                <li>只上載由你拍攝或獲授權使用的相片。</li>
+                                <li>相片中的 EXIF 及 GPS 資料會被移除。</li>
+                                <li>Pull Request 及提交內容會公開顯示。</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </main>
+
+        <noscript>
+            <div class="noscript-message">
+                此投稿工具需要 JavaScript 才能在瀏覽器中處理相片。 請啟用 JavaScript，或使用原有的
+                Google Form。
+            </div>
+        </noscript>
+    </body>
+</html>

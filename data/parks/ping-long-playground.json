@@ -1,0 +1,27 @@
+{
+    "id": "ping-long-playground",
+    "name": {
+        "en": "Ping Long Playground",
+        "zh": "坪朗遊樂場"
+    },
+    "coords": {
+        "lat": 22.444167,
+        "lng": 114.131389
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Ping Long Tsuen, Tai Om Road, Lam Tsuen, Tai Po",
+        "zh": "大埔林村大菴路坪朗村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1831_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

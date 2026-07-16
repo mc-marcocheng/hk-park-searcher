@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-wan-riviera-park",
+    "name": {
+        "en": "Tsuen Wan Riviera Park",
+        "zh": "荃灣海濱公園"
+    },
+    "coords": {
+        "lat": 22.362778,
+        "lng": 114.1125
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "2A, Yi Hong Stree, Tsuen Wan",
+        "zh": "荃灣怡康街2A號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1886_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

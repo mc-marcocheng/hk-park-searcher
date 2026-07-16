@@ -1,0 +1,27 @@
+{
+    "id": "sheun-wan-tung-tsz-childrens-playground",
+    "name": {
+        "en": "Sheun Wan Tung Tsz Children's Playground",
+        "zh": "船灣桐梓兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.468333,
+        "lng": 114.207778
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tung Tsz Road, Sheun Wan, Tai Po",
+        "zh": "大埔船灣洞梓路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1839_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

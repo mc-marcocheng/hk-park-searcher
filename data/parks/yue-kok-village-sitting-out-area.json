@@ -1,0 +1,27 @@
+{
+    "id": "yue-kok-village-sitting-out-area",
+    "name": {
+        "en": "Yue Kok Village Sitting-out Area",
+        "zh": "魚角村休憩處"
+    },
+    "coords": {
+        "lat": 22.4575,
+        "lng": 114.177222
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Yue Kok Village, Ting Kok Road, Tai Po",
+        "zh": "大埔汀角路魚角村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1858_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

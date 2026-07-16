@@ -1,0 +1,27 @@
+{
+    "id": "ivy-street-rest-garden",
+    "name": {
+        "en": "Ivy Street Rest Garden",
+        "zh": "埃華街休憩花園"
+    },
+    "coords": {
+        "lat": 22.321667,
+        "lng": 114.1625
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "Tai Kok Tsui Road J/O Ivy Street, Mong Kok",
+        "zh": "旺角大角咀道/埃華街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1656_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

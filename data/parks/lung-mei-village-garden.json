@@ -1,0 +1,27 @@
+{
+    "id": "lung-mei-village-garden",
+    "name": {
+        "en": "Lung Mei Village Garden",
+        "zh": "龍尾村花園"
+    },
+    "coords": {
+        "lat": 22.472222,
+        "lng": 114.229444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Lung Mei Village, Ting Kok Road, Tai Po",
+        "zh": "大埔汀角路龍尾村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1825_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

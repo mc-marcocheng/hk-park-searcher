@@ -1,0 +1,27 @@
+{
+    "id": "fortress-hill-playground",
+    "name": {
+        "en": "Fortress Hill Playground",
+        "zh": "炮台山道遊樂場"
+    },
+    "coords": {
+        "lat": 22.289167,
+        "lng": 114.195
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Fortress Hill Road, North Point",
+        "zh": "北角炮台山道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1491_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

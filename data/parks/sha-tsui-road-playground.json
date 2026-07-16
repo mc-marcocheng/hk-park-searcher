@@ -1,0 +1,27 @@
+{
+    "id": "sha-tsui-road-playground",
+    "name": {
+        "en": "Sha Tsui Road Playground",
+        "zh": "沙咀道遊樂場"
+    },
+    "coords": {
+        "lat": 22.371944,
+        "lng": 114.113611
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "171 – 199 Sha Tsui Road, Tsuen Wan",
+        "zh": "荃灣沙咀道171-199號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1872_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

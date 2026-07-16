@@ -1,0 +1,27 @@
+{
+    "id": "macpherson-playground",
+    "name": {
+        "en": "Macpherson Playground",
+        "zh": "麥花臣遊樂場"
+    },
+    "coords": {
+        "lat": 22.318333,
+        "lng": 114.172222
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "59 Sai Yee Street, Mong Kok",
+        "zh": "旺角洗衣街59號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1662_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

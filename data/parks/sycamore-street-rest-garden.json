@@ -1,0 +1,27 @@
+{
+    "id": "sycamore-street-rest-garden",
+    "name": {
+        "en": "Sycamore Street Rest Garden",
+        "zh": "詩歌舞街休憩花園"
+    },
+    "coords": {
+        "lat": 22.325833,
+        "lng": 114.162222
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "Boundary Street, Tai Kok Tsui, Mong Kok",
+        "zh": "旺角大角咀界限街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1670_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

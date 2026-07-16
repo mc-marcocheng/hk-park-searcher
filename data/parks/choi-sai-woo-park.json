@@ -1,0 +1,27 @@
+{
+    "id": "choi-sai-woo-park",
+    "name": {
+        "en": "Choi Sai Woo Park",
+        "zh": "賽西湖公園"
+    },
+    "coords": {
+        "lat": 22.286667,
+        "lng": 114.201111
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Braeman Hill Road, North Point",
+        "zh": "北角寶馬山道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1488_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

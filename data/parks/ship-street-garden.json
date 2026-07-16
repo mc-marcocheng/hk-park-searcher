@@ -1,0 +1,27 @@
+{
+    "id": "ship-street-garden",
+    "name": {
+        "en": "Ship Street Garden",
+        "zh": "船街花園"
+    },
+    "coords": {
+        "lat": 22.464444,
+        "lng": 114.284167
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Ship Street, Wan Chai",
+        "zh": "灣仔船街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3008_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

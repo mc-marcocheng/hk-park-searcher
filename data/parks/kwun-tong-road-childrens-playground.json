@@ -1,0 +1,27 @@
+{
+    "id": "kwun-tong-road-childrens-playground",
+    "name": {
+        "en": "Kwun Tong Road Children's Playground",
+        "zh": "觀塘道兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.331667,
+        "lng": 114.209722
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Kwun Tong Road, Kwun Tong",
+        "zh": "觀塘觀塘道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1584_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

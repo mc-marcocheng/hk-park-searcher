@@ -1,0 +1,27 @@
+{
+    "id": "tin-hang-estate-elderly-fitness-corner",
+    "name": {
+        "en": "Tin Hang Estate Elderly Fitness Corner",
+        "zh": "天恒邨長者健體設施"
+    },
+    "coords": {
+        "lat": 22.471667,
+        "lng": 113.999444
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Hang Estate, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍天恒邨"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1935_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

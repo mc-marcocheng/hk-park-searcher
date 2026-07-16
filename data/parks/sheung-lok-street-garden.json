@@ -1,0 +1,27 @@
+{
+    "id": "sheung-lok-street-garden",
+    "name": {
+        "en": "Sheung Lok Street Garden",
+        "zh": "常樂街花園"
+    },
+    "coords": {
+        "lat": 22.313611,
+        "lng": 114.183056
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Sheung Lok Street, Ho Man Tin Estate, Ho Man Tin",
+        "zh": "何文田何文田邨常樂街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2035_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

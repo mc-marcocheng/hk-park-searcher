@@ -1,0 +1,27 @@
+{
+    "id": "hung-shing-street-rest-garden",
+    "name": {
+        "en": "Hung Shing Street Rest Garden",
+        "zh": "洪聖街休憩花園"
+    },
+    "coords": {
+        "lat": 22.244722,
+        "lng": 114.156389
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Wai Fung Street, Ap Lei Chau",
+        "zh": "鴨脷洲惠風街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1519_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

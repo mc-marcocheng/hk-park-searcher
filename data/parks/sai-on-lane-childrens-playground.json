@@ -1,0 +1,27 @@
+{
+    "id": "sai-on-lane-childrens-playground",
+    "name": {
+        "en": "Sai On Lane Children's Playground",
+        "zh": "西安里兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.286944,
+        "lng": 114.138056
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Sai On Lane, Shek Tong Tsui, Sai Wan",
+        "zh": "西環石塘咀西安里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1475_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tai-tam-roadchai-wan-road-amenity-plot",
+    "name": {
+        "en": "Tai Tam Road/Chai Wan Road Amenity Plot",
+        "zh": "大潭道／柴灣道小園地"
+    },
+    "coords": {
+        "lat": 22.270556,
+        "lng": 114.233333
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "J/O Tai Tam Road and Chai Wan Road, Chai Wan",
+        "zh": "柴灣大潭道與柴灣道交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1509_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

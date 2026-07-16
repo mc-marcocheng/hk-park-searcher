@@ -1,0 +1,27 @@
+{
+    "id": "on-king-street-park",
+    "name": {
+        "en": "On King Street Park",
+        "zh": "安景街公園"
+    },
+    "coords": {
+        "lat": 22.337222,
+        "lng": 114.17
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "On King Street, Shek Mun, Sha Tin",
+        "zh": "沙田石門安景街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1796_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

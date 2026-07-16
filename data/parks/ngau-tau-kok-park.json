@@ -1,0 +1,27 @@
+{
+    "id": "ngau-tau-kok-park",
+    "name": {
+        "en": "Ngau Tau Kok Park",
+        "zh": "牛頭角公園"
+    },
+    "coords": {
+        "lat": 22.322778,
+        "lng": 114.215278
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "199 Kwun Tong Road, Ngau Tau Kok, Kwun Tong",
+        "zh": "觀塘牛頭角觀塘道199號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1590_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

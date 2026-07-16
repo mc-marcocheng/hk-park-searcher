@@ -1,0 +1,27 @@
+{
+    "id": "kam-fung-street-sitting-out-area",
+    "name": {
+        "en": "Kam Fung Street Sitting-out Area",
+        "zh": "金鳳街休憩處"
+    },
+    "coords": {
+        "lat": 22.345,
+        "lng": 114.198056
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Kam Fung Street, Tsz Wan Shan",
+        "zh": "慈雲山金鳳街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1630_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

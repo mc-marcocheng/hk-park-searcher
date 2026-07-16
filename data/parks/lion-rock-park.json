@@ -1,0 +1,27 @@
+{
+    "id": "lion-rock-park",
+    "name": {
+        "en": "Lion Rock Park",
+        "zh": "獅子山公園"
+    },
+    "coords": {
+        "lat": 22.345278,
+        "lng": 114.183056
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Chuk Yuen Road, Wong Tai Sin",
+        "zh": "黃大仙竹園道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1632_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

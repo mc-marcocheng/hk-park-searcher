@@ -1,0 +1,27 @@
+{
+    "id": "tuen-mun-park",
+    "name": {
+        "en": "Tuen Mun Park",
+        "zh": "屯門公園"
+    },
+    "coords": {
+        "lat": 22.391944,
+        "lng": 113.973333
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tuen Mun Heung Sze Wui Road",
+        "zh": "屯門鄉事會路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1902_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

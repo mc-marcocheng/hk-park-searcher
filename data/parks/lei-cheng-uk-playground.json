@@ -1,0 +1,27 @@
+{
+    "id": "lei-cheng-uk-playground",
+    "name": {
+        "en": "Lei Cheng Uk Playground",
+        "zh": "李鄭屋遊樂場"
+    },
+    "coords": {
+        "lat": 22.337222,
+        "lng": 114.160833
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "No. 60, Tonkin Street, Lei Cheng Uk Estate",
+        "zh": "李鄭屋邨東京街60號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1608_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "mau-wu-tsai-soccer-pitch",
+    "name": {
+        "en": "Mau Wu Tsai Soccer Pitch",
+        "zh": "茅湖仔足球場"
+    },
+    "coords": {
+        "lat": 22.316667,
+        "lng": 114.254444
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Mau Wu Tsai, Po Lam Road South, Po Lam, Tseung Kwan O",
+        "zh": "將軍澳寶琳寶琳南路茅湖仔"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1762_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

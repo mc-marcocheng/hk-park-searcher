@@ -1,0 +1,27 @@
+{
+    "id": "yuen-chau-kok-park",
+    "name": {
+        "en": "Yuen Chau Kok Park",
+        "zh": "圓洲角公園"
+    },
+    "coords": {
+        "lat": 22.383333,
+        "lng": 114.199167
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Yuen Chau Kok Road, Sha Tin",
+        "zh": "沙田圓洲角路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1808_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

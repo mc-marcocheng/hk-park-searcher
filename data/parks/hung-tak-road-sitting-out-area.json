@@ -1,0 +1,27 @@
+{
+    "id": "hung-tak-road-sitting-out-area",
+    "name": {
+        "en": "Hung Tak Road Sitting-out Area",
+        "zh": "洪德路休憩處"
+    },
+    "coords": {
+        "lat": 22.433333,
+        "lng": 113.998333
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Hung Tak Road, Hung Shui Kiu, Yuen Long",
+        "zh": "元朗洪水橋洪德路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1917_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

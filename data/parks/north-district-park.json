@@ -1,0 +1,27 @@
+{
+    "id": "north-district-park",
+    "name": {
+        "en": "North District Park",
+        "zh": "北區公園"
+    },
+    "coords": {
+        "lat": 22.498611,
+        "lng": 114.133889
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Jockey Club Road, Sheung Shui",
+        "zh": "上水馬會道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1731_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

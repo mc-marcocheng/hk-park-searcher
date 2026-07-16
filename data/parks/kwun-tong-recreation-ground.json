@@ -1,0 +1,27 @@
+{
+    "id": "kwun-tong-recreation-ground",
+    "name": {
+        "en": "Kwun Tong Recreation Ground",
+        "zh": "觀塘遊樂場"
+    },
+    "coords": {
+        "lat": 22.313056,
+        "lng": 114.225556
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "6 Tsui Ping Road, Kwun Tong",
+        "zh": "觀塘翠屏道6號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1583_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

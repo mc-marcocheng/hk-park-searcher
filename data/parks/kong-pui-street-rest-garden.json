@@ -1,0 +1,27 @@
+{
+    "id": "kong-pui-street-rest-garden",
+    "name": {
+        "en": "Kong Pui Street Rest Garden",
+        "zh": "崗背街休憩花園"
+    },
+    "coords": {
+        "lat": 22.379167,
+        "lng": 114.199167
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Kong Pui Street, Sha Tin Wai, Sha Tin",
+        "zh": "沙田沙田圍崗背街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1788_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

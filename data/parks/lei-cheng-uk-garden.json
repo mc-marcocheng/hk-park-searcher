@@ -1,0 +1,27 @@
+{
+    "id": "lei-cheng-uk-garden",
+    "name": {
+        "en": "Lei Cheng UK Garden",
+        "zh": "李鄭屋花園"
+    },
+    "coords": {
+        "lat": 22.338333,
+        "lng": 114.159722
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Tonkin Street/Next to Lei Cheng Uk Tomb Museums, Cheung Sha Wan",
+        "zh": "長沙灣東京街/李鄭屋漢墓博物館側"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1607_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

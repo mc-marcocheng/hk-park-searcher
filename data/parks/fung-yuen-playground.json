@@ -1,0 +1,27 @@
+{
+    "id": "fung-yuen-playground",
+    "name": {
+        "en": "Fung Yuen Playground",
+        "zh": "鳳園遊樂場"
+    },
+    "coords": {
+        "lat": 22.459444,
+        "lng": 114.180278
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Fung Yuen Road, Ting Kok Road, Tai Po",
+        "zh": "大埔汀角路鳳園村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1818_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

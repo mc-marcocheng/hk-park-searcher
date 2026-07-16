@@ -1,0 +1,27 @@
+{
+    "id": "silverstrand-beach",
+    "name": {
+        "en": "Silverstrand Beach",
+        "zh": "銀線灣泳灘"
+    },
+    "coords": {
+        "lat": 22.323056,
+        "lng": 114.272778
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Silverstrand, Clear Water Bay Road, Clear Water Bay",
+        "zh": "清水灣清水灣道銀線灣"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1773_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

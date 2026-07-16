@@ -1,0 +1,27 @@
+{
+    "id": "sai-keng-tsuen-sitting-out-area",
+    "name": {
+        "en": "Sai Keng Tsuen Sitting-out Area",
+        "zh": "西徑村休憩處"
+    },
+    "coords": {
+        "lat": 22.418611,
+        "lng": 114.266111
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Sai Keng Tsuen, Sai Sha Road, Sai Keng, Tai Po",
+        "zh": "大埔西貢西沙路西徑村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1833_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

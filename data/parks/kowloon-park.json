@@ -1,0 +1,27 @@
+{
+    "id": "kowloon-park",
+    "name": {
+        "en": "Kowloon Park",
+        "zh": "九龍公園"
+    },
+    "coords": {
+        "lat": 22.300556,
+        "lng": 114.17
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "22 Austin Road, Tsim Sha Tsui",
+        "zh": "尖沙咀柯士甸道22號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1660_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

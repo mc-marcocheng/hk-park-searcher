@@ -1,0 +1,27 @@
+{
+    "id": "sau-ming-road-park",
+    "name": {
+        "en": "Sau Ming Road Park",
+        "zh": "秀明道公園"
+    },
+    "coords": {
+        "lat": 22.3225,
+        "lng": 114.229722
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "20 Sau Ming Road, Sau Mun Ping, Kwun Tong",
+        "zh": "觀塘秀茂坪秀明道20號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1597_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

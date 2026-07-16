@@ -1,0 +1,27 @@
+{
+    "id": "butterfly-beach-park",
+    "name": {
+        "en": "Butterfly Beach Park",
+        "zh": "蝴蝶灣公園"
+    },
+    "coords": {
+        "lat": 22.373889,
+        "lng": 113.957778
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Area 45B, Lung Mun Road, Tuen Mun",
+        "zh": "屯門龍門路45B區"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1890_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

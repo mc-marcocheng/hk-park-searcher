@@ -1,0 +1,27 @@
+{
+    "id": "pak-she-back-street-garden",
+    "name": {
+        "en": "Pak She Back Street Garden",
+        "zh": "北社後街花園"
+    },
+    "coords": {
+        "lat": 22.211389,
+        "lng": 114.028611
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Pak She Back Street, Cheung Chau",
+        "zh": "長洲北社後街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1679_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

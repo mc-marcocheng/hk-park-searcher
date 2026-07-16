@@ -1,0 +1,27 @@
+{
+    "id": "tai-ha-street-garden",
+    "name": {
+        "en": "Tai Ha Street Garden",
+        "zh": "大廈街花園"
+    },
+    "coords": {
+        "lat": 22.368611,
+        "lng": 114.124167
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Tai Ha Street, Tai Wo Hau,  Kwai Chung",
+        "zh": "葵涌大窩口大廈街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1712_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

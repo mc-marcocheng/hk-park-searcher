@@ -1,0 +1,30 @@
+{
+    "id": "fairview-park-sitting-out-area",
+    "name": {
+        "en": "Fairview Park Sitting-out Area",
+        "zh": "錦綉花園休憩處"
+    },
+    "coords": {
+        "lat": 22.470895,
+        "lng": 114.05434
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Fairview Park Boulevard, Yuen Long",
+        "zh": "元朗錦綉花園大道"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": ["other_1"]
+        }
+    ],
+    "park_images": ["other_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

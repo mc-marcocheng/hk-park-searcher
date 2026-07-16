@@ -1,0 +1,27 @@
+{
+    "id": "kam-tin-market-playground",
+    "name": {
+        "en": "Kam Tin Market Playground",
+        "zh": "錦田街市遊樂場"
+    },
+    "coords": {
+        "lat": 22.44,
+        "lng": 114.058889
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Kam Tin Road, Kam Tin, Yuen Long",
+        "zh": "元朗錦田錦田路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1918_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "cadogan-street-garden",
+    "name": {
+        "en": "Cadogan Street Garden",
+        "zh": "加多近街花園"
+    },
+    "coords": {
+        "lat": 22.282222,
+        "lng": 114.126111
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "J/O Cadogan Street and Victoria Road, Kennedy Town, Sai Wan",
+        "zh": "西環堅尼地城加多近街與域多利道交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1460_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

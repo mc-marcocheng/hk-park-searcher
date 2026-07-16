@@ -1,0 +1,27 @@
+{
+    "id": "shing-fong-street-rest-garden",
+    "name": {
+        "en": "Shing Fong Street Rest Garden",
+        "zh": "盛芳街兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.36,
+        "lng": 114.127222
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Shing Fong Street, Kwai Chung",
+        "zh": "葵涌盛芳街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1711_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "don-bosco-road-garden",
+    "name": {
+        "en": "Don Bosco Road Garden",
+        "zh": "思高路花園"
+    },
+    "coords": {
+        "lat": 22.202778,
+        "lng": 114.035833
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Don Bosco Road, Cheung Chau",
+        "zh": "長洲思高路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2054_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": "暫時停業"
+}

@@ -1,0 +1,27 @@
+{
+    "id": "lutheran-village-childrens-playground",
+    "name": {
+        "en": "Lutheran Village Children's Playground",
+        "zh": "長洲信義村 兒童遊樂場"
+    },
+    "coords": {
+        "lat": 193.552222,
+        "lng": 246.386111
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Lutheran Village, Cheung Chau",
+        "zh": "長洲信義村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2988_1.png"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tong-mei-road-childrens-playground-part-temporary",
+    "name": {
+        "en": "Tong Mei Road Children's Playground (part temporary)",
+        "zh": "塘尾道兒童遊樂場(部分屬臨時性質)"
+    },
+    "coords": {
+        "lat": 22.322778,
+        "lng": 114.165556
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "No. 170 Tong Mei Road, Mong Kok",
+        "zh": "旺角塘尾道170號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1674_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

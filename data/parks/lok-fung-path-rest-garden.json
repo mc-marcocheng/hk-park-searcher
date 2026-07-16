@@ -1,0 +1,27 @@
+{
+    "id": "lok-fung-path-rest-garden",
+    "name": {
+        "en": "Lok Fung Path Rest Garden",
+        "zh": "樂楓徑休憩花園"
+    },
+    "coords": {
+        "lat": 22.455278,
+        "lng": 114.108056
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Lok Fung Path, Sha Tin",
+        "zh": "沙田樂楓徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2806_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

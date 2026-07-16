@@ -1,0 +1,27 @@
+{
+    "id": "kwok-shui-road-park",
+    "name": {
+        "en": "Kwok Shui Road Park",
+        "zh": "國瑞路公園"
+    },
+    "coords": {
+        "lat": 22.371111,
+        "lng": 114.128333
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Kwok Shui Road, Tsuen Wan",
+        "zh": "荃灣國瑞路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1867_1867.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "on-sau-road-park",
+    "name": {
+        "en": "On Sau Road Park",
+        "zh": "安秀道公園"
+    },
+    "coords": {
+        "lat": 22.322778,
+        "lng": 114.231944
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Kwun Tong On Sau Road",
+        "zh": "觀塘安秀道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2401_OSR.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

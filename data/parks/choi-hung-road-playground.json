@@ -1,0 +1,27 @@
+{
+    "id": "choi-hung-road-playground",
+    "name": {
+        "en": "Choi Hung Road Playground",
+        "zh": "彩虹道遊樂場"
+    },
+    "coords": {
+        "lat": 22.337778,
+        "lng": 114.196667
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "150 Choi Hung Road, San Po Kong",
+        "zh": "新蒲崗彩虹道150號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1627_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

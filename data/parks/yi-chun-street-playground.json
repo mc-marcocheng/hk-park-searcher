@@ -1,0 +1,27 @@
+{
+    "id": "yi-chun-street-playground",
+    "name": {
+        "en": "Yi Chun Street Playground",
+        "zh": "宜春街遊樂場"
+    },
+    "coords": {
+        "lat": 22.38,
+        "lng": 114.271389
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Yi Chun Street, Sai Kung",
+        "zh": "西貢宜春街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1781_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

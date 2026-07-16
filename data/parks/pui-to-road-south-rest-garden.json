@@ -1,0 +1,27 @@
+{
+    "id": "pui-to-road-south-rest-garden",
+    "name": {
+        "en": "Pui To Road (South) Rest Garden",
+        "zh": "杯渡路(南)休憩花園"
+    },
+    "coords": {
+        "lat": 22.393056,
+        "lng": 113.971944
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tin Hau Road, Tuen Mun",
+        "zh": "屯門天后路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2166_pui_to_road_garden.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tin-ho-road-playground",
+    "name": {
+        "en": "Tin Ho Road Playground",
+        "zh": "天河路遊樂場"
+    },
+    "coords": {
+        "lat": 22.449444,
+        "lng": 114
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Ho Road, Tin Shing Court, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍天盛苑天河路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1936_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

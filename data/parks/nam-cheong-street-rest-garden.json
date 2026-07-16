@@ -1,0 +1,27 @@
+{
+    "id": "nam-cheong-street-rest-garden",
+    "name": {
+        "en": "Nam Cheong Street Rest Garden",
+        "zh": "南昌街休憩花園"
+    },
+    "coords": {
+        "lat": 22.341389,
+        "lng": 114.164722
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Inside Chak On Estate, Tai Woh Ping, Shek Kip Mei",
+        "zh": "石硤尾大窩坪澤安邨內"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1611_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

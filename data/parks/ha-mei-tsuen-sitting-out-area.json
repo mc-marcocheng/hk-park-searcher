@@ -1,0 +1,27 @@
+{
+    "id": "ha-mei-tsuen-sitting-out-area",
+    "name": {
+        "en": "Ha Mei Tsuen Sitting-out Area",
+        "zh": "蝦尾村休憩處"
+    },
+    "coords": {
+        "lat": 22.454722,
+        "lng": 114.009167
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Ha Mei San Tsuen, Yuen Long",
+        "zh": "元朗蝦尾新村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1916_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tai-kok-tsui-roadmaple-street-garden",
+    "name": {
+        "en": "Tai Kok Tsui Road/Maple Street Garden",
+        "zh": "大角咀道／楓樹街花園"
+    },
+    "coords": {
+        "lat": 22.323333,
+        "lng": 114.162222
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "Junction of Tai Kok Tsui Road and Maple Street, Tai Kok Tsui, Mong Kok",
+        "zh": "旺角大角咀大角咀道及楓樹街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1671_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

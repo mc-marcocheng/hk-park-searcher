@@ -1,0 +1,27 @@
+{
+    "id": "ma-tau-wai-service-reservoir-playground",
+    "name": {
+        "en": "Ma Tau Wai Service Reservoir Playground",
+        "zh": "馬頭圍配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.318333,
+        "lng": 114.184167
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Ma Tau Wai Service Reservoir, Ho Man Tin",
+        "zh": "何文田馬頭圍配水庫"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1564_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

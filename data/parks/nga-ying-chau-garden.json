@@ -1,0 +1,27 @@
+{
+    "id": "nga-ying-chau-garden",
+    "name": {
+        "en": "Nga Ying Chau Garden",
+        "zh": "牙鷹洲花園"
+    },
+    "coords": {
+        "lat": 22.360556,
+        "lng": 114.106111
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Tsing King Road, Tsing Yi",
+        "zh": "青衣青敬路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1704_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

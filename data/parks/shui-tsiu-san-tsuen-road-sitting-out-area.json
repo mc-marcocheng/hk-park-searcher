@@ -1,0 +1,27 @@
+{
+    "id": "shui-tsiu-san-tsuen-road-sitting-out-area",
+    "name": {
+        "en": "Shui Tsiu San Tsuen Road Sitting-out Area",
+        "zh": "水蕉新村路休憩處"
+    },
+    "coords": {
+        "lat": 22.421111,
+        "lng": 114.027222
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Shui Tsiu San Tsuen Road, Shap Pat Heung, Yuen Long",
+        "zh": "元朗十八鄉水蕉新村路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1932_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

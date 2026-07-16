@@ -1,0 +1,27 @@
+{
+    "id": "wai-hon-road-garden",
+    "name": {
+        "en": "Wai Hon Road Garden",
+        "zh": "維翰路花園"
+    },
+    "coords": {
+        "lat": 22.495,
+        "lng": 114.129167
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "J/O Wai Hon Road & Pak Wo Road, Sheung Shui",
+        "zh": "上水維翰路與百和路交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1749_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

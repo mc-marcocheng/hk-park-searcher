@@ -1,0 +1,27 @@
+{
+    "id": "shek-kip-mei-street-rest-garden",
+    "name": {
+        "en": "Shek Kip Mei Street Rest Garden",
+        "zh": "石硤尾街休憩花園"
+    },
+    "coords": {
+        "lat": 22.327778,
+        "lng": 114.163889
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Shek Kip Mei Street, Sham Shui Po",
+        "zh": "深水埗石硤尾街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1616_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

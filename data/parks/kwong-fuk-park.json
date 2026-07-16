@@ -1,0 +1,27 @@
+{
+    "id": "kwong-fuk-park",
+    "name": {
+        "en": "Kwong Fuk Park",
+        "zh": "廣福公園"
+    },
+    "coords": {
+        "lat": 22.445278,
+        "lng": 114.174444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Kwong Chun Street, Tai Po",
+        "zh": "大埔廣進街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1823_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

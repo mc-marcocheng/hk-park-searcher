@@ -1,0 +1,27 @@
+{
+    "id": "yi-pei-square-playground",
+    "name": {
+        "en": "Yi Pei Square Playground",
+        "zh": "二陂坊遊樂場"
+    },
+    "coords": {
+        "lat": 22.626111,
+        "lng": 114.199722
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Yi Pei Square, Tsuen Wan",
+        "zh": "荃灣二陂坊"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1889_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

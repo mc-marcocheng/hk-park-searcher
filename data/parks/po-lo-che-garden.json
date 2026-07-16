@@ -1,0 +1,27 @@
+{
+    "id": "po-lo-che-garden",
+    "name": {
+        "en": "Po Lo Che Garden",
+        "zh": "菠蘿輋花園"
+    },
+    "coords": {
+        "lat": 22.381111,
+        "lng": 114.264167
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Po Lo Che Road, Sai Kung",
+        "zh": "西貢菠蘿輋路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1765_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

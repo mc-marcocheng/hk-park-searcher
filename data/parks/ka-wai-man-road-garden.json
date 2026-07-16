@@ -1,0 +1,27 @@
+{
+    "id": "ka-wai-man-road-garden",
+    "name": {
+        "en": "Ka Wai Man Road Garden",
+        "zh": "加惠民道花園"
+    },
+    "coords": {
+        "lat": 0,
+        "lng": 0
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Ka Wai Man Road, Kennedy Town, Sai Wan",
+        "zh": "西環堅尼地城加惠民道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1467_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

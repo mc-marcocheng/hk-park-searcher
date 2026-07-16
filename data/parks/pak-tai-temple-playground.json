@@ -1,0 +1,30 @@
+{
+    "id": "pak-tai-temple-playground",
+    "name": {
+        "en": "Pak Tai Temple Playground",
+        "zh": "北帝廟遊樂場"
+    },
+    "coords": {
+        "lat": 22.2116416632335,
+        "lng": 114.02693599181733
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Pak She Praya Road, Cheung Chau",
+        "zh": "長洲北社海傍路"
+    },
+    "equipment": [
+        {
+            "type": "monkey_bars",
+            "images": ["monkey_bar_1"]
+        }
+    ],
+    "park_images": ["overview_1"],
+    "metrics": {
+        "quality": 4
+    },
+    "comment": "攀爬架枝槓係粗嘅"
+}

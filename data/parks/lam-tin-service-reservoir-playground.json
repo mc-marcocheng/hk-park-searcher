@@ -1,0 +1,27 @@
+{
+    "id": "lam-tin-service-reservoir-playground",
+    "name": {
+        "en": "Lam Tin Service Reservoir Playground",
+        "zh": "藍田配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.309167,
+        "lng": 114.236389
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Tak Tin Street Lam Tin, Kwun Tong",
+        "zh": "觀塘藍田德田街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1975_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

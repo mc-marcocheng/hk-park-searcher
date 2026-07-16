@@ -1,0 +1,27 @@
+{
+    "id": "ma-on-shan-recreation-ground",
+    "name": {
+        "en": "Ma On Shan Recreation Ground",
+        "zh": "馬鞍山遊樂場"
+    },
+    "coords": {
+        "lat": 22.419167,
+        "lng": 114.228056
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "No. 1, Hang Hong Street, Ma On Shan",
+        "zh": "馬鞍山恆康街1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1792_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

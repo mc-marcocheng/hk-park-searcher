@@ -1,0 +1,27 @@
+{
+    "id": "aldrich-street-playground",
+    "name": {
+        "en": "Aldrich Street Playground",
+        "zh": "愛秩序街遊樂場"
+    },
+    "coords": {
+        "lat": 22.276667,
+        "lng": 114.227778
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Shau Kei Wan Road, Shau Kei Wan",
+        "zh": "筲箕灣筲箕灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1484_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

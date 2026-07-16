@@ -1,0 +1,27 @@
+{
+    "id": "yau-tong-service-reservoir-playground",
+    "name": {
+        "en": "Yau Tong Service Reservoir Playground",
+        "zh": "油塘配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.299444,
+        "lng": 114.240833
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Pik Wan Road, Lam Tin, Kwun Tong",
+        "zh": "觀塘藍田碧雲道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1600_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

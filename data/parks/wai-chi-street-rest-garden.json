@@ -1,0 +1,27 @@
+{
+    "id": "wai-chi-street-rest-garden",
+    "name": {
+        "en": "Wai Chi Street Rest Garden",
+        "zh": "偉智街休憩花園"
+    },
+    "coords": {
+        "lat": 22.334444,
+        "lng": 114.166944
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Wai Chi Street, Shek Kip Mei",
+        "zh": "石硤尾偉智街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1626_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

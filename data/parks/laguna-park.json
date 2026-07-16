@@ -1,0 +1,27 @@
+{
+    "id": "laguna-park",
+    "name": {
+        "en": "Laguna Park",
+        "zh": "麗港公園"
+    },
+    "coords": {
+        "lat": 22.306944,
+        "lng": 114.226111
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Cha Kwo Ling Road, Laguna City, Kwun Tong",
+        "zh": "觀塘麗港城茶果嶺道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1973_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

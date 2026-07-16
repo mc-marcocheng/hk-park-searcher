@@ -1,0 +1,27 @@
+{
+    "id": "tin-tsz-garden",
+    "name": {
+        "en": "Tin Tsz Garden",
+        "zh": "天慈花園"
+    },
+    "coords": {
+        "lat": 22.452222,
+        "lng": 114.008611
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Tsz Road, Tin Tsz Estate, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍天慈邨天慈路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1941_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

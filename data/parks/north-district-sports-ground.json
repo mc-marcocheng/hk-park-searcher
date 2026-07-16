@@ -1,0 +1,27 @@
+{
+    "id": "north-district-sports-ground",
+    "name": {
+        "en": "North District Sports Ground",
+        "zh": "北區運動場"
+    },
+    "coords": {
+        "lat": 22.506389,
+        "lng": 114.13
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "26 Tin Ping Road, Sheung Shui",
+        "zh": "上水天平路26號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1732_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

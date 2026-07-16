@@ -1,0 +1,27 @@
+{
+    "id": "tai-wo-street-playground",
+    "name": {
+        "en": "Tai Wo Street Playground",
+        "zh": "太和街遊樂場"
+    },
+    "coords": {
+        "lat": 22.276111,
+        "lng": 114.174167
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Tai Wo Street, Wan Chai",
+        "zh": "灣仔太和街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1538_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "wing-ting-road-sitting-out-area",
+    "name": {
+        "en": "Wing Ting Road Sitting-out Area",
+        "zh": "永定道休憩處"
+    },
+    "coords": {
+        "lat": 22.336111,
+        "lng": 114.208056
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Wing Ting Road, Choi Hung, Wong Tai Sin",
+        "zh": "黃大仙彩虹永定道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1647_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

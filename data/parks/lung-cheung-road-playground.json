@@ -1,0 +1,27 @@
+{
+    "id": "lung-cheung-road-playground",
+    "name": {
+        "en": "Lung Cheung Road Playground",
+        "zh": "龍翔道遊樂場"
+    },
+    "coords": {
+        "lat": 22.344167,
+        "lng": 114.177778
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Beacon Hill Road, Beacon Hill, Kowloon Tong",
+        "zh": "九龍塘畢架山畢架山道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1563_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "st-peters-village-garden",
+    "name": {
+        "en": "St. Peter's Village Garden",
+        "zh": "伯多祿村花園"
+    },
+    "coords": {
+        "lat": 22.375556,
+        "lng": 114.2725
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "St. Peter's Village, Sai Kung",
+        "zh": "西貢伯多祿村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1774_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

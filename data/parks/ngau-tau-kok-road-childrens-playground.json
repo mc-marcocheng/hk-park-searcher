@@ -1,0 +1,27 @@
+{
+    "id": "ngau-tau-kok-road-childrens-playground",
+    "name": {
+        "en": "Ngau Tau Kok Road Children's Playground",
+        "zh": "牛頭角道兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.315833,
+        "lng": 114.219444
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Ngau Tau Kok Road. Ngau Tau Kok, Kwun Tong",
+        "zh": "觀塘牛頭角牛頭角道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1591_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

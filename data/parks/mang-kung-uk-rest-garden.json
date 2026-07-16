@@ -1,0 +1,27 @@
+{
+    "id": "mang-kung-uk-rest-garden",
+    "name": {
+        "en": "Mang Kung Uk Rest Garden",
+        "zh": "孟公屋休憩花園"
+    },
+    "coords": {
+        "lat": 22.315,
+        "lng": 114.277222
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Mang Kung Uk near Clear Water Bay Road, Sai Kung",
+        "zh": "西貢孟公屋近清水灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1760_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

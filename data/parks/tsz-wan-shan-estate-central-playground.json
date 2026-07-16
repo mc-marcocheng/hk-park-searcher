@@ -1,0 +1,27 @@
+{
+    "id": "tsz-wan-shan-estate-central-playground",
+    "name": {
+        "en": "Tsz Wan Shan Estate Central Playground",
+        "zh": "慈雲山邨中央遊樂場"
+    },
+    "coords": {
+        "lat": 22.349444,
+        "lng": 114.200833
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "1 Wan Wah Street, Tsz Wan Shan",
+        "zh": "慈雲山雲華街1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1645_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

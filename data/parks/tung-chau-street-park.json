@@ -1,0 +1,27 @@
+{
+    "id": "tung-chau-street-park",
+    "name": {
+        "en": "Tung Chau Street Park",
+        "zh": "通州街公園"
+    },
+    "coords": {
+        "lat": 22.326389,
+        "lng": 114.159444
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "No 163 Tung Chau Street, Sham Shui Po",
+        "zh": "深水埗通州街163號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1625_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "cheung-po-tsuen-playground",
+    "name": {
+        "en": "Cheung Po Tsuen Playground",
+        "zh": "長埔村遊樂場"
+    },
+    "coords": {
+        "lat": 22.416111,
+        "lng": 114.071667
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Cheung Po Tsuen, Pat Heung, Yuen Long",
+        "zh": "元朗八鄉長埔村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1909_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

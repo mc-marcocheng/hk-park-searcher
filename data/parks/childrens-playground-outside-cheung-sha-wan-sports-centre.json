@@ -1,0 +1,27 @@
+{
+    "id": "childrens-playground-outside-cheung-sha-wan-sports-centre",
+    "name": {
+        "en": "Children’s Playground outside Cheung Sha Wan Sports Centre",
+        "zh": "長沙灣體育館外兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.338056,
+        "lng": 114.153056
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "J/O Cheung Sha Wan Road and Hing Wah Street, Cheung Sha Wan",
+        "zh": "長沙灣長沙灣道與興華街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1604_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

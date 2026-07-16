@@ -1,0 +1,27 @@
+{
+    "id": "tai-po-old-market-playground",
+    "name": {
+        "en": "Tai Po Old Market Playground",
+        "zh": "大埔舊墟遊樂場"
+    },
+    "coords": {
+        "lat": 22.452222,
+        "lng": 114.166111
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "On Ho Lane, Eightland Gardens, Tai Po",
+        "zh": "大埔八號花園安浩里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1846_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

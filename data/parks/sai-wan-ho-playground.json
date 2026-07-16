@@ -1,0 +1,27 @@
+{
+    "id": "sai-wan-ho-playground",
+    "name": {
+        "en": "Sai Wan Ho Playground",
+        "zh": "西灣河遊樂場"
+    },
+    "coords": {
+        "lat": 22.286111,
+        "lng": 114.222778
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Lei King Road, Lei King Wan, Sai Wan Ho",
+        "zh": "西灣河鯉景灣鯉景道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1501_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "nai-chung-sitting-out-area",
+    "name": {
+        "en": "Nai Chung Sitting-out Area",
+        "zh": "泥涌休憩處"
+    },
+    "coords": {
+        "lat": 22.431667,
+        "lng": 114.255833
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Nai Chung, Sai Kung North, Tai Po",
+        "zh": "大埔西貢北泥涌"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2783_3.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "fong-ma-po-childrens-playground",
+    "name": {
+        "en": "Fong Ma Po Children's Playground",
+        "zh": "放馬莆兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.456389,
+        "lng": 114.141667
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Fong Ma Po, Lam Kam Road, Tai Po",
+        "zh": "大埔林錦公路放馬莆"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1817_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

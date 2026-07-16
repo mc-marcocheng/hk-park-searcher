@@ -1,0 +1,27 @@
+{
+    "id": "kau-wah-keng-village-playground",
+    "name": {
+        "en": "Kau Wah Keng Village Playground",
+        "zh": "九華徑村遊樂場"
+    },
+    "coords": {
+        "lat": 22.346389,
+        "lng": 114.135278
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Kau Wah Keng Village, Kwai Chung",
+        "zh": "葵涌九華徑村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1695_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

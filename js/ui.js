@@ -1,6 +1,27 @@
 import { parksData } from "./data.js";
 import { getEquipmentName } from "./dict.js";
 
+function escapeHTML(value) {
+    if (value === null || value === undefined) return "";
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function renderComment(park) {
+    if (!park.comment) return "";
+
+    if (park.comment_format === "plain") {
+        return escapeHTML(park.comment).replace(/\r\n|\r|\n/g, "<br>");
+    }
+
+    return DOMPurify.sanitize(marked.parse(park.comment));
+}
+
 // Modal Gallery State
 let currentModalImages = [];
 let currentImageIndex = 0;
@@ -40,9 +61,9 @@ function createParkCardHTML(p, animate = false) {
             ? buildImagePath(p.id, p.park_images[0], "thumb")
             : placeholderImage();
 
-    const district = p.district?.zh || p.district?.en || "未知";
-    const parkName = p.name?.zh || p.name?.en || "未命名公園";
-    const englishName = p.name?.en || "";
+    const district = escapeHTML(p.district?.zh || p.district?.en || "未知");
+    const parkName = escapeHTML(p.name?.zh || p.name?.en || "未命名公園");
+    const englishName = escapeHTML(p.name?.en || "");
     const animateClass = animate ? " animate-new" : "";
 
     const distanceHTML = Number.isFinite(p.distance)
@@ -140,14 +161,14 @@ export function openModal(id) {
 
     currentImageIndex = 0;
 
-    const district = p.district?.zh || "";
-    const address = p.address?.zh || "";
+    const district = escapeHTML(p.district?.zh || "");
+    const address = escapeHTML(p.address?.zh || "");
 
     const equipmentHTML =
         p.equipment && p.equipment.length > 0
             ? p.equipment
                   .map((e) => {
-                      const zhName = getEquipmentName(e.type);
+                      const zhName = escapeHTML(getEquipmentName(e.type));
                       const firstImg =
                           e.images && e.images.length > 0
                               ? buildImagePath(p.id, e.images[0], "med")
@@ -194,8 +215,8 @@ export function openModal(id) {
             }
 
             <div class="absolute bottom-6 left-8 z-20 text-white pr-24">
-                <h2 id="modal-title" class="text-3xl font-black drop-shadow-xl leading-tight">${p.name.zh || p.name.en}</h2>
-                <p class="text-base font-bold opacity-80">${p.name.en || ""}</p>
+                <h2 id="modal-title" class="text-3xl font-black drop-shadow-xl leading-tight">${escapeHTML(p.name.zh || p.name.en)}</h2>
+                <p class="text-base font-bold opacity-80">${escapeHTML(p.name.en || "")}</p>
             </div>
         </div>
 
@@ -225,7 +246,7 @@ export function openModal(id) {
                         ? `
                     <div class="mt-6 rounded-2xl bg-slate-50 p-5 border border-slate-200">
                         <div class="prose prose-sm prose-slate max-w-none text-slate-700 font-medium">
-                            ${DOMPurify.sanitize(marked.parse(p.comment))}
+                            ${renderComment(p)}
                         </div>
                     </div>
                 `

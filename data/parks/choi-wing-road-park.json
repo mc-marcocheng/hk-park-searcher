@@ -1,0 +1,27 @@
+{
+    "id": "choi-wing-road-park",
+    "name": {
+        "en": "Choi Wing Road Park",
+        "zh": "彩榮路公園"
+    },
+    "coords": {
+        "lat": 22.327222,
+        "lng": 114.219167
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "88 Choi Wing Road, Ping Shan, Kwun Tong",
+        "zh": "觀塘平山彩榮路88號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1573_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

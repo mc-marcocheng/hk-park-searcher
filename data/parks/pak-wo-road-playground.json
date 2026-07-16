@@ -1,0 +1,27 @@
+{
+    "id": "pak-wo-road-playground",
+    "name": {
+        "en": "Pak Wo Road Playground",
+        "zh": "百和路遊樂場"
+    },
+    "coords": {
+        "lat": 22.491944,
+        "lng": 114.133056
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Pak Wo Road, Sheung Shui",
+        "zh": "上水百和路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1735_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

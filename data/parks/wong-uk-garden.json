@@ -1,0 +1,27 @@
+{
+    "id": "wong-uk-garden",
+    "name": {
+        "en": "Wong Uk Garden",
+        "zh": "王屋花園"
+    },
+    "coords": {
+        "lat": 22.382778,
+        "lng": 114.197222
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Yuen Chau Kok Road, Sha Tin",
+        "zh": "沙田圓洲角路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1806_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

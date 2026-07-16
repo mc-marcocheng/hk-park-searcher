@@ -1,0 +1,27 @@
+{
+    "id": "carmel-village-street-garden",
+    "name": {
+        "en": "Carmel Village Street Garden",
+        "zh": "迦密村街花園"
+    },
+    "coords": {
+        "lat": 22.315,
+        "lng": 114.178889
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Carmel Village Street, Ho Man Tin",
+        "zh": "何文田迦密村街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1547_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

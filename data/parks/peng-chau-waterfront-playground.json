@@ -1,0 +1,27 @@
+{
+    "id": "peng-chau-waterfront-playground",
+    "name": {
+        "en": "Peng Chau Waterfront Playground",
+        "zh": "坪洲海濱遊樂場"
+    },
+    "coords": {
+        "lat": 22.285278,
+        "lng": 114.037222
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Lo Peng Street, Peng Chau",
+        "zh": "坪洲露坪街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1680_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

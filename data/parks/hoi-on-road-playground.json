@@ -1,0 +1,27 @@
+{
+    "id": "hoi-on-road-playground",
+    "name": {
+        "en": "Hoi On Road Playground",
+        "zh": "海安路遊樂場"
+    },
+    "coords": {
+        "lat": 22.372778,
+        "lng": 114.104722
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Hoi On Road, Tseun Wan",
+        "zh": "荃灣海安路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2074_2074.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

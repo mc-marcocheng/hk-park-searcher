@@ -1,0 +1,27 @@
+{
+    "id": "tseng-tau-village-sitting-out-area",
+    "name": {
+        "en": "Tseng Tau Village Sitting-out Area",
+        "zh": "井頭村休憩處"
+    },
+    "coords": {
+        "lat": 22.345556,
+        "lng": 114.181111
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tseng Tau Tsuen, Sai Sha Road, Tai Po",
+        "zh": "大埔西沙路井頭村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2941_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

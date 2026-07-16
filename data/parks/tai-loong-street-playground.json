@@ -1,0 +1,27 @@
+{
+    "id": "tai-loong-street-playground",
+    "name": {
+        "en": "Tai Loong Street Playground",
+        "zh": "大隴街遊樂場"
+    },
+    "coords": {
+        "lat": 22.365833,
+        "lng": 114.137778
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Tai Loong Street, Kwai Chung",
+        "zh": "葵涌大隴街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1713_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

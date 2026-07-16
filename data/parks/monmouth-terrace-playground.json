@@ -1,0 +1,27 @@
+{
+    "id": "monmouth-terrace-playground",
+    "name": {
+        "en": "Monmouth Terrace Playground",
+        "zh": "萬茂臺遊樂場"
+    },
+    "coords": {
+        "lat": 22.496389,
+        "lng": 114.129444
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Monmouth Terrace, Wan Chai",
+        "zh": "灣仔萬茂臺"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2431_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

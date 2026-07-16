@@ -1,0 +1,27 @@
+{
+    "id": "on-tak-road-playground",
+    "name": {
+        "en": "On Tak Road Playground",
+        "zh": "安德道遊樂場"
+    },
+    "coords": {
+        "lat": 22.320278,
+        "lng": 114.216944
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "On Tak Road, Ngau Tau Kok, Kwun Tong",
+        "zh": "觀塘牛頭角安德道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1592_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

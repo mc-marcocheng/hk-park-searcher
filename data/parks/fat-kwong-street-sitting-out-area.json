@@ -1,0 +1,27 @@
+{
+    "id": "fat-kwong-street-sitting-out-area",
+    "name": {
+        "en": "Fat Kwong Street Sitting-out Area",
+        "zh": "佛光街休憩處"
+    },
+    "coords": {
+        "lat": 22.309167,
+        "lng": 114.187222
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Fat Kwong Street, Hung Hom",
+        "zh": "紅磡佛光街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1552_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

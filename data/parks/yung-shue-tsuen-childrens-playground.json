@@ -1,0 +1,27 @@
+{
+    "id": "yung-shue-tsuen-childrens-playground",
+    "name": {
+        "en": "Yung Shue Tsuen Children's Playground",
+        "zh": "榕樹村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.468611,
+        "lng": 114.358611
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Yung Shue Tsuen, Tap Mun, Tai Po",
+        "zh": "大埔塔門榕樹村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1861_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

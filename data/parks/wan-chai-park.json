@@ -1,0 +1,27 @@
+{
+    "id": "wan-chai-park",
+    "name": {
+        "en": "Wan Chai Park",
+        "zh": "灣仔公園"
+    },
+    "coords": {
+        "lat": 22.275556,
+        "lng": 114.176111
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Bullock Lane, Wan Chai",
+        "zh": "灣仔普樂里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1542_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

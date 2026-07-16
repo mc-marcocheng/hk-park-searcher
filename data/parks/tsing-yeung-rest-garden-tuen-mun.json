@@ -1,0 +1,27 @@
+{
+    "id": "tsing-yeung-rest-garden-tuen-mun",
+    "name": {
+        "en": "Tsing Yeung Rest Garden, Tuen Mun",
+        "zh": "屯門青洋休憩花園"
+    },
+    "coords": {
+        "lat": 22.403333,
+        "lng": 113.978333
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Chui Path, Tuen Mun",
+        "zh": "屯門青翠俓"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1901_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

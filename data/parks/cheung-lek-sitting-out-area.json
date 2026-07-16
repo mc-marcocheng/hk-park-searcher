@@ -1,0 +1,27 @@
+{
+    "id": "cheung-lek-sitting-out-area",
+    "name": {
+        "en": "Cheung Lek Sitting-out Area",
+        "zh": "長瀝休憩處"
+    },
+    "coords": {
+        "lat": 22.485278,
+        "lng": 114.1025
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Cheung Lek Village, Tong Kung Leng, Sheung Shui",
+        "zh": "上水唐公嶺長瀝村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1721_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

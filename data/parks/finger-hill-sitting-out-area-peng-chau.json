@@ -1,0 +1,27 @@
+{
+    "id": "finger-hill-sitting-out-area-peng-chau",
+    "name": {
+        "en": "Finger Hill Sitting-out Area, Peng Chau",
+        "zh": "坪洲手指山休憩處"
+    },
+    "coords": {
+        "lat": 22.283611,
+        "lng": 114.043889
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Finger Hill, Peng Chau",
+        "zh": "坪洲手指山"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2055_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

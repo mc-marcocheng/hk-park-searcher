@@ -1,0 +1,27 @@
+{
+    "id": "aldrich-bay-park",
+    "name": {
+        "en": "Aldrich Bay Park",
+        "zh": "愛秩序灣公園"
+    },
+    "coords": {
+        "lat": 22.282778,
+        "lng": 114.225
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "10 Oi Tak Street, Sai Wan Ho",
+        "zh": "西灣河愛德街10號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1482_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

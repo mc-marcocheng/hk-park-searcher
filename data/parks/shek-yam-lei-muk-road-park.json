@@ -1,0 +1,27 @@
+{
+    "id": "shek-yam-lei-muk-road-park",
+    "name": {
+        "en": "Shek Yam Lei Muk Road Park",
+        "zh": "石蔭梨木道公園"
+    },
+    "coords": {
+        "lat": 22.371667,
+        "lng": 114.137222
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Lei Muk Road, Kwai Chung",
+        "zh": "葵涌梨木道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1708_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

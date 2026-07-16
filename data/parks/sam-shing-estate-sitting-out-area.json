@@ -1,0 +1,30 @@
+{
+    "id": "sam-shing-estate-sitting-out-area",
+    "name": {
+        "en": "Sam Shing Estate Sitting-out Area",
+        "zh": "三聖邨休憩處"
+    },
+    "coords": {
+        "lat": 22.381332,
+        "lng": 113.977635
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Sam Shing Street, Tuen Mun",
+        "zh": "屯門三聖街"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": ["overview_1"]
+        }
+    ],
+    "park_images": ["overview_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

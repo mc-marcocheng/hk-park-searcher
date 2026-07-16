@@ -1,0 +1,27 @@
+{
+    "id": "ha-tam-shui-hang-sitting-out-area-no-2",
+    "name": {
+        "en": "Ha Tam Shui Hang Sitting-out Area No. 2",
+        "zh": "下担水坑第二號休憩處"
+    },
+    "coords": {
+        "lat": 22.547222,
+        "lng": 114.218889
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Ha Tam Shui Hang Village, Sha Tau Kok",
+        "zh": "沙頭角下担水坑村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1724_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

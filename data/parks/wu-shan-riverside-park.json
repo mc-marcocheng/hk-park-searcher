@@ -1,0 +1,27 @@
+{
+    "id": "wu-shan-riverside-park",
+    "name": {
+        "en": "Wu Shan Riverside Park",
+        "zh": "湖山河畔公園"
+    },
+    "coords": {
+        "lat": 22.383889,
+        "lng": 113.967222
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Area 18, Lung Mun Road, Lung Mun Oasis, Tuen Mun",
+        "zh": "屯門龍門居第十八區龍門路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1907_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

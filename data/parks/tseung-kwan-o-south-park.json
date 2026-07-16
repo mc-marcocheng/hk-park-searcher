@@ -1,0 +1,27 @@
+{
+    "id": "tseung-kwan-o-south-park",
+    "name": {
+        "en": "Tseung Kwan O South Park",
+        "zh": "將軍澳南公園"
+    },
+    "coords": {
+        "lat": 22.304444,
+        "lng": 114.255278
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "15 Chi Shin Street, Tseung Kwan O",
+        "zh": "將軍澳至善街15號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3156_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

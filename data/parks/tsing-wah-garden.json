@@ -1,0 +1,27 @@
+{
+    "id": "tsing-wah-garden",
+    "name": {
+        "en": "Tsing Wah Garden",
+        "zh": "青華花園"
+    },
+    "coords": {
+        "lat": 22.348056,
+        "lng": 114.094722
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Tsing Chin Street, Tsing Yi",
+        "zh": "青衣青芊街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1715_13.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "aberdeen-tennis-and-squash-centre",
+    "name": {
+        "en": "Aberdeen Tennis and Squash Centre",
+        "zh": "香港仔網球及壁球中心"
+    },
+    "coords": {
+        "lat": 22.247222,
+        "lng": 114.160278
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "No. 1 Aberdeen Praya Road, Aberdeen",
+        "zh": "香港仔海傍道1號 "
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2105_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

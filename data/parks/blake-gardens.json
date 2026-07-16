@@ -1,0 +1,27 @@
+{
+    "id": "blake-gardens",
+    "name": {
+        "en": "Blake Gardens",
+        "zh": "卜公花園"
+    },
+    "coords": {
+        "lat": 22.284167,
+        "lng": 114.148056
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Po Hing Fong, Sheung Wan",
+        "zh": "上環普慶坊"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1458_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

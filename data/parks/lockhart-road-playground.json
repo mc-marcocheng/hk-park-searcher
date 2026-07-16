@@ -1,0 +1,27 @@
+{
+    "id": "lockhart-road-playground",
+    "name": {
+        "en": "Lockhart Road Playground",
+        "zh": "駱克道遊樂場"
+    },
+    "coords": {
+        "lat": 22.278611,
+        "lng": 114.169444
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Lockhart Road, Wan Chai",
+        "zh": "灣仔駱克道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1535_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

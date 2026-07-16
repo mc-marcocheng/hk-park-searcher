@@ -1,0 +1,27 @@
+{
+    "id": "wong-tai-sin-service-reservoir-playground",
+    "name": {
+        "en": "Wong Tai Sin Service Reservoir Playground",
+        "zh": "黃大仙配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.348056,
+        "lng": 114.196944
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Sheung Fung Street, Tsz Wan Shan",
+        "zh": "慈雲山雙鳳街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1648_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "north-point-salt-water-service-reservoir-sitting-out-area",
+    "name": {
+        "en": "North Point Salt Water Service Reservoir Sitting-out Area",
+        "zh": "北角海水配水庫休憩處"
+    },
+    "coords": {
+        "lat": 22.286389,
+        "lng": 114.195278
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Tin Hau Temple Road, North Point",
+        "zh": "北角天后廟道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1497_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

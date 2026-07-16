@@ -1,0 +1,27 @@
+{
+    "id": "kwong-fai-circuit-playground",
+    "name": {
+        "en": "Kwong Fai Circuit Playground",
+        "zh": "光輝圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.368056,
+        "lng": 114.133056
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Kwong Fai Circuit, Kwai Chung",
+        "zh": "葵涌光輝圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1699_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

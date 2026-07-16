@@ -1,0 +1,27 @@
+{
+    "id": "sham-shui-po-park",
+    "name": {
+        "en": "Sham Shui Po Park",
+        "zh": "深水埗公園"
+    },
+    "coords": {
+        "lat": 22.330833,
+        "lng": 114.156667
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "733 Lai Chi Kok Road, Kowloon",
+        "zh": "九龍荔枝角道733號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1614_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

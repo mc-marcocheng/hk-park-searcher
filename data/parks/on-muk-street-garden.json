@@ -1,0 +1,27 @@
+{
+    "id": "on-muk-street-garden",
+    "name": {
+        "en": "On Muk Street Garden",
+        "zh": "安睦街花園"
+    },
+    "coords": {
+        "lat": 22.389444,
+        "lng": 114.205278
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "On Muk Street, Shek Mun",
+        "zh": "石門安睦街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1798_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tai-hang-tung-recreation-ground",
+    "name": {
+        "en": "Tai Hang Tung Recreation Ground",
+        "zh": "大坑東遊樂場"
+    },
+    "coords": {
+        "lat": 22.327778,
+        "lng": 114.171111
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "No. 63 Boundary Street, Sham Shui Po",
+        "zh": "深水埗界限街63號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1621_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

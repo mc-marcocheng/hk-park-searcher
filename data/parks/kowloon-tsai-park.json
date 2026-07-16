@@ -1,0 +1,27 @@
+{
+    "id": "kowloon-tsai-park",
+    "name": {
+        "en": "Kowloon Tsai Park",
+        "zh": "九龍仔公園"
+    },
+    "coords": {
+        "lat": 22.331944,
+        "lng": 114.183889
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "13 Inverness Road, Kowloon City",
+        "zh": "九龍城延文禮士道13號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1562_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "mount-davis-service-reservoir-sitting-out-area",
+    "name": {
+        "en": "Mount Davis Service Reservoir Sitting-out Area",
+        "zh": "摩星嶺配水庫休憩處"
+    },
+    "coords": {
+        "lat": 0,
+        "lng": 0
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Mount Davis Fresh Water Service Reservoir, Mount Davis, Kennedy Town, Sai Wan",
+        "zh": "西環堅尼地城摩星嶺食水配水庫"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2021_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "siu-sai-wan-sitting-out-area-no-1",
+    "name": {
+        "en": "Siu Sai Wan Sitting-out Area No. 1",
+        "zh": "小西灣一號休憩處"
+    },
+    "coords": {
+        "lat": 22.266389,
+        "lng": 114.249167
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Siu Sai Wan Road, Siu Sai Wan",
+        "zh": "小西灣小西灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1506_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

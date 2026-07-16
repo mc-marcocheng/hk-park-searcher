@@ -1,0 +1,27 @@
+{
+    "id": "tai-peng-san-chuen-sitting-out-area-north-lamma",
+    "name": {
+        "en": "Tai Peng San Chuen Sitting-out Area, North Lamma",
+        "zh": "南丫北大坪新村休憩處"
+    },
+    "coords": {
+        "lat": 22.228889,
+        "lng": 114.115278
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Tai Peng San Chuen, North Lamma, Lamma Island",
+        "zh": "南丫島大坪新村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1685_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

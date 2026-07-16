@@ -1,0 +1,27 @@
+{
+    "id": "wong-yue-tan-childrens-playground",
+    "name": {
+        "en": "Wong Yue Tan Children's Playground",
+        "zh": "黃魚灘兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.463056,
+        "lng": 114.203333
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Wong Yue Tan Tsuen, Ting Kok Road, Tai Po",
+        "zh": "大埔汀角路黃魚灘村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1856_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

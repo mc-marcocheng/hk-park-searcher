@@ -1,0 +1,27 @@
+{
+    "id": "tung-lo-wan-hill-road-garden",
+    "name": {
+        "en": "Tung Lo Wan Hill Road Garden",
+        "zh": "銅鑼灣山路花園"
+    },
+    "coords": {
+        "lat": 22.381667,
+        "lng": 114.180278
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Tung Lo Wan Hill Road, Tai Wai",
+        "zh": "大圍銅鑼灣山路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1804_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

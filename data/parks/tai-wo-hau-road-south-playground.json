@@ -1,0 +1,27 @@
+{
+    "id": "tai-wo-hau-road-south-playground",
+    "name": {
+        "en": "Tai Wo Hau Road South Playground",
+        "zh": "大窩口道南遊樂場"
+    },
+    "coords": {
+        "lat": 22.365833,
+        "lng": 114.125
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Tai Wo Hau Road, Kwai Chung",
+        "zh": "葵涌大窩口道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1992_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

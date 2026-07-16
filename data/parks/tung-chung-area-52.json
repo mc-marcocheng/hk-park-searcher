@@ -1,0 +1,27 @@
+{
+    "id": "tung-chung-area-52",
+    "name": {
+        "en": "Tung Chung Area 52",
+        "zh": "東涌52區"
+    },
+    "coords": {
+        "lat": 22.286111,
+        "lng": 113.94
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Tung Chung Waterfront Road, Tung Chung",
+        "zh": "東涌東涌海濱路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1687_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "lin-fa-kung-garden",
+    "name": {
+        "en": "Lin Fa Kung Garden",
+        "zh": "蓮花宮花園"
+    },
+    "coords": {
+        "lat": 22.279444,
+        "lng": 114.193056
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Lily Street, Tai Hang",
+        "zh": "大坑蓮花街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1534_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

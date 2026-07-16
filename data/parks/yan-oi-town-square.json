@@ -1,0 +1,27 @@
+{
+    "id": "yan-oi-town-square",
+    "name": {
+        "en": "Yan Oi Town Square",
+        "zh": "仁愛廣場"
+    },
+    "coords": {
+        "lat": 22.396667,
+        "lng": 113.975556
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Kai Man Path, San Hui, Tuen Mun",
+        "zh": "屯門新墟啟民徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1908_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

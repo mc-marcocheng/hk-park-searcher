@@ -1,0 +1,27 @@
+{
+    "id": "tsz-wan-shan-road-rest-garden",
+    "name": {
+        "en": "Tsz Wan Shan Road Rest Garden",
+        "zh": "慈雲山道休憩花園"
+    },
+    "coords": {
+        "lat": 22.346667,
+        "lng": 114.203611
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Junction of Po Kong Village Road and Tsz Wan Shan Road ",
+        "zh": "慈雲山道／蒲崗村道交界 "
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2106_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

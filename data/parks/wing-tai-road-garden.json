@@ -1,0 +1,27 @@
+{
+    "id": "wing-tai-road-garden",
+    "name": {
+        "en": "Wing Tai Road Garden",
+        "zh": "永泰道花園"
+    },
+    "coords": {
+        "lat": 22.269444,
+        "lng": 114.239444
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Wing Tai Road, Chai Wan",
+        "zh": "柴灣永泰道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1513_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "shek-yam-road-rest-garden-no-2",
+    "name": {
+        "en": "Shek Yam Road Rest Garden No. 2",
+        "zh": "石蔭路第二休憩花園"
+    },
+    "coords": {
+        "lat": 22.281944,
+        "lng": 114.130556
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Shek Yam Road, Kwai Chung",
+        "zh": "葵涌石蔭路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1709_syrg_02_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

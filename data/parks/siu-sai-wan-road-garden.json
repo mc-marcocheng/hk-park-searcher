@@ -1,0 +1,27 @@
+{
+    "id": "siu-sai-wan-road-garden",
+    "name": {
+        "en": "Siu Sai Wan Road Garden",
+        "zh": "小西灣道花園"
+    },
+    "coords": {
+        "lat": 22.265556,
+        "lng": 114.248056
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Siu Sai Wan Road, Siu Sai Wan",
+        "zh": "小西灣小西灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1505_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

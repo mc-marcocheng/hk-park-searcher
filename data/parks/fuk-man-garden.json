@@ -1,0 +1,27 @@
+{
+    "id": "fuk-man-garden",
+    "name": {
+        "en": "Fuk Man Garden",
+        "zh": "福民花園"
+    },
+    "coords": {
+        "lat": 22.383611,
+        "lng": 114.271389
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Fuk Man Road, Sai Kung",
+        "zh": "西貢福民路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1755_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

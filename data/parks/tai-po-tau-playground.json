@@ -1,0 +1,27 @@
+{
+    "id": "tai-po-tau-playground",
+    "name": {
+        "en": "Tai Po Tau Playground",
+        "zh": "大埔頭遊樂場"
+    },
+    "coords": {
+        "lat": 22.453611,
+        "lng": 114.159444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tai Po Tau Path, Tai Po Tau, Tai Po",
+        "zh": "大埔大埔頭大埔頭徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1847_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

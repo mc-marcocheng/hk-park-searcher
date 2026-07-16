@@ -1,0 +1,27 @@
+{
+    "id": "sai-ching-street-tennis-court",
+    "name": {
+        "en": "Sai Ching Street Tennis Court",
+        "zh": "西菁街網球場"
+    },
+    "coords": {
+        "lat": 22.441389,
+        "lng": 114.028333
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "6, Sai Ching Street, Yuen Long",
+        "zh": "元朗西菁街6號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1927_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

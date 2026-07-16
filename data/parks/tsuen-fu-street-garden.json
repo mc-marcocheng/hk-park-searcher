@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-fu-street-garden",
+    "name": {
+        "en": "Tsuen Fu Street Garden",
+        "zh": "荃富街花園"
+    },
+    "coords": {
+        "lat": 22.368889,
+        "lng": 114.121389
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Tsuen Fu Street, East Asia Gardens, Tsuen Wan",
+        "zh": "荃灣東亞花園荃富街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1881_1881.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

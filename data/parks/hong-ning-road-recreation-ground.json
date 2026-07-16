@@ -1,0 +1,27 @@
+{
+    "id": "hong-ning-road-recreation-ground",
+    "name": {
+        "en": "Hong Ning Road Recreation Ground",
+        "zh": "康寧道遊樂場"
+    },
+    "coords": {
+        "lat": 22.316944,
+        "lng": 114.223611
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Hong Ning Road, Kwun Tong",
+        "zh": "觀塘康寧道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1578_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

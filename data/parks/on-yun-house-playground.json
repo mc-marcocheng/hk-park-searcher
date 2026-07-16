@@ -1,0 +1,30 @@
+{
+    "id": "on-yun-house-playground",
+    "name": {
+        "en": "On Yun House Playground",
+        "zh": "安潤樓遊樂場"
+    },
+    "coords": {
+        "lat": 22.360979357084382,
+        "lng": 114.10311294186498
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "On Yun House, Cheung On Estate, Tsing Yi",
+        "zh": "青衣長安邨安潤樓(9座)"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": ["other_1", "other_2"]
+        }
+    ],
+    "park_images": ["other_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

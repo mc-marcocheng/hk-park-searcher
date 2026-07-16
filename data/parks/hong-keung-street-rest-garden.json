@@ -1,0 +1,27 @@
+{
+    "id": "hong-keung-street-rest-garden",
+    "name": {
+        "en": "Hong Keung Street Rest Garden",
+        "zh": "康強街休憩花園"
+    },
+    "coords": {
+        "lat": 22.334444,
+        "lng": 114.196667
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Hong Keung Street, San Po Kong",
+        "zh": "新蒲崗康強街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1629_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

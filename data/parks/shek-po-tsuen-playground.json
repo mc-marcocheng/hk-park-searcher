@@ -1,0 +1,27 @@
+{
+    "id": "shek-po-tsuen-playground",
+    "name": {
+        "en": "Shek Po Tsuen Playground",
+        "zh": "石埗村遊樂場"
+    },
+    "coords": {
+        "lat": 22.441389,
+        "lng": 113.996667
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Shek Po Tsuen, Shek Po Road, Ha Tsuen, Yuen Long",
+        "zh": "元朗廈村石埗路石埗村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1929_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "mui-wo-river-silver-garden",
+    "name": {
+        "en": "Mui Wo River Silver Garden",
+        "zh": "梅窩銀河花園"
+    },
+    "coords": {
+        "lat": 22.2675,
+        "lng": 113.996944
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Ngan Shek Street, Mui Wo, Lantau Island",
+        "zh": "大嶼山梅窩銀石街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1678_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

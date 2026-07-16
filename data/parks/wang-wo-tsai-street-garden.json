@@ -1,0 +1,27 @@
+{
+    "id": "wang-wo-tsai-street-garden",
+    "name": {
+        "en": "Wang Wo Tsai Street Garden",
+        "zh": "橫窩仔街花園"
+    },
+    "coords": {
+        "lat": 22.620278,
+        "lng": 114.21
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Wang Wo Tsai Street, Tsuen Wan",
+        "zh": "荃灣橫窩仔街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2939_2939.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

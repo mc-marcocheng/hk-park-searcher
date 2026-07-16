@@ -1,0 +1,27 @@
+{
+    "id": "tsing-ho-rest-garden",
+    "name": {
+        "en": "Tsing Ho Rest Garden",
+        "zh": "青河休憩花園"
+    },
+    "coords": {
+        "lat": 22.388056,
+        "lng": 113.979444
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Ho Square, Tuen Mun",
+        "zh": "屯門青河坊"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1896_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

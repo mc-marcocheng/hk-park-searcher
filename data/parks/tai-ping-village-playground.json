@@ -1,0 +1,27 @@
+{
+    "id": "tai-ping-village-playground",
+    "name": {
+        "en": "Tai Ping Village Playground",
+        "zh": "太平村遊樂場"
+    },
+    "coords": {
+        "lat": 22.380556,
+        "lng": 114.262222
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Tai Ping Village, Sai Kung",
+        "zh": "西貢太平村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1775_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-king-circuit-recreation-ground-and-rest-garden",
+    "name": {
+        "en": "Tsuen King Circuit Recreation Ground and Rest Garden",
+        "zh": "荃景圍遊樂場及休憩花園"
+    },
+    "coords": {
+        "lat": 22.378889,
+        "lng": 114.105833
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Tsuen King Circuit, Tsuen Wan",
+        "zh": "荃灣荃景圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1884_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

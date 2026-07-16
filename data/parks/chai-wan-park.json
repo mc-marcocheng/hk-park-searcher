@@ -1,0 +1,27 @@
+{
+    "id": "chai-wan-park",
+    "name": {
+        "en": "Chai Wan Park",
+        "zh": "柴灣公園"
+    },
+    "coords": {
+        "lat": 22.264167,
+        "lng": 114.239167
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Tsui Wan Street, Chai Wan",
+        "zh": "柴灣翠灣街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1486_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tai-hang-drive-playground",
+    "name": {
+        "en": "Tai Hang Drive Playground",
+        "zh": "大坑徑遊樂場"
+    },
+    "coords": {
+        "lat": 22.273611,
+        "lng": 114.1925
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Tai Hang Drive, Tai Hang",
+        "zh": "大坑大坑徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1537_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

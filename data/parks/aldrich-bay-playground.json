@@ -1,0 +1,27 @@
+{
+    "id": "aldrich-bay-playground",
+    "name": {
+        "en": "Aldrich Bay Playground",
+        "zh": "愛秩序灣遊樂場"
+    },
+    "coords": {
+        "lat": 22.279167,
+        "lng": 114.227222
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Nam On Street, Nam On Lane, Shau Kei Wan",
+        "zh": "筲箕灣南安街南安里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1483_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

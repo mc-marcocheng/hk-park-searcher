@@ -1,0 +1,27 @@
+{
+    "id": "yuen-long-childrens-playground",
+    "name": {
+        "en": "Yuen Long Children’s Playground",
+        "zh": "元朗兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.443333,
+        "lng": 114.026667
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Hong Lok Road, Yuen Long ",
+        "zh": "元朗康樂路 "
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2108_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

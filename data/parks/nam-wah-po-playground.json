@@ -1,0 +1,27 @@
+{
+    "id": "nam-wah-po-playground",
+    "name": {
+        "en": "Nam Wah Po Playground",
+        "zh": "南華莆遊樂場"
+    },
+    "coords": {
+        "lat": 22.475,
+        "lng": 114.151944
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Nam Wah Po, Tai Wo Service Road West, Lam Tsuen, Tai Po",
+        "zh": "大埔林村大窩西支路南華莆"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1828_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

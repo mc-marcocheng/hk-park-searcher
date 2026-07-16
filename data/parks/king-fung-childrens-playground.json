@@ -1,0 +1,27 @@
+{
+    "id": "king-fung-childrens-playground",
+    "name": {
+        "en": "King Fung Children’s Playground",
+        "zh": "景峰兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.404444,
+        "lng": 113.979722
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "King Fung Path, Castle Peak Road, Tuen Mun",
+        "zh": "屯門青山公路景峰俓"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/king_fung.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

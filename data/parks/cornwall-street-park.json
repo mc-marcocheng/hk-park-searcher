@@ -1,0 +1,42 @@
+{
+    "id": "cornwall-street-park",
+    "name": {
+        "en": "Cornwall Street Park",
+        "zh": "歌和老街公園"
+    },
+    "coords": {
+        "lat": 22.338611,
+        "lng": 114.174167
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "17 Cornwall Street, Kowloon Tong",
+        "zh": "九龍塘歌和老街17號"
+    },
+    "equipment": [
+        {
+            "type": "low_bar",
+            "images": ["low_bar_1"]
+        },
+        {
+            "type": "high_pull_up_bar",
+            "images": ["high_pull_up_bar_1"]
+        },
+        {
+            "type": "monkey_bars",
+            "images": ["monkey_bar_1"]
+        },
+        {
+            "type": "sit_up_bench",
+            "images": ["sit_up_bench_1"]
+        }
+    ],
+    "park_images": ["overview_1"],
+    "metrics": {
+        "quality": 4
+    },
+    "comment": "又一城LG2出去就係"
+}

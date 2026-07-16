@@ -1,0 +1,27 @@
+{
+    "id": "chung-yee-street-garden",
+    "name": {
+        "en": "Chung Yee Street Garden",
+        "zh": "忠義街花園"
+    },
+    "coords": {
+        "lat": 22.310833,
+        "lng": 114.181111
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Chung Yee Street, Ho Man Tin",
+        "zh": "何文田忠義街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1550_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

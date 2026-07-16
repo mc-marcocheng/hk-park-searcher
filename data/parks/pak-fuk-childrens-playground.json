@@ -1,0 +1,27 @@
+{
+    "id": "pak-fuk-childrens-playground",
+    "name": {
+        "en": "Pak Fuk Children's Playground",
+        "zh": "百福兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.494722,
+        "lng": 114.133611
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Near Greenpark Villa, Pak Wo Road, Sheung Shui",
+        "zh": "上水百和路近蔚翠花園"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1733_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

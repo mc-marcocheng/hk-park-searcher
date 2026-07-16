@@ -1,0 +1,27 @@
+{
+    "id": "pui-shing-garden",
+    "name": {
+        "en": "Pui Shing Garden",
+        "zh": "培成花園"
+    },
+    "coords": {
+        "lat": 22.316944,
+        "lng": 114.267778
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "38 Pui Shing Road, Hang Hau, Tseung Kwan O",
+        "zh": "將軍澳坑口培成路38號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1767_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-wan-park",
+    "name": {
+        "en": "Tsuen Wan Park",
+        "zh": "荃灣公園"
+    },
+    "coords": {
+        "lat": 22.366944,
+        "lng": 114.112778
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "59 Wing Shun Stree, Tsuen Wan",
+        "zh": "荃灣永順街59號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1885_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

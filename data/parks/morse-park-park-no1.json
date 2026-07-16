@@ -1,0 +1,27 @@
+{
+    "id": "morse-park-park-no1",
+    "name": {
+        "en": "Morse Park (Park No.1)",
+        "zh": "摩士公園(一號公園)"
+    },
+    "coords": {
+        "lat": 22.336667,
+        "lng": 114.193889
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Tai Tung Street, Wong Tai Sin",
+        "zh": "黃大仙大同街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1636_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ting-kau-village-playground",
+    "name": {
+        "en": "Ting Kau Village Playground",
+        "zh": "汀九村遊樂場"
+    },
+    "coords": {
+        "lat": 22.369167,
+        "lng": 114.079444
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "11 milestone, Castle Peak Road - Ting Kau, Tsuen Wan",
+        "zh": "荃灣青山公路汀九段11咪"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1879_1879.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

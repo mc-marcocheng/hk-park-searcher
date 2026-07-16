@@ -1,0 +1,27 @@
+{
+    "id": "san-wan-road-sitting-out-area",
+    "name": {
+        "en": "San Wan Road Sitting-out Area",
+        "zh": "新運路休憩處"
+    },
+    "coords": {
+        "lat": 22.495,
+        "lng": 114.137222
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "No.73, San Wan Road, Fanling",
+        "zh": "粉嶺新運路73號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1740_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

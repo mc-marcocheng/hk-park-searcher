@@ -1,0 +1,27 @@
+{
+    "id": "hollywood-road-park",
+    "name": {
+        "en": "Hollywood Road Park",
+        "zh": "荷李活道公園"
+    },
+    "coords": {
+        "lat": 22.285833,
+        "lng": 114.147778
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Hollywood Road Near Chuk Lin Lane, Sheung Wan",
+        "zh": "上環荷李活道近竹連里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1465_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "shui-tsiu-lo-wai-playground",
+    "name": {
+        "en": "Shui Tsiu Lo Wai Playground",
+        "zh": "水蕉老圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.426667,
+        "lng": 114.031389
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Shui Tsiu Lo Wai, Shap Pat Heung, Yuen Long",
+        "zh": "元朗十八鄉水蕉老圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1931_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "station-lane-sitting-out-area",
+    "name": {
+        "en": "Station Lane Sitting-out Area",
+        "zh": "差館里休憩處"
+    },
+    "coords": {
+        "lat": 22.308611,
+        "lng": 114.185278
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Station Lane/ Gillies Avenue South, Hung Hom",
+        "zh": "紅磡機利士南路/差館里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1567_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

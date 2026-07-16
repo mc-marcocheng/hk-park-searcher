@@ -1,0 +1,27 @@
+{
+    "id": "shui-wo-tsuen-sitting-out-area",
+    "name": {
+        "en": "Shui Wo Tsuen Sitting-out Area",
+        "zh": "水窩村休憩處"
+    },
+    "coords": {
+        "lat": 22.443889,
+        "lng": 114.1275
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Shui Wo Tsuen, Tai Yeung Che Road, Lam Tsuen, Tai Po",
+        "zh": "大埔林村大陽輋路水窩村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1840_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

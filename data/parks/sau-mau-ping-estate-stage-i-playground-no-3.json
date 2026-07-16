@@ -1,0 +1,27 @@
+{
+    "id": "sau-mau-ping-estate-stage-i-playground-no-3",
+    "name": {
+        "en": "Sau Mau Ping Estate (Stage I) Playground No. 3",
+        "zh": "秀茂坪邨(第一期)三號遊樂場"
+    },
+    "coords": {
+        "lat": 22.320278,
+        "lng": 114.226944
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Hiu Kwong Street, Sau Mau Ping, Kwun Tong",
+        "zh": "觀塘秀茂坪曉光街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1596_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

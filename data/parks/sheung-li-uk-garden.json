@@ -1,0 +1,27 @@
+{
+    "id": "sheung-li-uk-garden",
+    "name": {
+        "en": "Sheung Li Uk Garden",
+        "zh": "上李屋花園"
+    },
+    "coords": {
+        "lat": 22.335833,
+        "lng": 114.161944
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Tai Po Road/Opposite to Savannah College of Arts and Design, Lei Cheng Uk",
+        "zh": "李鄭屋大埔道/薩凡納藝術設計學院對面"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1617_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

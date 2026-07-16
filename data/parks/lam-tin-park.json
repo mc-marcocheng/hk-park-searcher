@@ -1,0 +1,27 @@
+{
+    "id": "lam-tin-park",
+    "name": {
+        "en": "Lam Tin Park",
+        "zh": "藍田公園"
+    },
+    "coords": {
+        "lat": 22.310833,
+        "lng": 114.240278
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Pik Wan Road, Lam Tin, Kwun Tong",
+        "zh": "觀塘藍田碧雲道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1586_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

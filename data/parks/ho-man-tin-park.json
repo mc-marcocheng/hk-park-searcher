@@ -1,0 +1,27 @@
+{
+    "id": "ho-man-tin-park",
+    "name": {
+        "en": "Ho Man Tin Park",
+        "zh": "何文田公園"
+    },
+    "coords": {
+        "lat": 22.312222,
+        "lng": 114.180556
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "No. 1, Chung Yee Street, Ho Man Tin",
+        "zh": "何文田忠義街1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1556_hmt_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "sun-yat-sen-memorial-park",
+    "name": {
+        "en": "Sun Yat Sen Memorial Park",
+        "zh": "中山紀念公園"
+    },
+    "coords": {
+        "lat": 22.289722,
+        "lng": 114.144722
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Eastern Street North, Sai Ying Pun, Sai Wan",
+        "zh": "西環西營盤東邊街北"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1477_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

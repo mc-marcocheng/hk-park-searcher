@@ -1,0 +1,27 @@
+{
+    "id": "wan-tau-tong-sitting-out-area",
+    "name": {
+        "en": "Wan Tau Tong Sitting-out Area",
+        "zh": "運頭塘休憩處"
+    },
+    "coords": {
+        "lat": 22.441667,
+        "lng": 114.168611
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Near the Trail at Wan Tau Tong, Tai Po",
+        "zh": "大埔運頭塘近晨運徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3104_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

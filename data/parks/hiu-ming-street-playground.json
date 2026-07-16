@@ -1,0 +1,27 @@
+{
+    "id": "hiu-ming-street-playground",
+    "name": {
+        "en": "Hiu Ming Street Playground",
+        "zh": "曉明街遊樂場"
+    },
+    "coords": {
+        "lat": 22.315833,
+        "lng": 114.231389
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "17, Hiu Ming Street, Sau Mau Ping, Kwun Tong",
+        "zh": "觀塘秀茂坪曉明街17號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1576_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

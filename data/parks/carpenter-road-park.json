@@ -1,0 +1,27 @@
+{
+    "id": "carpenter-road-park",
+    "name": {
+        "en": "Carpenter Road Park",
+        "zh": "賈炳達道公園"
+    },
+    "coords": {
+        "lat": 22.331389,
+        "lng": 114.188611
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Carpenter Road, Kowloon City",
+        "zh": "九龍城賈炳達道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1548_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

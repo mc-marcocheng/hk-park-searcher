@@ -1,0 +1,27 @@
+{
+    "id": "sheung-tsuen-park",
+    "name": {
+        "en": "Sheung Tsuen Park",
+        "zh": "上村公園"
+    },
+    "coords": {
+        "lat": 22.433056,
+        "lng": 114.099444
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "J/O Kam Sheung Road and Kam Tin Road, Sheung Tsuen, Pat Heung, Yuen Long",
+        "zh": "元朗八鄉上村錦上路與錦田公路交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1930_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

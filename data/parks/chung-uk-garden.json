@@ -1,0 +1,27 @@
+{
+    "id": "chung-uk-garden",
+    "name": {
+        "en": "Chung Uk Garden",
+        "zh": "鍾屋花園"
+    },
+    "coords": {
+        "lat": 22.427778,
+        "lng": 113.991667
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Chung Uk Tsuen, Tuen Mun",
+        "zh": "屯門鍾屋村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/chung_uk.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

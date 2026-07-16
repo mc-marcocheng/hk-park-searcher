@@ -1,0 +1,27 @@
+{
+    "id": "hill-road-rest-garden",
+    "name": {
+        "en": "Hill Road Rest Garden",
+        "zh": "山道休憩花園"
+    },
+    "coords": {
+        "lat": 22.285278,
+        "lng": 114.135278
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "J/O Hill Road and South Lane, Shek Tong Tsui, Sai Wan",
+        "zh": "西環石塘咀山道與南里交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1464_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "sheung-shui-heung-sitting-out-area-no-9",
+    "name": {
+        "en": "Sheung Shui Heung Sitting-out Area No. 9",
+        "zh": "上水鄉第九休憩處"
+    },
+    "coords": {
+        "lat": 22.507778,
+        "lng": 114.123333
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Po Sheung Tsuen, Sheung Shui Village, Sheung Shui",
+        "zh": "上水上水圍鄉莆上村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1746_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

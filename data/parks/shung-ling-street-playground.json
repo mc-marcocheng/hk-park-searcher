@@ -1,0 +1,27 @@
+{
+    "id": "shung-ling-street-playground",
+    "name": {
+        "en": "Shung Ling Street Playground",
+        "zh": "崇齡街遊樂場"
+    },
+    "coords": {
+        "lat": 22.335556,
+        "lng": 114.196389
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Shung Ling Street, San Po Kong",
+        "zh": "新蒲崗崇齡街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1644_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

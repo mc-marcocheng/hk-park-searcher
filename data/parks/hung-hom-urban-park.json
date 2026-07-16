@@ -1,0 +1,27 @@
+{
+    "id": "hung-hom-urban-park",
+    "name": {
+        "en": "Hung Hom Urban Park",
+        "zh": "紅磡都市公園"
+    },
+    "coords": {
+        "lat": 22.544722,
+        "lng": 114.334444
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Wa Shun Street, Hung Hom",
+        "zh": "紅磡華信街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3017_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

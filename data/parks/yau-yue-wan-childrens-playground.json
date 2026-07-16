@@ -1,0 +1,27 @@
+{
+    "id": "yau-yue-wan-childrens-playground",
+    "name": {
+        "en": "Yau Yue Wan Children's Playground",
+        "zh": "魷魚灣兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.325278,
+        "lng": 114.260278
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Yau Yue Wan Village, King Yin Lane, Hang Hau, Tseung Kwan O",
+        "zh": "將軍澳坑口敬賢里魷魚灣村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1780_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

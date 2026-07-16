@@ -1,0 +1,27 @@
+{
+    "id": "cha-kwo-ling-village-sitting-out-area-no-2",
+    "name": {
+        "en": "Cha Kwo Ling Village Sitting-out Area No. 2",
+        "zh": "茶果嶺村二號休憩處"
+    },
+    "coords": {
+        "lat": 22.301944,
+        "lng": 114.2275
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Cha Kwo Ling Village, Cha Kwo Ling, Kwun Tong",
+        "zh": "觀塘茶果嶺茶果嶺村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1570_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

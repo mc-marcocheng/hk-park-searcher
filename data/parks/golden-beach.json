@@ -1,0 +1,27 @@
+{
+    "id": "golden-beach",
+    "name": {
+        "en": "Golden Beach",
+        "zh": "黃金泳灘"
+    },
+    "coords": {
+        "lat": 22.372222,
+        "lng": 113.988056
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "18½ Milestone, Castle Peak Road, Tuen Mun",
+        "zh": "屯門青山公路18咪半"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2160_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

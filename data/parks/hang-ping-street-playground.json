@@ -1,0 +1,27 @@
+{
+    "id": "hang-ping-street-playground",
+    "name": {
+        "en": "Hang Ping Street Playground",
+        "zh": "坑坪街遊樂場"
+    },
+    "coords": {
+        "lat": 22.368056,
+        "lng": 114.131667
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Hang Ping Street, Kwai Chung",
+        "zh": "葵涌坑坪街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1692_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "kai-yan-street-sitting-out-area",
+    "name": {
+        "en": "Kai Yan Street Sitting-out Area",
+        "zh": "啟仁街休憩處"
+    },
+    "coords": {
+        "lat": 22.328889,
+        "lng": 114.206944
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Kai Yan Street, Kowloon Bay, Kwun Tong",
+        "zh": "觀塘九龍灣啟仁街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1580_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

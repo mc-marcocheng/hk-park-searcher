@@ -1,0 +1,27 @@
+{
+    "id": "man-cheong-street-park",
+    "name": {
+        "en": "Man Cheong Street Park",
+        "zh": "文昌街公園"
+    },
+    "coords": {
+        "lat": 22.308611,
+        "lng": 114.167222
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "J/O Man Cheong Street/ Ferry Street/ Yan Cheung Road",
+        "zh": "文昌街, 渡船街, 欣翔道交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2154_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

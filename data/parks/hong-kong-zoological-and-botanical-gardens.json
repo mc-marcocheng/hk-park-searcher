@@ -1,0 +1,27 @@
+{
+    "id": "hong-kong-zoological-and-botanical-gardens",
+    "name": {
+        "en": "Hong Kong Zoological and Botanical Gardens",
+        "zh": "香港動植物公園"
+    },
+    "coords": {
+        "lat": 22.278333,
+        "lng": 114.155
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Albany Road, Central",
+        "zh": "中環雅賓利道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1466_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

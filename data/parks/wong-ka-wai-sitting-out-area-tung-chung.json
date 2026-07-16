@@ -1,0 +1,27 @@
+{
+    "id": "wong-ka-wai-sitting-out-area-tung-chung",
+    "name": {
+        "en": "Wong Ka Wai Sitting-out Area, Tung Chung",
+        "zh": "東涌黃家圍休憩處"
+    },
+    "coords": {
+        "lat": 22.292222,
+        "lng": 113.940833
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Ha Ling Pei, Tung Chung",
+        "zh": "東涌下嶺皮"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2821_2821.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

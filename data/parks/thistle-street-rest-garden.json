@@ -1,0 +1,27 @@
+{
+    "id": "thistle-street-rest-garden",
+    "name": {
+        "en": "Thistle Street Rest Garden",
+        "zh": "地士道街休憩花園"
+    },
+    "coords": {
+        "lat": 22.3175,
+        "lng": 114.166944
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "23 Thistle Street, Mong Kok",
+        "zh": "旺角地士道街23號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1673_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

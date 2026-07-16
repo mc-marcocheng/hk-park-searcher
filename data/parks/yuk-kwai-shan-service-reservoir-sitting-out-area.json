@@ -1,0 +1,27 @@
+{
+    "id": "yuk-kwai-shan-service-reservoir-sitting-out-area",
+    "name": {
+        "en": "Yuk Kwai Shan Service Reservoir Sitting-out Area",
+        "zh": "玉桂山配水庫休憩處"
+    },
+    "coords": {
+        "lat": 22.240833,
+        "lng": 114.15
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Roof Top, Ap Lei Chau No.2 Fresh Water Service Reservoir, Yuk Kwai Shan, Aberdeen",
+        "zh": "香港仔玉桂山鴨洲2號配水庫頂"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1531_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

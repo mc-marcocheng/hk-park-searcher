@@ -1,0 +1,27 @@
+{
+    "id": "hoi-sham-park",
+    "name": {
+        "en": "Hoi Sham Park",
+        "zh": "海心公園"
+    },
+    "coords": {
+        "lat": 22.315,
+        "lng": 114.191667
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Yuk Yat Street, To Kwa Wan",
+        "zh": "土瓜灣旭日街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1557_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

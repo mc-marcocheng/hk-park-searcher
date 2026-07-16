@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-king-circuit-childrens-playground",
+    "name": {
+        "en": "Tsuen King Circuit Children's Playground",
+        "zh": "荃景圍兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.378333,
+        "lng": 114.104167
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Podium of Tsuen King Circuit Market, 178 On Yat Street, Tsuen Wan",
+        "zh": "荃灣安逸街178號,荃景圍街市平台"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1882_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

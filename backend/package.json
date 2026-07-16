@@ -1,0 +1,21 @@
+{
+    "name": "hk-park-searcher-backend",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "vercel dev",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "@octokit/auth-app": "^7.1.0",
+        "@octokit/rest": "^21.0.0",
+        "@upstash/ratelimit": "^2.0.0",
+        "@upstash/redis": "^1.34.0",
+        "sharp": "^0.33.0",
+        "zod": "^4.0.0"
+    },
+    "devDependencies": {
+        "node": "^22.0.0"
+    }
+}

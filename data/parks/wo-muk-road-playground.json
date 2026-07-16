@@ -1,0 +1,27 @@
+{
+    "id": "wo-muk-road-playground",
+    "name": {
+        "en": "Wo Muk Road Playground",
+        "zh": "和睦路遊樂場"
+    },
+    "coords": {
+        "lat": 22.500556,
+        "lng": 114.142222
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Wo Muk Road, Luen Wo Hui, Fanling",
+        "zh": "粉嶺聯和墟和睦路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1753_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

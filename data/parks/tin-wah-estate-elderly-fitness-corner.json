@@ -1,0 +1,27 @@
+{
+    "id": "tin-wah-estate-elderly-fitness-corner",
+    "name": {
+        "en": "Tin Wah Estate Elderly Fitness Corner",
+        "zh": "天華邨長者健體設施"
+    },
+    "coords": {
+        "lat": 22.460278,
+        "lng": 113.997222
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Wah Estate, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍天華邨"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1942_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

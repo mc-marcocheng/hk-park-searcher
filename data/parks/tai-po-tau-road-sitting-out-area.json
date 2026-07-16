@@ -1,0 +1,27 @@
+{
+    "id": "tai-po-tau-road-sitting-out-area",
+    "name": {
+        "en": "Tai Po Tau Road Sitting-out Area",
+        "zh": "大埔頭路休憩處"
+    },
+    "coords": {
+        "lat": 0,
+        "lng": 0
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tai Po Tau Road, Tai Po",
+        "zh": "大埔大埔頭路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2720_TPTRSOA.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

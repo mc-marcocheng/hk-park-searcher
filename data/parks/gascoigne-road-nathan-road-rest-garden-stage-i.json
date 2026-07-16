@@ -1,0 +1,27 @@
+{
+    "id": "gascoigne-road-nathan-road-rest-garden-stage-i",
+    "name": {
+        "en": "Gascoigne Road / Nathan Road Rest Garden (Stage I)",
+        "zh": "加士居道／彌敦道休憩花園 (第一期)"
+    },
+    "coords": {
+        "lat": 22.319444,
+        "lng": 114.164444
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "J/O Nathan Road, Gascoigne Road, Kowloon ",
+        "zh": "九龍彌敦道加士居道交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2233_111.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

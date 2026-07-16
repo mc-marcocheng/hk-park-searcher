@@ -1,0 +1,27 @@
+{
+    "id": "saigon-street-playground",
+    "name": {
+        "en": "Saigon Street Playground",
+        "zh": "西貢街遊樂場"
+    },
+    "coords": {
+        "lat": 22.308056,
+        "lng": 114.168056
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "J/O Saigon Street/ Ferry Street/ Canton Road, Yau Ma Tei",
+        "zh": "油麻地西貢街/渡船街/廣東道交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1667_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

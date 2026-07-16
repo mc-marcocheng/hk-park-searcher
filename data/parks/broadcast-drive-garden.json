@@ -1,0 +1,27 @@
+{
+    "id": "broadcast-drive-garden",
+    "name": {
+        "en": "Broadcast Drive Garden",
+        "zh": "廣播道花園"
+    },
+    "coords": {
+        "lat": 22.343611,
+        "lng": 114.182222
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "No.63 Broadcast Road, Beacon Hill, Kowloon Tong",
+        "zh": "九龍塘畢架山廣播道63號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1545_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

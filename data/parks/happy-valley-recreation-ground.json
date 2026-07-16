@@ -1,0 +1,27 @@
+{
+    "id": "happy-valley-recreation-ground",
+    "name": {
+        "en": "Happy Valley Recreation Ground",
+        "zh": "跑馬地遊樂場"
+    },
+    "coords": {
+        "lat": 22.272222,
+        "lng": 114.182222
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Sports Road, Happy Valley, Hong Kong",
+        "zh": "香港跑馬地體育道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1965_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "kwong-nam-sitting-out-area",
+    "name": {
+        "en": "Kwong Nam Sitting-out Area",
+        "zh": "廣南休憩處"
+    },
+    "coords": {
+        "lat": 22.455,
+        "lng": 114.171944
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Nam Wan Road, Tai Po",
+        "zh": "大埔南運路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1824_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

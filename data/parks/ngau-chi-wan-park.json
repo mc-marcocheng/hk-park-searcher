@@ -1,0 +1,27 @@
+{
+    "id": "ngau-chi-wan-park",
+    "name": {
+        "en": "Ngau Chi Wan Park",
+        "zh": "牛池灣公園"
+    },
+    "coords": {
+        "lat": 22.337778,
+        "lng": 114.213889
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "71 Fung Shing Street, Ngau Chi Wan, Wong Tai Sin",
+        "zh": "黃大仙牛池灣豐盛街71號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1641_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tai-po-central-town-square",
+    "name": {
+        "en": "Tai Po Central Town Square",
+        "zh": "大埔中央廣場"
+    },
+    "coords": {
+        "lat": 22.453889,
+        "lng": 114.169167
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "On Po Road, Tai Yuen Estate, Tai Po",
+        "zh": "大埔大元邨安埔路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1843_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

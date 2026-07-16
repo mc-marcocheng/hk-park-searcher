@@ -1,0 +1,27 @@
+{
+    "id": "shun-lee-tsuen-playground",
+    "name": {
+        "en": "Shun Lee Tsuen Playground",
+        "zh": "順利邨遊樂場"
+    },
+    "coords": {
+        "lat": 22.331389,
+        "lng": 114.223056
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Lee On Road, Shun Lee Tsuen, Kwun Tong",
+        "zh": "觀塘順利邨利安道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1599_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

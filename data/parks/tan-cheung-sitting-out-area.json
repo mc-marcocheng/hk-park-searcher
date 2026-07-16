@@ -1,0 +1,27 @@
+{
+    "id": "tan-cheung-sitting-out-area",
+    "name": {
+        "en": "Tan Cheung Sitting-out Area",
+        "zh": "躉場休憩處"
+    },
+    "coords": {
+        "lat": 22.384444,
+        "lng": 114.2675
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Tan Cheung, Sai Kung",
+        "zh": "西貢躉場"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1776_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

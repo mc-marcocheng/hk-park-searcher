@@ -1,0 +1,27 @@
+{
+    "id": "sam-ka-tsuen-recreation-ground",
+    "name": {
+        "en": "Sam Ka Tsuen Recreation Ground",
+        "zh": "三家村遊樂場"
+    },
+    "coords": {
+        "lat": 22.293889,
+        "lng": 114.2375
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Junction of Cha Kwo Ling Road & Sze Shan Street, Sam Ka Tsuen, Yau Tong, Kwun Tong",
+        "zh": "觀塘油塘三家村茶果嶺道四山街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1595_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

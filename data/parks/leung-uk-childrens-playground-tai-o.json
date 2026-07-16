@@ -1,0 +1,27 @@
+{
+    "id": "leung-uk-childrens-playground-tai-o",
+    "name": {
+        "en": "Leung Uk Children's Playground, Tai O",
+        "zh": "大澳梁屋兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.381944,
+        "lng": 113.983889
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Leung Uk Tsuen, Tai O, Lantau Island",
+        "zh": "大嶼山大澳梁屋村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2823_2823.png"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

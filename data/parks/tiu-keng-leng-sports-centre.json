@@ -1,0 +1,27 @@
+{
+    "id": "tiu-keng-leng-sports-centre",
+    "name": {
+        "en": "Tiu Keng Leng Sports Centre",
+        "zh": "調景嶺體育館"
+    },
+    "coords": {
+        "lat": 22.306389,
+        "lng": 114.255
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "2 Chui Ling Road, Tiu Keng Leng, Tseung Kwan O",
+        "zh": "將軍澳調景嶺翠嶺路2號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1777_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

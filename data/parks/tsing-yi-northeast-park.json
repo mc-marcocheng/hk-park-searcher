@@ -1,0 +1,27 @@
+{
+    "id": "tsing-yi-northeast-park",
+    "name": {
+        "en": "Tsing Yi Northeast Park",
+        "zh": "青衣東北公園"
+    },
+    "coords": {
+        "lat": 22.362222,
+        "lng": 114.098333
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "No. 10, Tam Kon Shan Road, Tsing Yi",
+        "zh": "青衣担杆山路10號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1717_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

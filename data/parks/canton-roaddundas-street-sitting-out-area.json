@@ -1,0 +1,27 @@
+{
+    "id": "canton-roaddundas-street-sitting-out-area",
+    "name": {
+        "en": "Canton Road/Dundas Street Sitting-out Area",
+        "zh": "廣東道／登打士街休憩處"
+    },
+    "coords": {
+        "lat": 22.315278,
+        "lng": 114.168056
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "912-916 Canton Street, Mong Kok",
+        "zh": "旺角廣東道912-916號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1651_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

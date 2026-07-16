@@ -1,0 +1,27 @@
+{
+    "id": "wai-tau-tsuen-playground",
+    "name": {
+        "en": "Wai Tau Tsuen Playground",
+        "zh": "圍頭村遊樂場"
+    },
+    "coords": {
+        "lat": 22.463333,
+        "lng": 114.145833
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Wai Tau Tsuen, Tai Wo Service Road West, Lam Tsuen, Tai Po",
+        "zh": "大埔林村大窩西支路圍頭村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1854_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "wo-hing-playground",
+    "name": {
+        "en": "Wo Hing Playground",
+        "zh": "和興遊樂場"
+    },
+    "coords": {
+        "lat": 22.4825,
+        "lng": 114.143056
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "J/O Lui Ming Road & Wah Ming Road, Fanling",
+        "zh": "粉嶺雷鳴路與華明路交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1752_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

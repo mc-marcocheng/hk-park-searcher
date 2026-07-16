@@ -1,0 +1,27 @@
+{
+    "id": "pau-cheung-square-playground",
+    "name": {
+        "en": "Pau Cheung Square Playground",
+        "zh": "炮仗坊遊樂場"
+    },
+    "coords": {
+        "lat": 22.445278,
+        "lng": 114.029722
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Yuen Long Pau Cheung Square, Yuen Long",
+        "zh": "元朗炮仗坊"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1925_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "kai-leng-sitting-out-area",
+    "name": {
+        "en": "Kai Leng Sitting-out Area",
+        "zh": "雞嶺休憩處"
+    },
+    "coords": {
+        "lat": 22.494167,
+        "lng": 114.128611
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Access Road Between Ching Ho Estate & Kai Leng Village, Sheung Shui",
+        "zh": "上水清河邨與雞嶺村通道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1725_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

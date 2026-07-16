@@ -1,0 +1,30 @@
+{
+    "id": "fung-heung-street-sitting-out-area",
+    "name": {
+        "en": "Fung Heung Street Sitting-out Area",
+        "zh": "鳳香街休憩處"
+    },
+    "coords": {
+        "lat": 22.442312,
+        "lng": 114.033345
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Fung Heung Street, Yuen Long",
+        "zh": "元朗鳳香街"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": ["overview_1"]
+        }
+    ],
+    "park_images": ["overview_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

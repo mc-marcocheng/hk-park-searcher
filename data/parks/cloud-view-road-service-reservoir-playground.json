@@ -1,0 +1,27 @@
+{
+    "id": "cloud-view-road-service-reservoir-playground",
+    "name": {
+        "en": "Cloud View Road Service Reservoir Playground",
+        "zh": "雲景道配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.285,
+        "lng": 114.195278
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Cloud View Road, North Point",
+        "zh": "北角雲景道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1489_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "san-uk-tsai-childrens-playground",
+    "name": {
+        "en": "San Uk Tsai Children's Playground",
+        "zh": "新屋仔兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.455556,
+        "lng": 114.14
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "San Uk Tsai Tsuen, Lam Kam Road, Lam Tsuen, Tai Po",
+        "zh": "大埔林村林錦公路新屋仔村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1836_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

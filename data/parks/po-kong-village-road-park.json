@@ -1,0 +1,27 @@
+{
+    "id": "po-kong-village-road-park",
+    "name": {
+        "en": "Po Kong Village Road Park",
+        "zh": "蒲崗村道公園"
+    },
+    "coords": {
+        "lat": 22.344167,
+        "lng": 114.203333
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "140 Po Kong Village Road, Diamond Hill",
+        "zh": "鑽石山蒲崗村道140號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1643_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

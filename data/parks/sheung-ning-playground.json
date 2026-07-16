@@ -1,0 +1,27 @@
+{
+    "id": "sheung-ning-playground",
+    "name": {
+        "en": "Sheung Ning Playground",
+        "zh": "常寧遊樂場"
+    },
+    "coords": {
+        "lat": 22.316389,
+        "lng": 114.261667
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Sheung Ning Road, Hang Hau, Tseung Kwan O",
+        "zh": "將軍澳坑口常寧路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1771_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

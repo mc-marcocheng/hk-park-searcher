@@ -1,0 +1,27 @@
+{
+    "id": "ngan-shing-street-garden",
+    "name": {
+        "en": "Ngan Shing Street Garden",
+        "zh": "銀城街花園"
+    },
+    "coords": {
+        "lat": 22.38,
+        "lng": 114.204167
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Ngan Shing Street, Sha Tin",
+        "zh": "沙田銀城街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1794_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

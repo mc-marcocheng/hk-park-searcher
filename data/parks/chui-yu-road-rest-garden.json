@@ -1,0 +1,27 @@
+{
+    "id": "chui-yu-road-rest-garden",
+    "name": {
+        "en": "Chui Yu Road Rest Garden",
+        "zh": "聚魚道休憩花園"
+    },
+    "coords": {
+        "lat": 22.324444,
+        "lng": 114.158611
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "Junction of Chui Yu Road and Sham Mong Road, Tai Kok Tsui, Mong Kok",
+        "zh": "旺角大角咀聚漁道及深旺道交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1654_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

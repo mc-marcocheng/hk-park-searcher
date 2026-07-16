@@ -1,0 +1,27 @@
+{
+    "id": "ying-pun-ha-sitting-out-area",
+    "name": {
+        "en": "Ying Pun Ha Sitting-out Area",
+        "zh": "營盤下休憩處"
+    },
+    "coords": {
+        "lat": 22.456111,
+        "lng": 114.16
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Ying Pun Ha Tsuen, Tai Po Tau Road, Tai Po",
+        "zh": "大埔大埔頭路營盤下村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1857_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

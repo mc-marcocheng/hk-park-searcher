@@ -1,0 +1,27 @@
+{
+    "id": "ting-tai-road-childrens-playground",
+    "name": {
+        "en": "Ting Tai Road Children's Playground",
+        "zh": "汀太路兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.455,
+        "lng": 114.165556
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Ting Tai Road, Tai Po",
+        "zh": "大埔汀太路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1851_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

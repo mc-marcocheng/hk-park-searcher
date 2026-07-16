@@ -1,0 +1,27 @@
+{
+    "id": "fan-ling-wai-playground",
+    "name": {
+        "en": "Fan Ling Wai Playground",
+        "zh": "粉嶺圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.497222,
+        "lng": 114.136111
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Fan Leng Wai, Fanling",
+        "zh": "粉嶺粉嶺圍村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1723_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

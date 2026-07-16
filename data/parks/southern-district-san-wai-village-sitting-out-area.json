@@ -1,0 +1,27 @@
+{
+    "id": "southern-district-san-wai-village-sitting-out-area",
+    "name": {
+        "en": "Southern District San Wai Village Sitting-out Area",
+        "zh": "南區新圍村休憩處"
+    },
+    "coords": {
+        "lat": 22.249722,
+        "lng": 114.176389
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "San Wai Village, Wong Chuk Hang, Aberdeen",
+        "zh": "香港仔黃竹坑新圍村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1523_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

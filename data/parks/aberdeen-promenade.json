@@ -1,0 +1,27 @@
+{
+    "id": "aberdeen-promenade",
+    "name": {
+        "en": "Aberdeen Promenade",
+        "zh": "香港仔海濱公園"
+    },
+    "coords": {
+        "lat": 22.247222,
+        "lng": 114.154444
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Aberdeen Praya Road, Aberdeen",
+        "zh": "香港仔海傍道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1516_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

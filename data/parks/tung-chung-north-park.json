@@ -1,0 +1,27 @@
+{
+    "id": "tung-chung-north-park",
+    "name": {
+        "en": "Tung Chung North Park",
+        "zh": "東涌北公園"
+    },
+    "coords": {
+        "lat": 22.290278,
+        "lng": 113.946667
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "29 Man Tung Road, Lantau Island",
+        "zh": "大嶼山文東路29號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1688_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

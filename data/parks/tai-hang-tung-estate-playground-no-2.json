@@ -1,0 +1,27 @@
+{
+    "id": "tai-hang-tung-estate-playground-no-2",
+    "name": {
+        "en": "Tai Hang Tung Estate Playground No. 2",
+        "zh": "大坑東邨二號遊樂場"
+    },
+    "coords": {
+        "lat": 22.333611,
+        "lng": 114.172222
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Adjacent to Lung Chu Street, Tai Hang Tung Estate",
+        "zh": "大坑東邨毗鄰龍珠街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1620_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "shek-o-village-sitting-out-area",
+    "name": {
+        "en": "Shek O Village Sitting-out Area",
+        "zh": "石澳村休憩處"
+    },
+    "coords": {
+        "lat": 22.23,
+        "lng": 114.252778
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Shek O Village Road, Shek O",
+        "zh": "石澳石澳村路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1521_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

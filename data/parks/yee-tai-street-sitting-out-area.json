@@ -1,0 +1,27 @@
+{
+    "id": "yee-tai-street-sitting-out-area",
+    "name": {
+        "en": "Yee Tai Street Sitting-out Area",
+        "zh": "怡泰街休憩處"
+    },
+    "coords": {
+        "lat": 22.263611,
+        "lng": 114.239444
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Yee Tai Street, Chai Wan",
+        "zh": "柴灣怡泰街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1514_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

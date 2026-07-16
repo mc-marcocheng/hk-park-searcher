@@ -1,0 +1,27 @@
+{
+    "id": "hiu-kwong-street-rest-garden",
+    "name": {
+        "en": "Hiu Kwong Street Rest Garden",
+        "zh": "曉光街休憩花園"
+    },
+    "coords": {
+        "lat": 22.318056,
+        "lng": 114.230556
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Hiu Kwong Street, Sau Mau Ping, Kwun Tong",
+        "zh": "觀塘秀茂坪曉光街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1575_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

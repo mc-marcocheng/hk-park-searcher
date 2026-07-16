@@ -1,0 +1,27 @@
+{
+    "id": "wa-on-lane-sitting-out-area",
+    "name": {
+        "en": "Wa On Lane Sitting-out Area",
+        "zh": "華安里休憩處"
+    },
+    "coords": {
+        "lat": 22.281944,
+        "lng": 114.155
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Wa On Lane, Aberdeen Street, Central",
+        "zh": "中環鴨巴甸街華安里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1479_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

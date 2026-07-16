@@ -1,0 +1,27 @@
+{
+    "id": "ha-hang-village-playground",
+    "name": {
+        "en": "Ha Hang Village Playground",
+        "zh": "下坑村遊樂場"
+    },
+    "coords": {
+        "lat": 22.500278,
+        "lng": 114.130556
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Ha Hang Village, Tai Po",
+        "zh": "大埔下坑村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3061_photo_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

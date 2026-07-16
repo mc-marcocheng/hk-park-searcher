@@ -1,0 +1,27 @@
+{
+    "id": "yuen-shin-park",
+    "name": {
+        "en": "Yuen Shin Park",
+        "zh": "完善公園"
+    },
+    "coords": {
+        "lat": 22.451667,
+        "lng": 114.176667
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Yuen Shin Road, Fu Shin Estate, Tai Po",
+        "zh": "大埔富善邨完善路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1860_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

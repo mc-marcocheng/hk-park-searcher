@@ -1,0 +1,27 @@
+{
+    "id": "ho-man-tin-high-level-service-reservoir-playground",
+    "name": {
+        "en": "Ho Man Tin High Level Service Reservoir Playground",
+        "zh": "何文田上配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.316389,
+        "lng": 114.183889
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Ho Man Tin High Level Service Reservoir, Ho Man Tin",
+        "zh": "何文田何文田上配水庫"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1554_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

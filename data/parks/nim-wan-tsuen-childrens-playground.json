@@ -1,0 +1,27 @@
+{
+    "id": "nim-wan-tsuen-childrens-playground",
+    "name": {
+        "en": "Nim Wan Tsuen Children’s Playground",
+        "zh": "稔灣村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 0,
+        "lng": 0
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Ka Wo Li Hill Road, Nim Wan Tsuen, Tuen Mun",
+        "zh": "屯門稔灣村嘉和里山路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2747_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

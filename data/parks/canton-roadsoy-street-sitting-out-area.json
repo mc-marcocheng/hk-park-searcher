@@ -1,0 +1,27 @@
+{
+    "id": "canton-roadsoy-street-sitting-out-area",
+    "name": {
+        "en": "Canton Road/Soy Street Sitting-out Area",
+        "zh": "廣東道／豉油街休憩處"
+    },
+    "coords": {
+        "lat": 22.316389,
+        "lng": 114.167778
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "956-962 Canton Street, Mong Kok",
+        "zh": "旺角廣東道956-962號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1652_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

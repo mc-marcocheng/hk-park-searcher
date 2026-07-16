@@ -1,0 +1,27 @@
+{
+    "id": "sok-kwu-wan-playground",
+    "name": {
+        "en": "Sok Kwu Wan Playground",
+        "zh": "索罟灣遊樂場"
+    },
+    "coords": {
+        "lat": 22.206111,
+        "lng": 114.132222
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Sok Kwu Wan, Lamma Island",
+        "zh": "南丫島索罟灣"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1684_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

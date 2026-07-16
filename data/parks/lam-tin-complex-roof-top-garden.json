@@ -1,0 +1,27 @@
+{
+    "id": "lam-tin-complex-roof-top-garden",
+    "name": {
+        "en": "Lam Tin Complex (Roof-top Garden)",
+        "zh": "藍田綜合大樓(天台花園)"
+    },
+    "coords": {
+        "lat": 22.31,
+        "lng": 114.236944
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "1 Hing Tin Street, Lam Tin Complex, Lam Tin, Kwun Tong",
+        "zh": "觀塘藍田慶田街1號藍田綜合大樓"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1585_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

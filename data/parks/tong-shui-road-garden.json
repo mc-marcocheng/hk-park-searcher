@@ -1,0 +1,27 @@
+{
+    "id": "tong-shui-road-garden",
+    "name": {
+        "en": "Tong Shui Road Garden",
+        "zh": "糖水道花園"
+    },
+    "coords": {
+        "lat": 22.292778,
+        "lng": 114.198056
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Tong Shui Road, North Point",
+        "zh": "北角糖水道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1512_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

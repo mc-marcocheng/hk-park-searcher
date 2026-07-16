@@ -1,0 +1,27 @@
+{
+    "id": "san-uk-ka-sitting-out-area",
+    "name": {
+        "en": "San Uk Ka Sitting-out Area",
+        "zh": "新屋家休憩處"
+    },
+    "coords": {
+        "lat": 22.4325,
+        "lng": 114.163889
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Sam Uk Ka Tsuen, Wun Yiu Road, Tai Po",
+        "zh": "大埔碗窰路新屋家村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1835_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

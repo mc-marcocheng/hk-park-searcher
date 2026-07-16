@@ -1,0 +1,27 @@
+{
+    "id": "hutchison-park",
+    "name": {
+        "en": "Hutchison Park",
+        "zh": "和黃公園"
+    },
+    "coords": {
+        "lat": 22.307778,
+        "lng": 114.190833
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Dyer Avenue, Hung Hom",
+        "zh": "紅磡戴亞街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1558_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

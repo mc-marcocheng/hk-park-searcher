@@ -1,0 +1,27 @@
+{
+    "id": "cheung-sha-wan-roadcheung-shun-street-playground",
+    "name": {
+        "en": "Cheung Sha Wan Road/Cheung Shun Street Playground",
+        "zh": "長沙灣道／長順街遊樂場"
+    },
+    "coords": {
+        "lat": 22.336111,
+        "lng": 114.145833
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "J/O Cheung Sha Wan Road and Cheung Shun Street, Cheung Sha Wan",
+        "zh": "長沙灣長沙灣道及長順街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1603_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

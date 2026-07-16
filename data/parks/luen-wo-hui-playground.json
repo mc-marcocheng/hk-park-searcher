@@ -1,0 +1,27 @@
+{
+    "id": "luen-wo-hui-playground",
+    "name": {
+        "en": "Luen Wo Hui Playground",
+        "zh": "聯和墟遊樂場"
+    },
+    "coords": {
+        "lat": 22.497222,
+        "lng": 114.142778
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Luen Wo Road, Luen Wo Hui, Fanling",
+        "zh": "粉嶺聯和墟聯和道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1728_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

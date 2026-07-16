@@ -1,0 +1,27 @@
+{
+    "id": "tat-tung-road-garden",
+    "name": {
+        "en": "Tat Tung Road Garden",
+        "zh": "達東路花園"
+    },
+    "coords": {
+        "lat": 22.518889,
+        "lng": 114.793889
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Tat Tung Road, Tung Chung",
+        "zh": "東涌達東路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2684_3.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

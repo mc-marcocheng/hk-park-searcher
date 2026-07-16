@@ -1,0 +1,27 @@
+{
+    "id": "ki-lun-kong-public-park",
+    "name": {
+        "en": "Ki Lun Kong Public Park",
+        "zh": "麒麟崗公眾公園"
+    },
+    "coords": {
+        "lat": 22.381944,
+        "lng": 113.978889
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Opposite to Sam Shing Estate, Castle Peak Road, Tuen Mun",
+        "zh": "屯門青山公路三聖邨對面"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1894_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

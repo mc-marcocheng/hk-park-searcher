@@ -1,0 +1,27 @@
+{
+    "id": "ha-hang-village-sitting-out-area",
+    "name": {
+        "en": "Ha Hang Village Sitting-out Area",
+        "zh": "下坑村休憩處"
+    },
+    "coords": {
+        "lat": 22.4625,
+        "lng": 114.185833
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Ha Hang Village, Ting Kok Road, Tai Po",
+        "zh": "大埔汀角路下坑村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1819_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "factory-street-playground",
+    "name": {
+        "en": "Factory Street Playground",
+        "zh": "工廠街遊樂場"
+    },
+    "coords": {
+        "lat": 22.276667,
+        "lng": 114.23
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Factory Street, Shau Kei Wan",
+        "zh": "筲箕灣工廠街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1490_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

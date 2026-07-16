@@ -1,0 +1,27 @@
+{
+    "id": "ting-kok-village-childrens-playground",
+    "name": {
+        "en": "Ting Kok Village Children's Playground",
+        "zh": "汀角村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.473056,
+        "lng": 114.219167
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Ting Kok Village, Ting Kok Road, Tai Po",
+        "zh": "大埔汀角路汀角村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1850_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

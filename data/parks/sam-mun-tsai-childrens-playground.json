@@ -1,0 +1,27 @@
+{
+    "id": "sam-mun-tsai-childrens-playground",
+    "name": {
+        "en": "Sam Mun Tsai Children's Playground",
+        "zh": "三門仔兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.454444,
+        "lng": 114.214444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Sam Mun Tsai Village, Sam Mun Tsai Road, Tai Po",
+        "zh": "大埔三門仔路三門仔村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1834_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

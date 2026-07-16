@@ -1,0 +1,27 @@
+{
+    "id": "third-street-playground",
+    "name": {
+        "en": "Third Street Playground",
+        "zh": "第三街遊樂場"
+    },
+    "coords": {
+        "lat": 22.285556,
+        "lng": 114.138056
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Third Street Near Yau Yee Lane, Sai Ying Pun, Sai Wan",
+        "zh": "西環西營盤第三街近由義里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1478_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

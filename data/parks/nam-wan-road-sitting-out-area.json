@@ -1,0 +1,27 @@
+{
+    "id": "nam-wan-road-sitting-out-area",
+    "name": {
+        "en": "Nam Wan Road Sitting-out Area",
+        "zh": "南運路休憩處"
+    },
+    "coords": {
+        "lat": 22.449167,
+        "lng": 114.171389
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Nam Wan Road, Tai Po",
+        "zh": "大埔南運路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1829_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

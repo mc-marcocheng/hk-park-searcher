@@ -1,0 +1,27 @@
+{
+    "id": "hoi-chu-road-playground",
+    "name": {
+        "en": "Hoi Chu Road Playground",
+        "zh": "海珠路遊樂場"
+    },
+    "coords": {
+        "lat": 22.383611,
+        "lng": 113.974722
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Hoi Chu Road, Tuen Mun",
+        "zh": "屯門海珠路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1893_1893.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

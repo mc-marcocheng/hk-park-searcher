@@ -1,0 +1,27 @@
+{
+    "id": "mau-tai-road-garden",
+    "name": {
+        "en": "Mau Tai Road Garden",
+        "zh": "貿泰路花園"
+    },
+    "coords": {
+        "lat": 22.321111,
+        "lng": 114.256667
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Mau Tai Road, Po Lam, Tseung Kwan O",
+        "zh": "將軍澳寶琳貿泰路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1761_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

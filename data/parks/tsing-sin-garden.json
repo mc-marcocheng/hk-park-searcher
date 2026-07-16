@@ -1,0 +1,27 @@
+{
+    "id": "tsing-sin-garden",
+    "name": {
+        "en": "Tsing Sin Garden",
+        "zh": "青善花園"
+    },
+    "coords": {
+        "lat": 22.388333,
+        "lng": 113.980833
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Hoi Circuit, JC Place, Tuen Mun",
+        "zh": "屯門龍成花園青山公路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1899_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

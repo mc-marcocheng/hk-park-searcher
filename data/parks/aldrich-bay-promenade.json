@@ -1,0 +1,27 @@
+{
+    "id": "aldrich-bay-promenade",
+    "name": {
+        "en": "Aldrich Bay Promenade",
+        "zh": "愛秩序灣海濱花園"
+    },
+    "coords": {
+        "lat": 22.283611,
+        "lng": 114.225556
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Oi Lai Street, Aldrich Bay, Shau Kei Wan",
+        "zh": "筲箕灣愛秩序灣愛禮街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1955_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "shum-wan-road-sitting-out-area",
+    "name": {
+        "en": "Shum Wan Road Sitting-out Area",
+        "zh": "深灣道休憩處"
+    },
+    "coords": {
+        "lat": 22.244722,
+        "lng": 114.165278
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Shum Wan Road, Wong Chuk Hang, Aberdeen",
+        "zh": "香港仔黃竹坑深灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1522_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

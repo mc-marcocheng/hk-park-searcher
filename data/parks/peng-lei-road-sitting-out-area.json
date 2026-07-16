@@ -1,0 +1,27 @@
+{
+    "id": "peng-lei-road-sitting-out-area",
+    "name": {
+        "en": "Peng Lei Road Sitting-out Area",
+        "zh": "坪利路休憩處"
+    },
+    "coords": {
+        "lat": 22.285,
+        "lng": 114.038056
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Peng Lei Road, Peng Chau",
+        "zh": "坪洲坪利路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2269_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

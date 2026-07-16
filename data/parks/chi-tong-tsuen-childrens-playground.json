@@ -1,0 +1,27 @@
+{
+    "id": "chi-tong-tsuen-childrens-playground",
+    "name": {
+        "en": "Chi Tong Tsuen Children's Playground",
+        "zh": "祠堂村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.469167,
+        "lng": 114.148889
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Chi Tong Tsuen, Tai Wo Service Road West, Tai Po",
+        "zh": "大埔大窩西支路祠堂村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1811_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

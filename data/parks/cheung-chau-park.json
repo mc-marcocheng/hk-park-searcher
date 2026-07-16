@@ -1,0 +1,27 @@
+{
+    "id": "cheung-chau-park",
+    "name": {
+        "en": "Cheung Chau Park",
+        "zh": "長洲公園"
+    },
+    "coords": {
+        "lat": 22.203889,
+        "lng": 114.024722
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Tai Shek Hau, Cheung Chau",
+        "zh": "長洲大石口"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1676_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

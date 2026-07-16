@@ -1,0 +1,27 @@
+{
+    "id": "kwong-fuk-bridge-garden",
+    "name": {
+        "en": "Kwong Fuk Bridge Garden",
+        "zh": "廣福橋花園"
+    },
+    "coords": {
+        "lat": 22.45,
+        "lng": 114.165278
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Po Yick Street, Tai Po Hui, Tai Po",
+        "zh": "大埔大埔墟普益街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1822_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "cheung-shue-tan-childrens-playground",
+    "name": {
+        "en": "Cheung Shue Tan Children's Playground",
+        "zh": "樟樹灘兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.426389,
+        "lng": 114.199444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Cheung Shue Tan Road, Tai Po Road, Ma Liu Shui, Tai Po",
+        "zh": "大埔馬料水大埔道樟樹灘村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1810_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

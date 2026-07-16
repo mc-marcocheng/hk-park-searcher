@@ -1,0 +1,27 @@
+{
+    "id": "ma-on-shan-promenade",
+    "name": {
+        "en": "Ma On Shan Promenade",
+        "zh": "馬鞍山海濱長廊"
+    },
+    "coords": {
+        "lat": 22.416944,
+        "lng": 114.223056
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Ning Tai Road, Ma On Shan",
+        "zh": "馬鞍山寧泰路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1791_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

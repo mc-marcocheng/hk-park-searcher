@@ -1,0 +1,27 @@
+{
+    "id": "plover-cove-villagers-playground-tai-po",
+    "name": {
+        "en": "Plover Cove Villagers' Playground, Tai Po",
+        "zh": "大埔寶湖六鄉遊樂場"
+    },
+    "coords": {
+        "lat": 22.448889,
+        "lng": 114.1675
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tung Mau Square, Tai Po",
+        "zh": "大埔同茂坊"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1832_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

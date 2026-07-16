@@ -1,0 +1,27 @@
+{
+    "id": "po-hong-park",
+    "name": {
+        "en": "Po Hong Park",
+        "zh": "寶康公園"
+    },
+    "coords": {
+        "lat": 22.318611,
+        "lng": 114.2575
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "10 Wan Lung Road, Po Lam, Tseung Kwan O",
+        "zh": "將軍澳寶琳運隆路10號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1764_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

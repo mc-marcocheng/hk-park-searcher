@@ -1,0 +1,27 @@
+{
+    "id": "ka-ning-path-garden",
+    "name": {
+        "en": "Ka Ning Path Garden",
+        "zh": "嘉寧徑花園"
+    },
+    "coords": {
+        "lat": 22.276667,
+        "lng": 114.190278
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Ka Ning Path, Causeway Bay",
+        "zh": "銅鑼灣嘉寧徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1533_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

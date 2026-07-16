@@ -1,0 +1,27 @@
+{
+    "id": "chiu-tam-path-garden",
+    "name": {
+        "en": "Chiu Tam Path Garden",
+        "zh": "照潭徑花園"
+    },
+    "coords": {
+        "lat": 22.378889,
+        "lng": 114.108889
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Chiu Tam Path, Tsuen Wan Centre, Tsuen Wan",
+        "zh": "荃灣荃灣中心照潭徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1863_1863.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

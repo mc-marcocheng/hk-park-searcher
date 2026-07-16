@@ -1,0 +1,27 @@
+{
+    "id": "fui-sha-wai-playground",
+    "name": {
+        "en": "Fui Sha Wai Playground",
+        "zh": "灰沙圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.438611,
+        "lng": 114.005278
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Fui Sha Wai, Castle Peak Road-Ping Shan, Ping Shan, Yuen Long",
+        "zh": "元朗屏山青山公路-屏山段灰沙圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1913_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

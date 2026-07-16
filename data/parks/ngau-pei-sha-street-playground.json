@@ -1,0 +1,27 @@
+{
+    "id": "ngau-pei-sha-street-playground",
+    "name": {
+        "en": "Ngau Pei Sha Street Playground",
+        "zh": "牛皮沙街遊樂場"
+    },
+    "coords": {
+        "lat": 22.3825,
+        "lng": 114.206389
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Ngau Pei Sha Street, City On, Sha Tin",
+        "zh": "沙田第一城牛皮沙街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1795_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

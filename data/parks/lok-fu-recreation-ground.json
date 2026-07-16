@@ -1,0 +1,27 @@
+{
+    "id": "lok-fu-recreation-ground",
+    "name": {
+        "en": "Lok Fu Recreation Ground",
+        "zh": "樂富遊樂場"
+    },
+    "coords": {
+        "lat": 22.336944,
+        "lng": 114.188333
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "1 Heng Lam Street, Lok Fu",
+        "zh": "樂富杏林街1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1633_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

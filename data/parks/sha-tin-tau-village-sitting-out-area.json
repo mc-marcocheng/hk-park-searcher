@@ -1,0 +1,27 @@
+{
+    "id": "sha-tin-tau-village-sitting-out-area",
+    "name": {
+        "en": "Sha Tin Tau Village Sitting-out Area",
+        "zh": "沙田頭村休憩處"
+    },
+    "coords": {
+        "lat": 22.376667,
+        "lng": 114.200833
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Sha Tin Tau Village, Sha Tin",
+        "zh": "沙田頭村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2814_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

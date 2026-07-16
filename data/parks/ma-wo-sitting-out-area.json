@@ -1,0 +1,27 @@
+{
+    "id": "ma-wo-sitting-out-area",
+    "name": {
+        "en": "Ma Wo Sitting-out Area",
+        "zh": "馬窩休憩處"
+    },
+    "coords": {
+        "lat": 22.442778,
+        "lng": 114.161111
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Ma Wo Tsuen, Tai Po",
+        "zh": "大埔馬窩村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1826_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

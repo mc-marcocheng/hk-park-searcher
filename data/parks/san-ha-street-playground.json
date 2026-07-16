@@ -1,0 +1,27 @@
+{
+    "id": "san-ha-street-playground",
+    "name": {
+        "en": "San Ha Street Playground",
+        "zh": "新廈街遊樂場"
+    },
+    "coords": {
+        "lat": 22.264167,
+        "lng": 114.244722
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "San Ha Street , Chai Wan",
+        "zh": "柴灣新廈街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1502_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

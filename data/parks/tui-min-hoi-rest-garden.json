@@ -1,0 +1,27 @@
+{
+    "id": "tui-min-hoi-rest-garden",
+    "name": {
+        "en": "Tui Min Hoi Rest Garden",
+        "zh": "對面海休憇花園"
+    },
+    "coords": {
+        "lat": 22.383056,
+        "lng": 114.266667
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Ming Shun Village, Hong Kin Road, Sai Kung",
+        "zh": "西貢康健路明順村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3088_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

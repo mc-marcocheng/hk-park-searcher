@@ -1,0 +1,27 @@
+{
+    "id": "yeung-uk-san-tsuen-sitting-out-area",
+    "name": {
+        "en": "Yeung Uk San Tsuen Sitting-out Area",
+        "zh": "楊屋新村休憩處"
+    },
+    "coords": {
+        "lat": 22.368889,
+        "lng": 114.113889
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Yeung Uk San Tsuen, Yuen Long",
+        "zh": "元朗楊屋新村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1948_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

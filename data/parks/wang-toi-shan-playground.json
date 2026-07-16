@@ -1,0 +1,27 @@
+{
+    "id": "wang-toi-shan-playground",
+    "name": {
+        "en": "Wang Toi Shan Playground",
+        "zh": "橫台山遊樂場"
+    },
+    "coords": {
+        "lat": 22.441389,
+        "lng": 114.095
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Wang Toi Shan, Fan Kam Road, Pat Heung, Yuen Long",
+        "zh": "元朗八鄉粉錦路橫台山"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1946_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

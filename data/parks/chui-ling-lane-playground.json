@@ -1,0 +1,27 @@
+{
+    "id": "chui-ling-lane-playground",
+    "name": {
+        "en": "Chui Ling Lane Playground",
+        "zh": "翠嶺里遊樂場"
+    },
+    "coords": {
+        "lat": 22.304167,
+        "lng": 114.250556
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Choi Ming Street, Tiu Keng Leng, Tseung Kwan O",
+        "zh": "將軍澳調景嶺彩明街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1754_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

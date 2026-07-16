@@ -1,0 +1,27 @@
+{
+    "id": "kau-pui-lung-road-playground",
+    "name": {
+        "en": "Kau Pui Lung Road Playground",
+        "zh": "靠背壟道遊樂場"
+    },
+    "coords": {
+        "lat": 22.317778,
+        "lng": 114.185278
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Blk E, Lok Man Sun Chuen, Kiang Hsi Street, To Kwa Wan",
+        "zh": "土瓜灣江西街樂民新村E座"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1560_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

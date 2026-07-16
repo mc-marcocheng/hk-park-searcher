@@ -1,0 +1,27 @@
+{
+    "id": "yuen-kong-tsuen-playground",
+    "name": {
+        "en": "Yuen Kong Tsuen Playground",
+        "zh": "元崗村遊樂場"
+    },
+    "coords": {
+        "lat": 22.424444,
+        "lng": 114.077778
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Yuen Kong Tsuen, Pat Heung, Yuen Long",
+        "zh": "元朗八鄉元崗村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1949_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

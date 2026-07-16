@@ -1,0 +1,27 @@
+{
+    "id": "chuen-on-road-garden",
+    "name": {
+        "en": "Chuen On Road Garden",
+        "zh": "全安路花園"
+    },
+    "coords": {
+        "lat": 22.460556,
+        "lng": 114.173611
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Chuen On Road, Fu Heng Estate, Tai Po",
+        "zh": "大埔富亨邨全安路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1812_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

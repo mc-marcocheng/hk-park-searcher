@@ -1,0 +1,27 @@
+{
+    "id": "jordan-valley-park",
+    "name": {
+        "en": "Jordan Valley Park",
+        "zh": "佐敦谷公園"
+    },
+    "coords": {
+        "lat": 22.329444,
+        "lng": 114.220833
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "No.71 New Clear Water Bay Road, Jordan Valley, Kwun Tong",
+        "zh": "觀塘佐敦谷新清水灣道71號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1579_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

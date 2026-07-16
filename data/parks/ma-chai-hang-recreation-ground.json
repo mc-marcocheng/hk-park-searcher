@@ -1,0 +1,27 @@
+{
+    "id": "ma-chai-hang-recreation-ground",
+    "name": {
+        "en": "Ma Chai Hang Recreation Ground",
+        "zh": "馬仔坑遊樂場"
+    },
+    "coords": {
+        "lat": 22.344444,
+        "lng": 114.188333
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "30 Ma Chai Hang Road, Wong Tai Sin",
+        "zh": "黃大仙馬仔坑道30號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1983_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

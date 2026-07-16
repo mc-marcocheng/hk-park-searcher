@@ -1,0 +1,27 @@
+{
+    "id": "pak-fuk-road-playground",
+    "name": {
+        "en": "Pak Fuk Road Playground",
+        "zh": "百福道遊樂場"
+    },
+    "coords": {
+        "lat": 22.290278,
+        "lng": 114.207222
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Pak Fuk Road, North Point",
+        "zh": "北角百福道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2026_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "lung-cheung-road-northpo-kong-village-road-sitting-out-area",
+    "name": {
+        "en": "Lung Cheung Road North/Po Kong Village Road Sitting-out Area",
+        "zh": "龍翔道北／蒲崗村道休憩處"
+    },
+    "coords": {
+        "lat": 22.341944,
+        "lng": 114.199167
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Lung Cheung Road, Wong Tai Sin",
+        "zh": "黃大仙龍翔道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1635_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

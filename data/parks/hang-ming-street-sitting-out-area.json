@@ -1,0 +1,27 @@
+{
+    "id": "hang-ming-street-sitting-out-area",
+    "name": {
+        "en": "Hang Ming Street Sitting-out Area",
+        "zh": "恆明街休憩處"
+    },
+    "coords": {
+        "lat": 22.7025,
+        "lng": 114.375833
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Hang Ming Street, Ma On Shan",
+        "zh": "馬鞍山恆明街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2818_HMSSA.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

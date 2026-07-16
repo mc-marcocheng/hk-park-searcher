@@ -1,0 +1,27 @@
+{
+    "id": "chun-yin-square-playground",
+    "name": {
+        "en": "Chun Yin Square Playground",
+        "zh": "俊賢坊遊樂場"
+    },
+    "coords": {
+        "lat": 22.446944,
+        "lng": 114.023889
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Chun Yin Square, Yuen Long",
+        "zh": "元朗俊賢坊"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1911_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

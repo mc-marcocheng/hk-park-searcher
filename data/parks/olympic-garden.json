@@ -1,0 +1,27 @@
+{
+    "id": "olympic-garden",
+    "name": {
+        "en": "Olympic Garden",
+        "zh": "世運花園"
+    },
+    "coords": {
+        "lat": 22.309167,
+        "lng": 114.184722
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Prince Edward Road West of its junction with Ma Tau Chung Road",
+        "zh": "九龍城太子道西及馬頭涌道交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/Olympic.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

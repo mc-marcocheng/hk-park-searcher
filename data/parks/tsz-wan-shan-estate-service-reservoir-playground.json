@@ -1,0 +1,27 @@
+{
+    "id": "tsz-wan-shan-estate-service-reservoir-playground",
+    "name": {
+        "en": "Tsz Wan Shan Estate Service Reservoir Playground",
+        "zh": "慈雲山邨配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.347778,
+        "lng": 114.205833
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "Lok Wah Street, Tsz Wan Shan",
+        "zh": "慈雲山樂華街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1646_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

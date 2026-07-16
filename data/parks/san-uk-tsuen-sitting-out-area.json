@@ -1,0 +1,27 @@
+{
+    "id": "san-uk-tsuen-sitting-out-area",
+    "name": {
+        "en": "San Uk Tsuen Sitting-out Area",
+        "zh": "新屋村休憩處"
+    },
+    "coords": {
+        "lat": 22.504444,
+        "lng": 114.147778
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "San Uk Tsuen, Lung Yeuk Tau, Fanling",
+        "zh": "粉嶺龍躍頭段新屋村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1738_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ap-lei-chau-wind-tower-park",
+    "name": {
+        "en": "Ap Lei Chau Wind Tower Park",
+        "zh": "鴨脷洲風之塔公園"
+    },
+    "coords": {
+        "lat": 22.245,
+        "lng": 114.152778
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Lei Chi Road, Ap Lei Chau",
+        "zh": "鴨脷洲利枝道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1518_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

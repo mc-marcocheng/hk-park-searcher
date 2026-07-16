@@ -1,0 +1,27 @@
+{
+    "id": "chai-kek-childrens-playground",
+    "name": {
+        "en": "Chai Kek Children's Playground",
+        "zh": "寨乪兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.441389,
+        "lng": 114.129444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Chai Kek Village, Chai Kek Road, Tai Po",
+        "zh": "大埔寨乪路寨乪村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1809_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "osmanthus-road-rest-garden",
+    "name": {
+        "en": "Osmanthus Road Rest Garden",
+        "zh": "丹桂路休憩花園"
+    },
+    "coords": {
+        "lat": 22.329167,
+        "lng": 114.173333
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Osmanthus Road, Yau Yat Chuen",
+        "zh": "又一村丹桂路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1612_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

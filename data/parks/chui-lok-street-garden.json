@@ -1,0 +1,27 @@
+{
+    "id": "chui-lok-street-garden",
+    "name": {
+        "en": "Chui Lok Street Garden",
+        "zh": "翠樂街花園"
+    },
+    "coords": {
+        "lat": 22.453056,
+        "lng": 114.163889
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Chui Lok Street, Tai Po",
+        "zh": "大埔翠樂街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1813_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

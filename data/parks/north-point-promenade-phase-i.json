@@ -1,0 +1,27 @@
+{
+    "id": "north-point-promenade-phase-i",
+    "name": {
+        "en": "North Point Promenade (Phase I)",
+        "zh": "北角海濱花園 (一期)"
+    },
+    "coords": {
+        "lat": 22.293611,
+        "lng": 114.201389
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Kam Hong Street, North Point",
+        "zh": "北角琴行街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2198_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

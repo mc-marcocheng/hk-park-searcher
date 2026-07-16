@@ -1,0 +1,27 @@
+{
+    "id": "tung-tau-industrial-area-playground",
+    "name": {
+        "en": "Tung Tau Industrial Area Playground",
+        "zh": "東頭工業區遊樂場"
+    },
+    "coords": {
+        "lat": 22.449444,
+        "lng": 114.030278
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Keung Yip Street,Tung Tau Industrial Area, Yuen Long",
+        "zh": "元朗東頭工業區強業街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1945_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

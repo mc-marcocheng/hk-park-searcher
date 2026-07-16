@@ -1,0 +1,27 @@
+{
+    "id": "wai-ming-street-garden",
+    "name": {
+        "en": "Wai Ming Street Garden",
+        "zh": "偉明街花園"
+    },
+    "coords": {
+        "lat": 22.486111,
+        "lng": 114.140278
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "J/O Wai Ming Street. & Pak Wo Road, Fanling",
+        "zh": "粉嶺偉明街與百和路交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1750_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

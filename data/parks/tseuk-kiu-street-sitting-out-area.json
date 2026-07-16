@@ -1,0 +1,27 @@
+{
+    "id": "tseuk-kiu-street-sitting-out-area",
+    "name": {
+        "en": "Tseuk Kiu Street Sitting-out Area",
+        "zh": "雀橋街休憩處"
+    },
+    "coords": {
+        "lat": 22.331944,
+        "lng": 114.175556
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Tseuk Kiu Street, Yau Yat Chuen",
+        "zh": "又一村雀橋街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1624_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

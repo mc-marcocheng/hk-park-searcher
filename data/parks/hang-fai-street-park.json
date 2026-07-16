@@ -1,0 +1,27 @@
+{
+    "id": "hang-fai-street-park",
+    "name": {
+        "en": "Hang Fai Street Park",
+        "zh": "恆輝街公園"
+    },
+    "coords": {
+        "lat": 22.415556,
+        "lng": 114.226667
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Hang Fai Street, Ma On Shan",
+        "zh": "沙田馬鞍山恆輝街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2930_photo2.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

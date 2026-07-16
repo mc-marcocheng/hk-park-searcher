@@ -1,0 +1,27 @@
+{
+    "id": "to-kwa-wan-recreation-ground",
+    "name": {
+        "en": "To Kwa Wan Recreation Ground",
+        "zh": "土瓜灣遊樂場"
+    },
+    "coords": {
+        "lat": 22.319167,
+        "lng": 114.190556
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "No.66, Ha Heung Road, To Kwa Wan",
+        "zh": "土瓜灣下鄉道66號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1568_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

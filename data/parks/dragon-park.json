@@ -1,0 +1,27 @@
+{
+    "id": "dragon-park",
+    "name": {
+        "en": "Dragon Park",
+        "zh": "龍園"
+    },
+    "coords": {
+        "lat": 22.460833,
+        "lng": 114.006944
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Lung Road, Maywood Court, Kingswood Villas, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍嘉湖山莊美湖居天龍路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1912_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

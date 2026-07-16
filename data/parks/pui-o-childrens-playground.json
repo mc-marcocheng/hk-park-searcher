@@ -1,0 +1,27 @@
+{
+    "id": "pui-o-childrens-playground",
+    "name": {
+        "en": "Pui O Children's Playground",
+        "zh": "貝澳兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.241944,
+        "lng": 113.976944
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Chi Ma Wan Road, Pui O, Lantau Island",
+        "zh": "大嶼山貝澳芝麻灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1682_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

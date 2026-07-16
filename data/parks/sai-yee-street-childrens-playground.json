@@ -1,0 +1,34 @@
+{
+    "id": "sai-yee-street-childrens-playground",
+    "name": {
+        "en": "Sai Yee Street Children's Playground",
+        "zh": "洗衣街兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.325278,
+        "lng": 114.170833
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "Junction of Sai Yee Street and Flower Market Street, Prince Edward, Mong Kok",
+        "zh": "旺角太子洗衣街及花墟道交界"
+    },
+    "equipment": [
+        {
+            "type": "monkey_bars",
+            "images": ["monkey_bar_1"]
+        },
+        {
+            "type": "others",
+            "images": ["other_1"]
+        }
+    ],
+    "park_images": ["overview_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

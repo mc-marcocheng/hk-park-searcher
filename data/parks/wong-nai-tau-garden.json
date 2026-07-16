@@ -1,0 +1,27 @@
+{
+    "id": "wong-nai-tau-garden",
+    "name": {
+        "en": "Wong Nai Tau Garden",
+        "zh": "黃泥頭花園"
+    },
+    "coords": {
+        "lat": 22.382222,
+        "lng": 114.217778
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Wong Nai Tau Village, Sha Tin",
+        "zh": "沙田黃泥頭村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1805_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

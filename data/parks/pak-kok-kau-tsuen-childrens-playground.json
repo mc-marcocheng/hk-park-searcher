@@ -1,0 +1,27 @@
+{
+    "id": "pak-kok-kau-tsuen-childrens-playground",
+    "name": {
+        "en": "Pak Kok Kau Tsuen Children’s Playground",
+        "zh": "北角舊村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.235,
+        "lng": 114.113333
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Pak Kok Kau Tsuen, Lamma Island",
+        "zh": "南丫島北角舊村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2132_pkkt_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

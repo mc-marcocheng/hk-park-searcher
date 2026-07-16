@@ -1,0 +1,27 @@
+{
+    "id": "north-point-market-roof-top-childrens-playground",
+    "name": {
+        "en": "North Point Market Roof-top Children’s Playground",
+        "zh": "北角街市天台兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.290556,
+        "lng": 114.200556
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Tsat Tsz Mui Road, North Point",
+        "zh": "北角七姊妹道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1496_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tuen-mun-river-eastern-bank-garden",
+    "name": {
+        "en": "Tuen Mun River (Eastern Bank) Garden",
+        "zh": "屯門河(東岸)花園"
+    },
+    "coords": {
+        "lat": 22.386667,
+        "lng": 113.971111
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tuen Mun River (Eastern Bank)",
+        "zh": "屯門河(東岸)"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2162_tmrg03.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

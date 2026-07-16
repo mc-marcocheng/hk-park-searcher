@@ -1,0 +1,27 @@
+{
+    "id": "morse-park-park-no4",
+    "name": {
+        "en": "Morse Park (Park No.4)",
+        "zh": "摩士公園 (四號公園)"
+    },
+    "coords": {
+        "lat": 22.335833,
+        "lng": 114.190556
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "30 Heng Lam Street, Wong Tai Sin",
+        "zh": "黃大仙杏林街30號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1639_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

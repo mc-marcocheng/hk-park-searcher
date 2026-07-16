@@ -1,0 +1,27 @@
+{
+    "id": "tsing-tin-playground",
+    "name": {
+        "en": "Tsing Tin Playground",
+        "zh": "青田遊樂場"
+    },
+    "coords": {
+        "lat": 22.406111,
+        "lng": 113.967778
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Leung Wan Street, Tuen Mun",
+        "zh": "屯門良運路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1900_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

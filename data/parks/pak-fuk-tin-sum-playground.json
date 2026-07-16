@@ -1,0 +1,27 @@
+{
+    "id": "pak-fuk-tin-sum-playground",
+    "name": {
+        "en": "Pak Fuk Tin Sum Playground",
+        "zh": "百福田心遊樂場"
+    },
+    "coords": {
+        "lat": 22.489167,
+        "lng": 114.140556
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Area 42, Yat Ming Road, Fanling",
+        "zh": "粉嶺一嗚路42區"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1734_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "caine-road-garden",
+    "name": {
+        "en": "Caine Road Garden",
+        "zh": "堅道花園"
+    },
+    "coords": {
+        "lat": 22.283056,
+        "lng": 114.147778
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Caine Road, Mid-level",
+        "zh": "堅道半山"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2017_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

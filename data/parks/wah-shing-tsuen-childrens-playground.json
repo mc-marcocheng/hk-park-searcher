@@ -1,0 +1,27 @@
+{
+    "id": "wah-shing-tsuen-childrens-playground",
+    "name": {
+        "en": "Wah Shing Tsuen Children's Playground",
+        "zh": "華盛村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.46,
+        "lng": 114.055833
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Wah Shing Tsuen, San Tam Road, Kam Tin, Yuen Long",
+        "zh": "元朗錦田新潭路華盛村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2087_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

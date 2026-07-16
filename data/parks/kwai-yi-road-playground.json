@@ -1,0 +1,27 @@
+{
+    "id": "kwai-yi-road-playground",
+    "name": {
+        "en": "Kwai Yi Road Playground",
+        "zh": "葵義路遊樂場"
+    },
+    "coords": {
+        "lat": 22.355,
+        "lng": 114.128056
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Kwai Yi Road, Kwai Chung",
+        "zh": "葵涌葵義路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1698_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "sheung-shui-garden-no-1",
+    "name": {
+        "en": "Sheung Shui Garden No. 1",
+        "zh": "上水花園第一號"
+    },
+    "coords": {
+        "lat": 22.503333,
+        "lng": 114.130556
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Los Area 7, J/o Lung Sum Avenue & Chi Cheong Road, Sheung Shui",
+        "zh": "上水龍琛路與智昌路交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1742_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

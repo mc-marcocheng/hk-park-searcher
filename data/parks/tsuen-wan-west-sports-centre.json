@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-wan-west-sports-centre",
+    "name": {
+        "en": "Tsuen Wan West Sports Centre",
+        "zh": "荃灣西約體育館"
+    },
+    "coords": {
+        "lat": 22.370278,
+        "lng": 114.100556
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Hoi On Road 68, Bayview Garden, Tsuen Wan",
+        "zh": "荃灣灣景花園海安路68號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1888_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

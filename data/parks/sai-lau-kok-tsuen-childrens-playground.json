@@ -1,0 +1,27 @@
+{
+    "id": "sai-lau-kok-tsuen-childrens-playground",
+    "name": {
+        "en": "Sai Lau Kok Tsuen Children's Playground",
+        "zh": "西樓角村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.377222,
+        "lng": 114.116111
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Ma Sim Pai Road, Sai Lau Kok Tsuen, Tsuen Wan",
+        "zh": "荃灣馬西樓角村閃排路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1870_1870.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

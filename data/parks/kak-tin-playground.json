@@ -1,0 +1,27 @@
+{
+    "id": "kak-tin-playground",
+    "name": {
+        "en": "Kak Tin Playground",
+        "zh": "隔田遊樂場"
+    },
+    "coords": {
+        "lat": 22.371389,
+        "lng": 114.195
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Kak Tin Street, Tai Wai",
+        "zh": "沙田大圍隔田街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2812_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

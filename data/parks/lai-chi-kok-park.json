@@ -1,0 +1,27 @@
+{
+    "id": "lai-chi-kok-park",
+    "name": {
+        "en": "Lai Chi Kok Park",
+        "zh": "荔枝角公園"
+    },
+    "coords": {
+        "lat": 22.336389,
+        "lng": 114.136389
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "1 Lai Wan Road, Lai Chi Kok",
+        "zh": "荔枝角荔灣道1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1606_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

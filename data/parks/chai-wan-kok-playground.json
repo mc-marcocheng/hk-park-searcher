@@ -1,0 +1,27 @@
+{
+    "id": "chai-wan-kok-playground",
+    "name": {
+        "en": "Chai Wan Kok Playground",
+        "zh": "柴灣角遊樂場"
+    },
+    "coords": {
+        "lat": 22.376111,
+        "lng": 114.104167
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "198 Tsuen King Circuit, Tsuen Wan",
+        "zh": "荃灣荃景圍198號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1862_1862.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tai-po-kau-san-wai-playground",
+    "name": {
+        "en": "Tai Po Kau San Wai Playground",
+        "zh": "大埔滘新圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.435,
+        "lng": 114.187778
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "San Wai Tsuen, Tai Po Road, Tai Po Kau San Wai, Tai Po",
+        "zh": "大埔大埔滘新圍大埔道新圍村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1845_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

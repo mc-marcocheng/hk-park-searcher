@@ -1,0 +1,27 @@
+{
+    "id": "yat-ming-road-park",
+    "name": {
+        "en": "Yat Ming Road Park",
+        "zh": "一鳴路公園"
+    },
+    "coords": {
+        "lat": 22.485556,
+        "lng": 114.145
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Junction of Yat Ming Road and Pak Wo Road",
+        "zh": "粉嶺一鳴路與百和路交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/ymr_park.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "fat-kwong-street-playground",
+    "name": {
+        "en": "Fat Kwong Street Playground",
+        "zh": "佛光街遊樂場"
+    },
+    "coords": {
+        "lat": 22.309167,
+        "lng": 114.184722
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Fat Kwong Street, Hung Hom, Kowloon",
+        "zh": "九龍红磡佛光街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/Fat_Kwong_playground.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

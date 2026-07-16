@@ -1,0 +1,27 @@
+{
+    "id": "chai-wan-road-childrens-playground",
+    "name": {
+        "en": "Chai Wan Road Children's Playground",
+        "zh": "柴灣道兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.273611,
+        "lng": 114.231944
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Chai Wan Road, Shau Kei Wan",
+        "zh": "筲箕灣柴灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1487_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

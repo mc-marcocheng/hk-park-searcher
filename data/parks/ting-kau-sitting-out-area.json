@@ -1,0 +1,27 @@
+{
+    "id": "ting-kau-sitting-out-area",
+    "name": {
+        "en": "Ting Kau Sitting-out Area",
+        "zh": "汀九休憩處"
+    },
+    "coords": {
+        "lat": 22.367222,
+        "lng": 114.078889
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "11.5 milestone, Castle Peak Road – Ting Kau, Tsuen Wan",
+        "zh": "荃灣青山公路汀九段11咪半"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2008_2008.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

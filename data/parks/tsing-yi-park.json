@@ -1,0 +1,27 @@
+{
+    "id": "tsing-yi-park",
+    "name": {
+        "en": "Tsing Yi Park",
+        "zh": "青衣公園"
+    },
+    "coords": {
+        "lat": 22.356111,
+        "lng": 114.105833
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "60 Tsing King Road, Tsing Yi",
+        "zh": "青衣青敬路60號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1718_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

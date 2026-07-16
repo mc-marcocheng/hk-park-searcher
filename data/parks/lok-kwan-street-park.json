@@ -1,0 +1,27 @@
+{
+    "id": "lok-kwan-street-park",
+    "name": {
+        "en": "Lok Kwan Street Park",
+        "zh": "樂羣街公園"
+    },
+    "coords": {
+        "lat": 22.323611,
+        "lng": 114.160556
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "No. 25 Lok Kwan Stree, Tai Kok Tsui, Mong Kok",
+        "zh": "旺角大角咀樂羣街25號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1661_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "sha-kok-mei-playground-and-garden",
+    "name": {
+        "en": "Sha Kok Mei Playground and Garden",
+        "zh": "沙角尾遊樂場及花園"
+    },
+    "coords": {
+        "lat": 22.388611,
+        "lng": 114.2675
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Sha Kok Mei Village, Sha Kok Mei Road, Sai Kung",
+        "zh": "西貢沙角尾路沙角尾村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1769_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

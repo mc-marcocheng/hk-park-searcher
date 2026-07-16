@@ -1,0 +1,27 @@
+{
+    "id": "shui-bin-tsuen-sitting-out-area",
+    "name": {
+        "en": "Shui Bin Tsuen Sitting-out Area",
+        "zh": "水邊村休憩處"
+    },
+    "coords": {
+        "lat": 22.444167,
+        "lng": 114.021667
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Shui Bin Tsuen, Yue On Lane, Hang Hau, Tseung Kwan O",
+        "zh": "將軍澳坑口寓安里水邊村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1772_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

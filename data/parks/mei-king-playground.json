@@ -1,0 +1,39 @@
+{
+    "id": "mei-king-playground",
+    "name": {
+        "en": "Mei King Playground",
+        "zh": "美景遊樂場"
+    },
+    "coords": {
+        "lat": 22.343611,
+        "lng": 114.107778
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "J/O Tsing Yi Road and Ching Hong Road, Tsing Yi",
+        "zh": "青衣青衣路青康路交界"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": [
+                "other_1",
+                "other_2",
+                "other_3",
+                "other_5",
+                "other_6",
+                "other_7",
+                "other_8",
+                "other_4"
+            ]
+        }
+    ],
+    "park_images": ["overview_1", "overview_2"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

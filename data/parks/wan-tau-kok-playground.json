@@ -1,0 +1,27 @@
+{
+    "id": "wan-tau-kok-playground",
+    "name": {
+        "en": "Wan Tau Kok Playground",
+        "zh": "運頭角遊樂場"
+    },
+    "coords": {
+        "lat": 22.445556,
+        "lng": 114.169444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Wan Tau Kok Lane, Tai Po Hui, Tai Po",
+        "zh": "大埔大埔墟運頭角里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1855_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

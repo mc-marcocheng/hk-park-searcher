@@ -1,0 +1,27 @@
+{
+    "id": "tsui-ping-river-garden",
+    "name": {
+        "en": "Tsui Ping River Garden",
+        "zh": "翠屏河花園"
+    },
+    "coords": {
+        "lat": 22.308889,
+        "lng": 114.227222
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Junction of Shing Yip Street and King Yip Street, Kwun Tong",
+        "zh": "觀塘成業街及敬業街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2152_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "to-yuen-street-playground",
+    "name": {
+        "en": "To Yuen Street Playground",
+        "zh": "桃源街遊樂場"
+    },
+    "coords": {
+        "lat": 22.335,
+        "lng": 114.174444
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "J/O To Yuen Street and Tat Chee Avenue, Yau Yat Chuen",
+        "zh": "又一村桃源街及達之路交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1622_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "wo-mei-playground",
+    "name": {
+        "en": "Wo Mei Playground",
+        "zh": "窩美遊樂場"
+    },
+    "coords": {
+        "lat": 22.351389,
+        "lng": 114.251667
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Wo Mei Village, Sai Kung",
+        "zh": "西貢窩美村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3090_wmg.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

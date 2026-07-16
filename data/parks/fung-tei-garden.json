@@ -1,0 +1,27 @@
+{
+    "id": "fung-tei-garden",
+    "name": {
+        "en": "Fung Tei Garden",
+        "zh": "鳳地花園"
+    },
+    "coords": {
+        "lat": 22.406389,
+        "lng": 113.979167
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Fung Tei, Castle Peak Road, Tuen Mun",
+        "zh": "屯門青山公路鳳地"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1892_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

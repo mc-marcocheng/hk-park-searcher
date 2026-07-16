@@ -1,0 +1,27 @@
+{
+    "id": "tai-om-childrens-playground",
+    "name": {
+        "en": "Tai Om Children's Playground",
+        "zh": "大菴兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.442778,
+        "lng": 114.133333
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tai Om Tsuen, Tai Om Road, Lam Tsuen, Tai Po",
+        "zh": "大埔林村大菴路大菴村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1842_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

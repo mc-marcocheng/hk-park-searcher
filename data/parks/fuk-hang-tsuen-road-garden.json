@@ -1,0 +1,27 @@
+{
+    "id": "fuk-hang-tsuen-road-garden",
+    "name": {
+        "en": "Fuk Hang Tsuen Road Garden",
+        "zh": "福亨村路花園"
+    },
+    "coords": {
+        "lat": 22.420278,
+        "lng": 113.985
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Fuk Hang Tsuen Road, Lam Tei, Tuen Mun",
+        "zh": "屯門藍地福亨村路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1891_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

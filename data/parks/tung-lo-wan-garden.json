@@ -1,0 +1,27 @@
+{
+    "id": "tung-lo-wan-garden",
+    "name": {
+        "en": "Tung Lo Wan Garden",
+        "zh": "銅鑼灣花園"
+    },
+    "coords": {
+        "lat": 22.283056,
+        "lng": 114.185833
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Gloucester Road, Wan Chai",
+        "zh": "灣仔告士打道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1539_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

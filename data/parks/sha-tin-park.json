@@ -1,0 +1,27 @@
+{
+    "id": "sha-tin-park",
+    "name": {
+        "en": "Sha Tin Park",
+        "zh": "沙田公園"
+    },
+    "coords": {
+        "lat": 22.379722,
+        "lng": 114.189722
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "No.2, Yuen Wo Road, Sha Tin",
+        "zh": "沙田源禾路2號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1801_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

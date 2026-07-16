@@ -1,0 +1,27 @@
+{
+    "id": "lek-yuen-street-rest-garden",
+    "name": {
+        "en": "Lek Yuen Street Rest Garden",
+        "zh": "瀝源街休憩花園"
+    },
+    "coords": {
+        "lat": 22.383611,
+        "lng": 114.192222
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Lek Yuen Street, Lek Yuen Estate, Sha Tin",
+        "zh": "沙田瀝源邨瀝源街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1789_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

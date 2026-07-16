@@ -1,0 +1,27 @@
+{
+    "id": "jordan-valley-playground",
+    "name": {
+        "en": "Jordan Valley Playground",
+        "zh": "佐敦谷遊樂場"
+    },
+    "coords": {
+        "lat": 22.325,
+        "lng": 114.218333
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Choi Ha Road, Ngau Tau Kok, Kwun Tong",
+        "zh": "觀塘牛頭角彩霞道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2036_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

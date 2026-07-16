@@ -1,0 +1,30 @@
+{
+    "id": "fung-kwan-street-garden",
+    "name": {
+        "en": "Fung Kwan Street Garden",
+        "zh": "鳳群街花園"
+    },
+    "coords": {
+        "lat": 22.442492,
+        "lng": 114.034188
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Fung Kwan Street, Yuen Long",
+        "zh": "元朗鳳群街"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": ["other_1", "other_2"]
+        }
+    ],
+    "park_images": ["other_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

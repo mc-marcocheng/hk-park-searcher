@@ -1,0 +1,27 @@
+{
+    "id": "fu-uk-road-rest-garden",
+    "name": {
+        "en": "Fu Uk Road Rest Garden",
+        "zh": "傅屋路休憩花園"
+    },
+    "coords": {
+        "lat": 22.281944,
+        "lng": 114.130556
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Fu Uk Road, Chung Kwai Chung Tsuen, Tsuen Wan",
+        "zh": "荃灣中葵涌村傅屋路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1865_1865.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

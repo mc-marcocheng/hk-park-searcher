@@ -1,0 +1,27 @@
+{
+    "id": "king-george-v-memorial-park-hong-kong",
+    "name": {
+        "en": "King George V Memorial Park, Hong Kong",
+        "zh": "香港佐治五世紀念公園"
+    },
+    "coords": {
+        "lat": 22.285556,
+        "lng": 114.144167
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "J/O Eastern Street and High Street, Sai Ying Pun, Sai Wan",
+        "zh": "西環西營盤東邊街與高街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1470_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

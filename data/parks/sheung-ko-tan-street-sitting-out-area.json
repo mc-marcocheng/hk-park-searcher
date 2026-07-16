@@ -1,0 +1,27 @@
+{
+    "id": "sheung-ko-tan-street-sitting-out-area",
+    "name": {
+        "en": "Sheung Ko Tan Street Sitting-out Area",
+        "zh": "上高灘街休憩處"
+    },
+    "coords": {
+        "lat": 22.350833,
+        "lng": 114.105833
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Sheung Ko Tan Street, Tsing Yi",
+        "zh": "青衣上高灘街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1710_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

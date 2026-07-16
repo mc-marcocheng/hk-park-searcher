@@ -1,0 +1,27 @@
+{
+    "id": "lam-shing-road-sitting-out-area",
+    "name": {
+        "en": "Lam Shing Road Sitting-out Area",
+        "zh": "林盛路休憩處"
+    },
+    "coords": {
+        "lat": 22.281944,
+        "lng": 114.130556
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Lam Shing Road, Tseung Kwan O",
+        "zh": "將軍澳林盛路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3096_01.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

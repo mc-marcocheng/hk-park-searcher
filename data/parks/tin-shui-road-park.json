@@ -1,0 +1,27 @@
+{
+    "id": "tin-shui-road-park",
+    "name": {
+        "en": "Tin Shui Road Park",
+        "zh": "天瑞路公園"
+    },
+    "coords": {
+        "lat": 22.455,
+        "lng": 114.000556
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Shui Road, Tin Shui (II) Estate, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍天瑞(二)邨天瑞路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1939_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

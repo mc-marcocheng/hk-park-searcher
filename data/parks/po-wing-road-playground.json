@@ -1,0 +1,27 @@
+{
+    "id": "po-wing-road-playground",
+    "name": {
+        "en": "Po Wing Road Playground",
+        "zh": "保榮路遊樂場"
+    },
+    "coords": {
+        "lat": 22.496667,
+        "lng": 114.129722
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Po Wing Road, Sheung Shui",
+        "zh": "上水保榮路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1737_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

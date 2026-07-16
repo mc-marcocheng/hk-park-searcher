@@ -1,0 +1,27 @@
+{
+    "id": "hong-yue-street-sitting-out-area",
+    "name": {
+        "en": "Hong Yue Street Sitting-out Area",
+        "zh": "康愉街休憩處"
+    },
+    "coords": {
+        "lat": 22.2925,
+        "lng": 114.202778
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Hong Yue Street, Quarry Bay",
+        "zh": "鰂魚涌康愉街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/hong_yue.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "bowen-road-garden",
+    "name": {
+        "en": "Bowen Road Garden",
+        "zh": "寶雲道花園"
+    },
+    "coords": {
+        "lat": 22.2725,
+        "lng": 114.165833
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "Bowen Road, Wan Chai",
+        "zh": "灣仔寶雲道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1532_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

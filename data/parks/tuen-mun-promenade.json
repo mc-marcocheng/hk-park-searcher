@@ -1,0 +1,27 @@
+{
+    "id": "tuen-mun-promenade",
+    "name": {
+        "en": "Tuen Mun Promenade",
+        "zh": "屯門海濱花園"
+    },
+    "coords": {
+        "lat": 22.371944,
+        "lng": 113.967222
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Wu Chui Road, Marina Garden, Tuen Mun",
+        "zh": "屯門慧豐園湖翠路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1903_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

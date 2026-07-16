@@ -1,0 +1,27 @@
+{
+    "id": "tin-pak-road-park",
+    "name": {
+        "en": "Tin Pak Road Park",
+        "zh": "天柏路公園"
+    },
+    "coords": {
+        "lat": 22.456944,
+        "lng": 114.006944
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Pak Road, Kenswood Court, Kingswood Villas, Tin Shui Wai, Yuen Long",
+        "zh": "元朗天水圍嘉湖山莊景湖居天栢路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1937_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

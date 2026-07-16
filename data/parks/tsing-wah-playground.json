@@ -1,0 +1,27 @@
+{
+    "id": "tsing-wah-playground",
+    "name": {
+        "en": "Tsing Wah Playground",
+        "zh": "青華遊樂場"
+    },
+    "coords": {
+        "lat": 22.348611,
+        "lng": 114.0975
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Tsing Chin Street, Tsing Yi",
+        "zh": "青衣青芊街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1716_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

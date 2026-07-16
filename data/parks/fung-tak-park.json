@@ -1,0 +1,27 @@
+{
+    "id": "fung-tak-park",
+    "name": {
+        "en": "Fung Tak Park",
+        "zh": "鳳德公園"
+    },
+    "coords": {
+        "lat": 22.342778,
+        "lng": 114.197778
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "42 Fung Tak Road, Wong Tai Sin",
+        "zh": "黃大仙鳳德道42號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1628_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

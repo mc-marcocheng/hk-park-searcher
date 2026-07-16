@@ -1,0 +1,27 @@
+{
+    "id": "tsing-lung-garden",
+    "name": {
+        "en": "Tsing Lung Garden",
+        "zh": "青龍花園"
+    },
+    "coords": {
+        "lat": 22.365556,
+        "lng": 113.996944
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Lung Road, Beaulieu Peninsula, Tuen Mun",
+        "zh": "屯門蟠龍半島青龍路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1897_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

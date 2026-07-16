@@ -1,0 +1,27 @@
+{
+    "id": "shun-ning-road-recreation-ground",
+    "name": {
+        "en": "Shun Ning Road Recreation Ground",
+        "zh": "順寧道遊樂場"
+    },
+    "coords": {
+        "lat": 22.336667,
+        "lng": 114.160278
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "J/O Shun Ning Road and Pratas Street, Lei Cheng Uk",
+        "zh": "李鄭屋順寧道與東沙島街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1618_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tsang-tai-uk-recreation-ground",
+    "name": {
+        "en": "Tsang Tai Uk Recreation Ground",
+        "zh": "曾大屋遊樂場"
+    },
+    "coords": {
+        "lat": 22.376111,
+        "lng": 114.193889
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "2 Sha Kok Street, Sha Tin",
+        "zh": "沙田沙角街2號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1803_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "ma-on-kong-garden",
+    "name": {
+        "en": "Ma On Kong Garden",
+        "zh": "馬鞍崗花園"
+    },
+    "coords": {
+        "lat": 22.415,
+        "lng": 114.066389
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Ma On Kong, Pat Heung, Yuen Long",
+        "zh": "元朗八鄉馬鞍崗"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1924_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "chuk-hang-playground",
+    "name": {
+        "en": "Chuk Hang Playground",
+        "zh": "竹坑遊樂場"
+    },
+    "coords": {
+        "lat": 22.448333,
+        "lng": 114.096944
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Chuk Hang Village, Fan Kam Road, Kam Tin, Yuen Long",
+        "zh": "元朗錦田粉錦路竹坑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1910_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

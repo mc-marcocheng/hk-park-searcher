@@ -1,0 +1,27 @@
+{
+    "id": "tat-wan-road-sitting-out-area",
+    "name": {
+        "en": "Tat Wan Road Sitting-out Area",
+        "zh": "達運道休憩處"
+    },
+    "coords": {
+        "lat": 22.444444,
+        "lng": 114.168056
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Tat Wan Road, Tai Po",
+        "zh": "大埔達運道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1849_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

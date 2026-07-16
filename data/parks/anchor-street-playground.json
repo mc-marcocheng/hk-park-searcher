@@ -1,0 +1,27 @@
+{
+    "id": "anchor-street-playground",
+    "name": {
+        "en": "Anchor Street Playground",
+        "zh": "晏架街遊樂場"
+    },
+    "coords": {
+        "lat": 22.319444,
+        "lng": 114.164722
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "55 Anchor Street, Tai Kok Tsui, Mong Kok",
+        "zh": "旺角大角咀晏架街55號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1650_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

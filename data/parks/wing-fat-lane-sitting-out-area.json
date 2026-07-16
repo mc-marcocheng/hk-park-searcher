@@ -1,0 +1,27 @@
+{
+    "id": "wing-fat-lane-sitting-out-area",
+    "name": {
+        "en": "Wing Fat Lane Sitting-out Area",
+        "zh": "榮發里休憩處"
+    },
+    "coords": {
+        "lat": 22.384167,
+        "lng": 113.981667
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Wing Fat Lane, Harvest Garden, Tuen Mun",
+        "zh": "屯門恆豐園榮發里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1905_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

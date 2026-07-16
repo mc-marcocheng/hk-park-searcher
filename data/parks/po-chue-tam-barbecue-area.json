@@ -1,0 +1,27 @@
+{
+    "id": "po-chue-tam-barbecue-area",
+    "name": {
+        "en": "Po Chue Tam Barbecue Area",
+        "zh": "寶珠潭燒烤場"
+    },
+    "coords": {
+        "lat": 22.257778,
+        "lng": 113.862222
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Tai O, Lantau Island",
+        "zh": "大嶼山大澳"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1681_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

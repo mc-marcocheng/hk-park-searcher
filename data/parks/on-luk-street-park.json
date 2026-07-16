@@ -1,0 +1,27 @@
+{
+    "id": "on-luk-street-park",
+    "name": {
+        "en": "On Luk Street Park",
+        "zh": "鞍祿街公園"
+    },
+    "coords": {
+        "lat": 22.3325,
+        "lng": 114.183889
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "On Luk Street, Ma On Shan",
+        "zh": "馬鞍山鞍祿街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1797_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

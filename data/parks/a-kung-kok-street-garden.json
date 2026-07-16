@@ -1,0 +1,27 @@
+{
+    "id": "a-kung-kok-street-garden",
+    "name": {
+        "en": "A Kung Kok Street Garden",
+        "zh": "亞公角街花園"
+    },
+    "coords": {
+        "lat": 22.337222,
+        "lng": 114.17
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "A Kung Kok Street, Ma On Shan, Sha Tin",
+        "zh": "沙田馬鞍山亞公角街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1782_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

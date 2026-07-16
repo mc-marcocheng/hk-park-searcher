@@ -1,0 +1,27 @@
+{
+    "id": "harlech-road-fitness-trail",
+    "name": {
+        "en": "Harlech Road Fitness Trail",
+        "zh": "夏力道健身徑"
+    },
+    "coords": {
+        "lat": 22.271389,
+        "lng": 114.144444
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Harlech Road, The Peak",
+        "zh": "山頂夏力道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1952_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

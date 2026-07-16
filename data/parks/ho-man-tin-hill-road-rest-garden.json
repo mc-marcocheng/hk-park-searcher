@@ -1,0 +1,27 @@
+{
+    "id": "ho-man-tin-hill-road-rest-garden",
+    "name": {
+        "en": "Ho Man Tin Hill Road Rest Garden",
+        "zh": "何文田山道休憩花園"
+    },
+    "coords": {
+        "lat": 22.313889,
+        "lng": 114.176667
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Ho Man Tin Hill Road, Ho Man Tin",
+        "zh": "何文田何文田山道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1555_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

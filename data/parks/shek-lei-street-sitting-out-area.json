@@ -1,0 +1,27 @@
+{
+    "id": "shek-lei-street-sitting-out-area",
+    "name": {
+        "en": "Shek Lei Street Sitting-out Area",
+        "zh": "石梨街休憩處"
+    },
+    "coords": {
+        "lat": 22.368333,
+        "lng": 114.141667
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "On Chuk Street, Kwai Chung",
+        "zh": "葵涌安足街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1707_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

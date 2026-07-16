@@ -1,0 +1,27 @@
+{
+    "id": "tung-chung-road-soccer-pitch",
+    "name": {
+        "en": "Tung Chung Road Soccer Pitch",
+        "zh": "東涌道足球場"
+    },
+    "coords": {
+        "lat": 22.278056,
+        "lng": 113.934167
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Tung Chung Road, Tung Chung",
+        "zh": "東涌東涌道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1689_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

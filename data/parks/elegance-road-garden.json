@@ -1,0 +1,27 @@
+{
+    "id": "elegance-road-garden",
+    "name": {
+        "en": "Elegance Road Garden",
+        "zh": "雅麗道花園"
+    },
+    "coords": {
+        "lat": 22.316111,
+        "lng": 114.218333
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Elegance Road, Ngau Tau Kok, Kwun Tong",
+        "zh": "觀塘牛頭角雅麗道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1574_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "shek-pik-resettlers-playground-tsuen-wan",
+    "name": {
+        "en": "Shek Pik Resettlers' Playground, Tsuen Wan",
+        "zh": "荃灣石壁遷置村遊樂場"
+    },
+    "coords": {
+        "lat": 22.368056,
+        "lng": 114.117222
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Ham Tin Street, Tsuen Wan",
+        "zh": "荃灣鹹田街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1875_1875.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

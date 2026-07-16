@@ -1,0 +1,27 @@
+{
+    "id": "tai-pei-square-playground",
+    "name": {
+        "en": "Tai Pei Square Playground",
+        "zh": "大陂坊遊樂場"
+    },
+    "coords": {
+        "lat": 22.369444,
+        "lng": 114.114167
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Tai Pei Square, Tsuen Wan",
+        "zh": "荃灣大陂坊"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1878_1878.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

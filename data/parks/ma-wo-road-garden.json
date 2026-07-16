@@ -1,0 +1,27 @@
+{
+    "id": "ma-wo-road-garden",
+    "name": {
+        "en": "Ma Wo Road Garden",
+        "zh": "馬窩路花園"
+    },
+    "coords": {
+        "lat": 22.3325,
+        "lng": 114.183889
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "2 Ma Wo Road, Tai Po, N.T. ",
+        "zh": "大埔馬窩路2號 "
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2510_2610.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

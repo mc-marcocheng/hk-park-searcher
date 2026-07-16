@@ -1,0 +1,27 @@
+{
+    "id": "tai-hing-north-sitting-out-area",
+    "name": {
+        "en": "Tai Hing North Sitting-out Area",
+        "zh": "大興北休憩處"
+    },
+    "coords": {
+        "lat": 22.405,
+        "lng": 113.969722
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Tin Road, Tuen Mun",
+        "zh": "屯門青田路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1895_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

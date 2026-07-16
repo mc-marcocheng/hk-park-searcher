@@ -1,0 +1,27 @@
+{
+    "id": "choi-hei-road-park",
+    "name": {
+        "en": "Choi Hei Road Park",
+        "zh": "彩禧路公園"
+    },
+    "coords": {
+        "lat": 22.327778,
+        "lng": 114.216667
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "3 Choi Hei Road, Ping Shan, Kwun Tong",
+        "zh": "觀塘平山彩禧路3號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1572_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

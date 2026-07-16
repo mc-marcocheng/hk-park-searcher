@@ -1,0 +1,27 @@
+{
+    "id": "sheung-wo-hang-childrens-playground",
+    "name": {
+        "en": "Sheung Wo Hang Children's Playground",
+        "zh": "上禾坑兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.523889,
+        "lng": 114.194722
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Sheung Wo Hang, Sha Tau Kok",
+        "zh": "沙頭角上禾坑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1748_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

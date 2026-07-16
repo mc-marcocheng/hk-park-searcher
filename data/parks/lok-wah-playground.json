@@ -1,0 +1,27 @@
+{
+    "id": "lok-wah-playground",
+    "name": {
+        "en": "Lok Wah Playground",
+        "zh": "樂華遊樂場"
+    },
+    "coords": {
+        "lat": 22.320833,
+        "lng": 114.218056
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Lok Wah South Estate, Ngau Tau Kok, Kwun Tong",
+        "zh": "觀塘牛頭角樂華南邨"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1587_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

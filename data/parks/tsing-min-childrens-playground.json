@@ -1,0 +1,27 @@
+{
+    "id": "tsing-min-childrens-playground",
+    "name": {
+        "en": "Tsing Min Children's Playground",
+        "zh": "青棉兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.404444,
+        "lng": 113.979167
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Min Path, San Hui, Tuen Mun",
+        "zh": "屯門新墟青棉徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1898_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

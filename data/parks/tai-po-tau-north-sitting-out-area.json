@@ -1,0 +1,27 @@
+{
+    "id": "tai-po-tau-north-sitting-out-area",
+    "name": {
+        "en": "Tai Po Tau North Sitting-out Area",
+        "zh": "大埔頭北休憩處"
+    },
+    "coords": {
+        "lat": 22.455556,
+        "lng": 114.159444
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "San Wa On Lane, Tai Po",
+        "zh": "大埔新華安里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3081_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

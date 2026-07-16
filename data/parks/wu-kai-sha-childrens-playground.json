@@ -1,0 +1,27 @@
+{
+    "id": "wu-kai-sha-childrens-playground",
+    "name": {
+        "en": "Wu Kai Sha Children's Playground",
+        "zh": "烏溪沙兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.428056,
+        "lng": 114.239444
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Wu Kai Sha Village, Sha Tin",
+        "zh": "沙田烏溪沙村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1807_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

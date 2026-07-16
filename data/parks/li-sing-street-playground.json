@@ -1,0 +1,27 @@
+{
+    "id": "li-sing-street-playground",
+    "name": {
+        "en": "Li Sing Street Playground",
+        "zh": "李陞街遊樂場"
+    },
+    "coords": {
+        "lat": 22.286944,
+        "lng": 114.145556
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Li Sing Street, Sai Ying Pun, Sai Wan",
+        "zh": "西環西營盤李陞街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1471_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

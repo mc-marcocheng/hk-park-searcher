@@ -1,0 +1,27 @@
+{
+    "id": "nam-cheong-park",
+    "name": {
+        "en": "Nam Cheong Park",
+        "zh": "南昌公園"
+    },
+    "coords": {
+        "lat": 22.323889,
+        "lng": 114.1575
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "No. 20 Sham Mong Road, Sham Shui Po",
+        "zh": "深水埗深旺道20號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1610_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

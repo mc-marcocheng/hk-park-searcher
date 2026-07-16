@@ -1,0 +1,27 @@
+{
+    "id": "shing-mun-river-promenade-garden-no-3",
+    "name": {
+        "en": "Shing Mun River Promenade Garden No. 3",
+        "zh": "城門河第三海濱花園"
+    },
+    "coords": {
+        "lat": 22.658333,
+        "lng": 114.341111
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Yuen Wo Road, Sha Tin",
+        "zh": "沙田源禾路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2802_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "tuen-mun-riverside-park",
+    "name": {
+        "en": "Tuen Mun Riverside Park",
+        "zh": "屯門河畔公園"
+    },
+    "coords": {
+        "lat": 22.403333,
+        "lng": 113.976111
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Area 35, Affluence Garden, Tuen Mun",
+        "zh": "屯門澤豐花園35區"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1904_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

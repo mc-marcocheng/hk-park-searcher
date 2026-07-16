@@ -1,0 +1,27 @@
+{
+    "id": "magazine-gap-service-reservoir-playground",
+    "name": {
+        "en": "Magazine Gap Service Reservoir Playground",
+        "zh": "馬己仙峽配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.271389,
+        "lng": 114.164167
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Magazine Gap Road, Mid-level",
+        "zh": "半山馬己仙峽道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2096_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

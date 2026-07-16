@@ -1,0 +1,27 @@
+{
+    "id": "sheung-shui-hang-tau-village-sitting-out-area-no-2",
+    "name": {
+        "en": "Sheung Shui Hang Tau Village Sitting-out Area No. 2",
+        "zh": "上水坑頭村第二號休憩處"
+    },
+    "coords": {
+        "lat": 22.503611,
+        "lng": 114.106944
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Hang Tau Village, Kwu Tung, Sheung Shui",
+        "zh": "上水古洞坑頭村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1744_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

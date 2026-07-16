@@ -1,0 +1,27 @@
+{
+    "id": "hang-hau-man-kuk-lane-park",
+    "name": {
+        "en": "Hang Hau Man Kuk Lane Park",
+        "zh": "坑口文曲里公園"
+    },
+    "coords": {
+        "lat": 22.313333,
+        "lng": 114.265278
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "6 Man Kuk Lane Road, Hang Hau, Tseung Kwan O",
+        "zh": "將軍澳坑口文曲里6號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1756_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

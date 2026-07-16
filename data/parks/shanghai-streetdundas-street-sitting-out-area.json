@@ -1,0 +1,27 @@
+{
+    "id": "shanghai-streetdundas-street-sitting-out-area",
+    "name": {
+        "en": "Shanghai Street/Dundas Street Sitting-out Area",
+        "zh": "上海街／登打士街休憩處"
+    },
+    "coords": {
+        "lat": 22.314722,
+        "lng": 114.169167
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "414-420 Shanghai Street, Mong Kok",
+        "zh": "旺角上海街414-420號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1668_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

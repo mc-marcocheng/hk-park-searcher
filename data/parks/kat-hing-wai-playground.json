@@ -1,0 +1,27 @@
+{
+    "id": "kat-hing-wai-playground",
+    "name": {
+        "en": "Kat Hing Wai Playground",
+        "zh": "吉慶圍遊樂場"
+    },
+    "coords": {
+        "lat": 22.44,
+        "lng": 114.062222
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Kat Hing Wai, Kam Tin Road, Kam Tin, Yuen Long",
+        "zh": "元朗錦田錦田路吉慶圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1920_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

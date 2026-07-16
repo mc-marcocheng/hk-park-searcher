@@ -1,0 +1,27 @@
+{
+    "id": "sha-tsui-playground",
+    "name": {
+        "en": "Sha Tsui Playground",
+        "zh": "沙咀遊樂場"
+    },
+    "coords": {
+        "lat": 22.381389,
+        "lng": 114.273056
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Man Nin Street, King Man Street, Sai Kung",
+        "zh": "西貢萬年街敬民街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1770_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

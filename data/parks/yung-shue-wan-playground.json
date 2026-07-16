@@ -1,0 +1,27 @@
+{
+    "id": "yung-shue-wan-playground",
+    "name": {
+        "en": "Yung Shue Wan Playground",
+        "zh": "榕樹灣遊樂場"
+    },
+    "coords": {
+        "lat": 22.224444,
+        "lng": 114.110833
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "Yung Shue Wan, Lamma Island",
+        "zh": "南丫島榕樹灣"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1690_ysw_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

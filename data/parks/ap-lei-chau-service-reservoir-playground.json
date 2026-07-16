@@ -1,0 +1,27 @@
+{
+    "id": "ap-lei-chau-service-reservoir-playground",
+    "name": {
+        "en": "Ap Lei Chau Service Reservoir Playground",
+        "zh": "鴨脷洲配水庫遊樂場"
+    },
+    "coords": {
+        "lat": 22.24,
+        "lng": 114.155833
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Roof Top, Ap Lei Chau Service Reservoir, Aberdeen",
+        "zh": "香港仔鴨脷洲配水庫頂"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1517_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

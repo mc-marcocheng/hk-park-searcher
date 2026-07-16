@@ -1,0 +1,27 @@
+{
+    "id": "yuet-wah-street-playground",
+    "name": {
+        "en": "Yuet Wah Street Playground",
+        "zh": "月華街遊樂場"
+    },
+    "coords": {
+        "lat": 22.315,
+        "lng": 114.226667
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Yuet Wah Street, Kwun Tong",
+        "zh": "觀塘月華街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1601_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

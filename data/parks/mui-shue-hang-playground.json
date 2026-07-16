@@ -1,0 +1,27 @@
+{
+    "id": "mui-shue-hang-playground",
+    "name": {
+        "en": "Mui Shue Hang Playground",
+        "zh": "梅樹坑遊樂場"
+    },
+    "coords": {
+        "lat": 22.454444,
+        "lng": 114.1525
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Mui Shue Hang Road, Tai Po",
+        "zh": "大埔梅樹坑路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1827_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

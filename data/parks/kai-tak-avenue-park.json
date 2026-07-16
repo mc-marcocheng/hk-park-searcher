@@ -1,0 +1,27 @@
+{
+    "id": "kai-tak-avenue-park",
+    "name": {
+        "en": "Kai Tak Avenue Park",
+        "zh": "啟德大道公園"
+    },
+    "coords": {
+        "lat": 22.522222,
+        "lng": 114.143056
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "16 Muk On Street, Kowloon City",
+        "zh": "九龍城沐安街16號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2662_04.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

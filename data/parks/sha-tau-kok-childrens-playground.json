@@ -1,0 +1,27 @@
+{
+    "id": "sha-tau-kok-childrens-playground",
+    "name": {
+        "en": "Sha Tau Kok Children's Playground",
+        "zh": "沙頭角兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.546944,
+        "lng": 114.224167
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Shun Hin Street, Sha Tau Kok Chuen, Sha Tau Kok",
+        "zh": "沙頭角沙頭角邨順興街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1741_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

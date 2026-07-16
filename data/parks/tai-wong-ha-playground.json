@@ -1,0 +1,27 @@
+{
+    "id": "tai-wong-ha-playground",
+    "name": {
+        "en": "Tai Wong Ha Playground",
+        "zh": "大王下遊樂場"
+    },
+    "coords": {
+        "lat": 22.353889,
+        "lng": 114.101944
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Fung Shue Wo Road, Tsing Yi",
+        "zh": "青衣楓樹窩路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1714_12.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

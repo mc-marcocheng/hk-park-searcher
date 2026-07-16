@@ -1,0 +1,27 @@
+{
+    "id": "jockey-club-hing-shing-road-playground",
+    "name": {
+        "en": "Jockey Club Hing Shing Road Playground",
+        "zh": "賽馬會興盛路遊樂場"
+    },
+    "coords": {
+        "lat": 22.358611,
+        "lng": 114.123611
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Hing Shing Road, Kwai Chung",
+        "zh": "葵涌興盛路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1694_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

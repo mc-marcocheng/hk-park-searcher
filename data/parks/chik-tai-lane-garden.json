@@ -1,0 +1,27 @@
+{
+    "id": "chik-tai-lane-garden",
+    "name": {
+        "en": "Chik Tai Lane Garden",
+        "zh": "積泰里花園"
+    },
+    "coords": {
+        "lat": 22.3725,
+        "lng": 114.176111
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Chik Tai Lane, Tai Wai, Sha Tin",
+        "zh": "沙田大圍積泰里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1786_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

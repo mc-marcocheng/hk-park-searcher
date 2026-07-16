@@ -1,0 +1,27 @@
+{
+    "id": "yuen-wo-playground",
+    "name": {
+        "en": "Yuen Wo Playground",
+        "zh": "源禾遊樂場"
+    },
+    "coords": {
+        "lat": 22.385833,
+        "lng": 114.195556
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "No. 16, Yuen Wo Road, Wo Che Estate, Sha Tin",
+        "zh": "沙田禾輋邨源禾路16號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2004_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

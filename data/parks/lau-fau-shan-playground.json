@@ -1,0 +1,30 @@
+{
+    "id": "lau-fau-shan-playground",
+    "name": {
+        "en": "Lau Fau Shan Playground",
+        "zh": "流浮山遊樂場"
+    },
+    "coords": {
+        "lat": 22.466979,
+        "lng": 113.983404
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Lau Fau Shan, Yuen Long",
+        "zh": "元朗流浮山"
+    },
+    "equipment": [
+        {
+            "type": "others",
+            "images": ["other_1", "other_2"]
+        }
+    ],
+    "park_images": ["overview_1"],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

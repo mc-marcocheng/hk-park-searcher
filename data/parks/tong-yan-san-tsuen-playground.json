@@ -1,0 +1,27 @@
+{
+    "id": "tong-yan-san-tsuen-playground",
+    "name": {
+        "en": "Tong Yan San Tsuen Playground",
+        "zh": "唐人新村遊樂場"
+    },
+    "coords": {
+        "lat": 22.441667,
+        "lng": 114.010833
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tong Yan San Tsuen, Tong Yan San Tsuen Road, Ping Shan, Yuen Long",
+        "zh": "元朗屏山唐人新村路唐人新村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1944_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

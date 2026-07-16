@@ -1,0 +1,27 @@
+{
+    "id": "cherry-street-park",
+    "name": {
+        "en": "Cherry Street Park",
+        "zh": "櫻桃街公園"
+    },
+    "coords": {
+        "lat": 22.315278,
+        "lng": 114.166111
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "No. 1, Cherry Street, Tai Kok Tsui, Mong Kok",
+        "zh": "旺角大角咀櫻桃街1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1653_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

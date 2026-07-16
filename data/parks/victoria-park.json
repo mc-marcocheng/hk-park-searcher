@@ -1,0 +1,27 @@
+{
+    "id": "victoria-park",
+    "name": {
+        "en": "Victoria Park",
+        "zh": "維多利亞公園"
+    },
+    "coords": {
+        "lat": 22.282222,
+        "lng": 114.188889
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "1 Hing Fat Street, Causeway Bay",
+        "zh": "銅鑼灣興發街1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1540_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

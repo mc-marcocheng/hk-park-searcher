@@ -1,0 +1,27 @@
+{
+    "id": "belcher-bay-park",
+    "name": {
+        "en": "Belcher Bay Park",
+        "zh": "卑路乍灣公園"
+    },
+    "coords": {
+        "lat": 22.284722,
+        "lng": 114.130278
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Kennedy Town Praya, Sai Wan",
+        "zh": "西環堅尼地城海旁"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1951_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

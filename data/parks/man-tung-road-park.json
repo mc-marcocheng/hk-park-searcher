@@ -1,0 +1,27 @@
+{
+    "id": "man-tung-road-park",
+    "name": {
+        "en": "Man Tung Road Park",
+        "zh": "文東路公園"
+    },
+    "coords": {
+        "lat": 22.291944,
+        "lng": 113.941111
+    },
+    "district": {
+        "en": "Islands",
+        "zh": "離島區"
+    },
+    "address": {
+        "en": "55 Man Tung Road, Tung Chung",
+        "zh": "東涌文東路55號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1677_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

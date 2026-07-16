@@ -1,0 +1,27 @@
+{
+    "id": "spring-garden-lane-sitting-out-area",
+    "name": {
+        "en": "Spring Garden Lane Sitting-out Area",
+        "zh": "春園街休憩處"
+    },
+    "coords": {
+        "lat": 22.275278,
+        "lng": 114.172778
+    },
+    "district": {
+        "en": "Wan Chai",
+        "zh": "灣仔區"
+    },
+    "address": {
+        "en": "22-24 Spring Garden Lane, Wan Chai",
+        "zh": "灣仔春園街22-24號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1536_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

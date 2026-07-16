@@ -145,3 +145,9 @@ vite.config.ts.timestamp-*
 
 # Raw originals for image optimization
 _originals/
+
+# Generated site build output
+/dist/
+
+# Generated park data bundle (built from data/parks/*.json)
+/assets/data/parks.json

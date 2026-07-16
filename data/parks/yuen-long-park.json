@@ -1,0 +1,27 @@
+{
+    "id": "yuen-long-park",
+    "name": {
+        "en": "Yuen Long Park",
+        "zh": "元朗公園"
+    },
+    "coords": {
+        "lat": 22.441944,
+        "lng": 114.018889
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Town Park Road North, Yuen Long",
+        "zh": "元朗公園北路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1950_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

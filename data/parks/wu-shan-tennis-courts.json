@@ -1,0 +1,27 @@
+{
+    "id": "wu-shan-tennis-courts",
+    "name": {
+        "en": "Wu Shan Tennis Courts",
+        "zh": "湖山網球場"
+    },
+    "coords": {
+        "lat": 22.376667,
+        "lng": 113.968056
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Wu Shan Road, Yuet Wu Villa, Tuen Mun",
+        "zh": "屯門悅湖山莊湖山路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2085_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

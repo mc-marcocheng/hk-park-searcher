@@ -3,10 +3,14 @@
     "version": "1.0.0",
     "description": "Park Searcher",
     "scripts": {
-        "start": "echo \"Use a static server like npx serve or python -m http.server\"",
-        "lint": "eslint js/**/*.js",
-        "lint:fix": "eslint js/**/*.js --fix",
-        "format": "prettier --write \"**/*.{js,html,css,json}\"",
+        "start": "npm run build:data && echo \"Run a static server such as npx serve .\"",
+        "build": "npm run validate:data && npm run build:data && node scripts/build-site.mjs",
+        "build:data": "node scripts/build-parks.mjs",
+        "validate:data": "node scripts/validate-parks.mjs",
+        "migrate:data": "node scripts/migrate-parks.mjs",
+        "lint": "eslint js/**/*.js scripts/**/*.mjs",
+        "lint:fix": "eslint js/**/*.js scripts/**/*.mjs --fix",
+        "format": "prettier --write \"**/*.{js,mjs,html,css,json}\"",
         "prepare": "husky",
         "images": "node scripts/optimize-images.mjs",
         "images:clean": "node scripts/optimize-images.mjs --clean"

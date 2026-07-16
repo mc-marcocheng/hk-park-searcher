@@ -1,0 +1,27 @@
+{
+    "id": "tong-ming-street-sitting-out-area",
+    "name": {
+        "en": "Tong Ming Street Sitting-out Area",
+        "zh": "唐明街休憩處"
+    },
+    "coords": {
+        "lat": 22.310556,
+        "lng": 114.26
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Tong Ming Street, Tseung Kwan O",
+        "zh": "將軍澳唐明街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1779_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

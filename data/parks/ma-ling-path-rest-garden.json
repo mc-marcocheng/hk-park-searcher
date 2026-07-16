@@ -1,0 +1,27 @@
+{
+    "id": "ma-ling-path-rest-garden",
+    "name": {
+        "en": "Ma Ling Path Rest Garden",
+        "zh": "馬鈴徑休憩花園"
+    },
+    "coords": {
+        "lat": 22.409444,
+        "lng": 114.209444
+    },
+    "district": {
+        "en": "Sha Tin",
+        "zh": "沙田區"
+    },
+    "address": {
+        "en": "Ma Ling Path, Shatin Knoll, Kau To Shan",
+        "zh": "九肚山駿發山莊馬鈴徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2067_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

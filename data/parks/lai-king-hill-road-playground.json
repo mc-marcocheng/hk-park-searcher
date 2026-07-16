@@ -1,0 +1,27 @@
+{
+    "id": "lai-king-hill-road-playground",
+    "name": {
+        "en": "Lai King Hill Road Playground",
+        "zh": "荔景山路遊樂場"
+    },
+    "coords": {
+        "lat": 22.345833,
+        "lng": 114.127778
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Lai King Hill Road, Kwai Chung",
+        "zh": "葵涌荔景山路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1700_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "kat-cheung-crescent-garden",
+    "name": {
+        "en": "Kat Cheung Crescent Garden",
+        "zh": "吉祥街花園"
+    },
+    "coords": {
+        "lat": 22.496389,
+        "lng": 114.131944
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "29 Kat Cheung Crescent Street, Sheung Shui",
+        "zh": "上水吉祥街29號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1726_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

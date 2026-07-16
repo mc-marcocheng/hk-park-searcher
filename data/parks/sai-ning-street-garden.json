@@ -1,0 +1,27 @@
+{
+    "id": "sai-ning-street-garden",
+    "name": {
+        "en": "Sai Ning Street Garden",
+        "zh": "西寧街花園"
+    },
+    "coords": {
+        "lat": 0,
+        "lng": 0
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Sai Ning Street, Kennedy Town, Sai Wan",
+        "zh": "西環堅尼地城西寧街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1474_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

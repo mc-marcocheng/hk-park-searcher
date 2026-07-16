@@ -1,0 +1,27 @@
+{
+    "id": "tsuen-wan-tin-hau-temple-garden",
+    "name": {
+        "en": "Tsuen Wan Tin Hau Temple Garden",
+        "zh": "荃灣天后廟花園"
+    },
+    "coords": {
+        "lat": 22.373056,
+        "lng": 114.121667
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Wai Tsuen Road, Luk Yeung Sun Chuen, Tsuen Wan",
+        "zh": "荃灣綠楊新邨蕙荃路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1887_1887.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

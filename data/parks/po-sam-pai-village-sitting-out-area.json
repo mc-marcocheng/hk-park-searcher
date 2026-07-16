@@ -1,0 +1,27 @@
+{
+    "id": "po-sam-pai-village-sitting-out-area",
+    "name": {
+        "en": "Po Sam Pai Village Sitting-out Area",
+        "zh": "布心排村休憩處"
+    },
+    "coords": {
+        "lat": 22.464722,
+        "lng": 113.996944
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Po Sam Pai Village, Tai Po",
+        "zh": "大埔布心排村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/3011_pspv.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

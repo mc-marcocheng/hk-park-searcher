@@ -1,0 +1,27 @@
+{
+    "id": "tsing-yin-garden",
+    "name": {
+        "en": "Tsing Yin Garden",
+        "zh": "青賢花園"
+    },
+    "coords": {
+        "lat": 22.399167,
+        "lng": 113.974722
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Yin Street, Tuen Mun",
+        "zh": "屯門青賢街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/tsing_yin.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

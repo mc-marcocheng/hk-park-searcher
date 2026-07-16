@@ -1,0 +1,27 @@
+{
+    "id": "san-hui-playground",
+    "name": {
+        "en": "San Hui Playground",
+        "zh": "新墟遊樂場"
+    },
+    "coords": {
+        "lat": 22.400556,
+        "lng": 113.976389
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Heung Sze Wui Road, Tuen Mun",
+        "zh": "屯門鄉事會路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2079_San_Hui_Playground.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

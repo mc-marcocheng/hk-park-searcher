@@ -1,0 +1,27 @@
+{
+    "id": "wa-shun-street-sitting-out-area",
+    "name": {
+        "en": "Wa Shun Street Sitting-out Area",
+        "zh": "華信街休憩處"
+    },
+    "coords": {
+        "lat": 22.3025,
+        "lng": 114.189167
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Wa Shun Street, Hung Hom",
+        "zh": "紅磡華信街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1569_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "liu-pok-playground",
+    "name": {
+        "en": "Liu Pok Playground",
+        "zh": "料壆遊樂場"
+    },
+    "coords": {
+        "lat": 22.526944,
+        "lng": 114.105833
+    },
+    "district": {
+        "en": "North",
+        "zh": "北區"
+    },
+    "address": {
+        "en": "Liu Pok Village, Sheung Shui",
+        "zh": "上水料壆村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1727_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

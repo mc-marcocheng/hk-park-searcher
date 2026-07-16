@@ -1,0 +1,27 @@
+{
+    "id": "kwai-shing-service-reservoir-sitting-out-area",
+    "name": {
+        "en": "Kwai Shing Service Reservoir Sitting-out Area",
+        "zh": "葵盛配水庫休憩處"
+    },
+    "coords": {
+        "lat": 22.363056,
+        "lng": 114.125
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Kwai Hau Street, Kwai Chung",
+        "zh": "葵涌葵孝街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1697_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "king-fuk-street-sitting-out-area",
+    "name": {
+        "en": "King Fuk Street Sitting-out Area",
+        "zh": "景福街休憩處"
+    },
+    "coords": {
+        "lat": 22.333611,
+        "lng": 114.196111
+    },
+    "district": {
+        "en": "Wong Tai Sin",
+        "zh": "黃大仙區"
+    },
+    "address": {
+        "en": "King Fuk Street, San Po Kong",
+        "zh": "新蒲崗景福街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1631_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

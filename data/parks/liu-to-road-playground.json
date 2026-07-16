@@ -1,0 +1,27 @@
+{
+    "id": "liu-to-road-playground",
+    "name": {
+        "en": "Liu To Road Playground",
+        "zh": "寮肚路遊樂場"
+    },
+    "coords": {
+        "lat": 22.355833,
+        "lng": 114.097222
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Liu To Road, Tsing Yi",
+        "zh": "青衣寮肚路"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1702_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

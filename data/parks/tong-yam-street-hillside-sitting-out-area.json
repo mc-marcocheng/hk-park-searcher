@@ -1,0 +1,27 @@
+{
+    "id": "tong-yam-street-hillside-sitting-out-area",
+    "name": {
+        "en": "Tong Yam Street Hillside Sitting-out Area",
+        "zh": "棠蔭街山邊休憩處"
+    },
+    "coords": {
+        "lat": 22.331667,
+        "lng": 114.170278
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "Tong Yam Street, Shek Kip Mei",
+        "zh": "石硤尾棠蔭街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1623_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

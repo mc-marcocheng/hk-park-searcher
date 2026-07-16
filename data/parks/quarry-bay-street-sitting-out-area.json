@@ -1,0 +1,27 @@
+{
+    "id": "quarry-bay-street-sitting-out-area",
+    "name": {
+        "en": "Quarry Bay Street Sitting-out Area",
+        "zh": "鰂魚涌街休憩處"
+    },
+    "coords": {
+        "lat": 22.284167,
+        "lng": 114.211667
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Quarry Bay Street , Quarry Bay",
+        "zh": "鰂魚涌鰂魚涌街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1500_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "rose-lane-childrens-playground",
+    "name": {
+        "en": "Rose Lane Children's Playground",
+        "zh": "玫瑰里兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.285556,
+        "lng": 114.139444
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Rose Lane, Sai Ying Pun, Sai Wan",
+        "zh": "西環西營盤玫瑰里"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1473_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

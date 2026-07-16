@@ -1,0 +1,27 @@
+{
+    "id": "lynwood-sitting-out-area",
+    "name": {
+        "en": "Lynwood Sitting-out Area",
+        "zh": "麗湖休憩處"
+    },
+    "coords": {
+        "lat": 22.459444,
+        "lng": 114.005
+    },
+    "district": {
+        "en": "Yuen Long",
+        "zh": "元朗區"
+    },
+    "address": {
+        "en": "Tin Kwan Road, Tin Shui Wai ",
+        "zh": "天水圍天葵路 "
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2107_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

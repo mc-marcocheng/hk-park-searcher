@@ -1,0 +1,27 @@
+{
+    "id": "tsing-yi-promenade",
+    "name": {
+        "en": "Tsing Yi Promenade",
+        "zh": "青衣海濱公園"
+    },
+    "coords": {
+        "lat": 22.3625,
+        "lng": 114.1075
+    },
+    "district": {
+        "en": "Kwai Tsing",
+        "zh": "葵青區"
+    },
+    "address": {
+        "en": "Nga Ying Chau Street, Tsing Yi",
+        "zh": "青衣牙鷹洲街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1719_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

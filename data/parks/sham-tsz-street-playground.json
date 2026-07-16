@@ -1,0 +1,27 @@
+{
+    "id": "sham-tsz-street-playground",
+    "name": {
+        "en": "Sham Tsz Street Playground",
+        "zh": "深慈街遊樂場"
+    },
+    "coords": {
+        "lat": 22.365278,
+        "lng": 114.064167
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Sham Tsz Street, Sham Tseng, Tsuen Wan",
+        "zh": "荃灣深井深慈街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1874_1874.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

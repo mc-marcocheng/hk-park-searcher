@@ -1,0 +1,27 @@
+{
+    "id": "chung-shum-wai-childrens-playground",
+    "name": {
+        "en": "Chung Shum Wai Children's Playground",
+        "zh": "中心圍兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.468611,
+        "lng": 114.150556
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Chung Shum Wai, Tai Wo Service Road West, Tai Po",
+        "zh": "大埔大窩西支路中心圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1815_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

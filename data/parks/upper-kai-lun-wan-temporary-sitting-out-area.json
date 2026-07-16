@@ -1,0 +1,27 @@
+{
+    "id": "upper-kai-lun-wan-temporary-sitting-out-area",
+    "name": {
+        "en": "Upper Kai Lun Wan Temporary Sitting-out Area",
+        "zh": "上雞籠灣臨時休憩處"
+    },
+    "coords": {
+        "lat": 22.251389,
+        "lng": 114.143611
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Upper Kai Lun Wan",
+        "zh": "上鷄籠灣"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1524_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

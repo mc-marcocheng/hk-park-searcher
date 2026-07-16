@@ -1,0 +1,27 @@
+{
+    "id": "kwun-tong-high-level-service-reservoir-garden",
+    "name": {
+        "en": "Kwun Tong High Level Service Reservoir Garden",
+        "zh": "觀塘上配水庫花園"
+    },
+    "coords": {
+        "lat": 22.324167,
+        "lng": 114.223333
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "Jordon Valley, Kwun Tong",
+        "zh": "觀塘佐敦谷"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1581_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

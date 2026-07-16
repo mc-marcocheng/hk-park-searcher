@@ -1,0 +1,27 @@
+{
+    "id": "man-yee-playground",
+    "name": {
+        "en": "Man Yee Playground",
+        "zh": "萬宜遊樂場"
+    },
+    "coords": {
+        "lat": 22.381389,
+        "lng": 114.271944
+    },
+    "district": {
+        "en": "Sai Kung",
+        "zh": "西貢區"
+    },
+    "address": {
+        "en": "Man Nin Street, Sai Kung",
+        "zh": "西貢萬年街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1759_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

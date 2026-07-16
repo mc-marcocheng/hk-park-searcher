@@ -1,0 +1,27 @@
+{
+    "id": "tsing-wah-soccer-pitch",
+    "name": {
+        "en": "Tsing Wah Soccer Pitch",
+        "zh": "青華球場"
+    },
+    "coords": {
+        "lat": 22.386389,
+        "lng": 113.979722
+    },
+    "district": {
+        "en": "Tuen Mun",
+        "zh": "屯門區"
+    },
+    "address": {
+        "en": "Tsing Hoi Circuit, Tuen Mun",
+        "zh": "屯門青海圍"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2441_Tsing_Wah.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "heng-fa-chuen-playground",
+    "name": {
+        "en": "Heng Fa Chuen Playground",
+        "zh": "杏花邨遊樂場"
+    },
+    "coords": {
+        "lat": 22.274722,
+        "lng": 114.241944
+    },
+    "district": {
+        "en": "Eastern",
+        "zh": "東區"
+    },
+    "address": {
+        "en": "Shing Tai Road, Chai Wan",
+        "zh": "柴灣盛泰道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1494_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

@@ -1,0 +1,27 @@
+{
+    "id": "kam-shek-new-village-playground",
+    "name": {
+        "en": "Kam Shek New Village Playground",
+        "zh": "錦石新村遊樂場"
+    },
+    "coords": {
+        "lat": 22.449444,
+        "lng": 114.158611
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "Kam Shek New Village, Kam Shan Road, Tai Po",
+        "zh": "大埔錦山路錦石新村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1820_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

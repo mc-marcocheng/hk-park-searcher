@@ -1,0 +1,27 @@
+{
+    "id": "jockey-club-tak-wah-park",
+    "name": {
+        "en": "Jockey Club Tak Wah Park",
+        "zh": "賽馬會德華公園"
+    },
+    "coords": {
+        "lat": 22.37,
+        "lng": 114.115833
+    },
+    "district": {
+        "en": "Tsuen Wan",
+        "zh": "荃灣區"
+    },
+    "address": {
+        "en": "Tak Wah Street, Tsuen Wan",
+        "zh": "荃灣德華街"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1866_1866.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

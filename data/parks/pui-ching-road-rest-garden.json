@@ -1,0 +1,27 @@
+{
+    "id": "pui-ching-road-rest-garden",
+    "name": {
+        "en": "Pui Ching Road Rest Garden",
+        "zh": "培正道休憩花園"
+    },
+    "coords": {
+        "lat": 22.318333,
+        "lng": 114.178333
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Pui Ching Road, Ho Man Tin",
+        "zh": "何文田培正道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1566_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

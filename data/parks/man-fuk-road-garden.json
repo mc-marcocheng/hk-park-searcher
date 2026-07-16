@@ -1,0 +1,27 @@
+{
+    "id": "man-fuk-road-garden",
+    "name": {
+        "en": "Man Fuk Road Garden",
+        "zh": "文福道花園"
+    },
+    "coords": {
+        "lat": 22.321667,
+        "lng": 114.174722
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "Man Fuk Road, Ho Man Tin",
+        "zh": "何文田文福道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1565_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

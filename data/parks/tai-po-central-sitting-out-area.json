@@ -1,0 +1,27 @@
+{
+    "id": "tai-po-central-sitting-out-area",
+    "name": {
+        "en": "Tai Po Central Sitting-Out Area",
+        "zh": "大埔中休憩處"
+    },
+    "coords": {
+        "lat": 0,
+        "lng": 0
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "8 On Pong Road, Tai Po",
+        "zh": "大埔安邦路8號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2769_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

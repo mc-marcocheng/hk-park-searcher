@@ -1,0 +1,27 @@
+{
+    "id": "po-on-road-playground",
+    "name": {
+        "en": "Po On Road Playground",
+        "zh": "保安道遊樂場"
+    },
+    "coords": {
+        "lat": 22.339444,
+        "lng": 114.157778
+    },
+    "district": {
+        "en": "Sham Shui Po",
+        "zh": "深水埗區"
+    },
+    "address": {
+        "en": "J/O Po On Road and Cheung Fat Street, Cheung Sha Wan",
+        "zh": "長沙灣保安道與祥發街交界"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1613_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

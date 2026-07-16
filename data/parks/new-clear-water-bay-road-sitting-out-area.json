@@ -1,0 +1,27 @@
+{
+    "id": "new-clear-water-bay-road-sitting-out-area",
+    "name": {
+        "en": "New Clear Water Bay Road Sitting-out Area",
+        "zh": "新清水灣道休憩處"
+    },
+    "coords": {
+        "lat": 22.333611,
+        "lng": 114.223056
+    },
+    "district": {
+        "en": "Kwun Tong",
+        "zh": "觀塘區"
+    },
+    "address": {
+        "en": "New Clear Water Bay Road, Kwun Tong",
+        "zh": "觀塘新清水灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2040_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

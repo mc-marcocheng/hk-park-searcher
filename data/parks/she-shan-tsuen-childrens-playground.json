@@ -1,0 +1,27 @@
+{
+    "id": "she-shan-tsuen-childrens-playground",
+    "name": {
+        "en": "She Shan Tsuen Children's Playground",
+        "zh": "社山村兒童遊樂場"
+    },
+    "coords": {
+        "lat": 22.450556,
+        "lng": 114.145
+    },
+    "district": {
+        "en": "Tai Po",
+        "zh": "大埔區"
+    },
+    "address": {
+        "en": "She Shan Tsuen, She Shan Road, Lam Tsuen, Tai Po",
+        "zh": "大埔林村社山路社山村"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1838_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

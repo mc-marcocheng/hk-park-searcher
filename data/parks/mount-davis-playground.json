@@ -1,0 +1,27 @@
+{
+    "id": "mount-davis-playground",
+    "name": {
+        "en": "Mount Davis Playground",
+        "zh": "摩星嶺遊樂場"
+    },
+    "coords": {
+        "lat": 0,
+        "lng": 0
+    },
+    "district": {
+        "en": "Central & Western",
+        "zh": "中西區"
+    },
+    "address": {
+        "en": "Mount Davis Path, Mount Davis, Kennedy Town, Sai Wan",
+        "zh": "西環堅尼地城摩星嶺徑"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/2020_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

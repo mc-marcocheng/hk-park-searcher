@@ -1,0 +1,27 @@
+{
+    "id": "waterfall-bay-park",
+    "name": {
+        "en": "Waterfall Bay Park",
+        "zh": "瀑布灣公園"
+    },
+    "coords": {
+        "lat": 22.250833,
+        "lng": 114.134722
+    },
+    "district": {
+        "en": "Southern",
+        "zh": "南區"
+    },
+    "address": {
+        "en": "Waterfall Bay Road, Wah Fu Estate",
+        "zh": "華富邨瀑布灣道"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1526_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

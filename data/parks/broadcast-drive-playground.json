@@ -1,0 +1,27 @@
+{
+    "id": "broadcast-drive-playground",
+    "name": {
+        "en": "Broadcast Drive Playground",
+        "zh": "廣播道遊樂場"
+    },
+    "coords": {
+        "lat": 22.339722,
+        "lng": 114.1825
+    },
+    "district": {
+        "en": "Kowloon City",
+        "zh": "九龍城區"
+    },
+    "address": {
+        "en": "No.1 Broadcast Road, Beacon Hill, Kowloon Tong",
+        "zh": "九龍塘畢架山廣播道1號"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1546_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}

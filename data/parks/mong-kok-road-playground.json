@@ -1,0 +1,27 @@
+{
+    "id": "mong-kok-road-playground",
+    "name": {
+        "en": "Mong Kok Road Playground",
+        "zh": "旺角道遊樂場"
+    },
+    "coords": {
+        "lat": 22.320833,
+        "lng": 114.167222
+    },
+    "district": {
+        "en": "Yau Tsim Mong",
+        "zh": "油尖旺區"
+    },
+    "address": {
+        "en": "No. 4A Mongkok Road, Mong Kok",
+        "zh": "旺角旺角道4A"
+    },
+    "equipment": [],
+    "park_images": [
+        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1663_1.jpg"
+    ],
+    "metrics": {
+        "quality": null
+    },
+    "comment": ""
+}
