@@ -73,7 +73,7 @@ export async function createContributionPullRequest(submission) {
             branch: branchName,
             path: `assets/images/parks/${id}/med/${image.clientId}.webp`,
             message: `Add med image for ${id}`,
-            content: med.toString("base64"),
+            content: med.buffer.toString("base64"),
         });
 
         await kit.repos.createOrUpdateFileContents({
@@ -82,7 +82,7 @@ export async function createContributionPullRequest(submission) {
             branch: branchName,
             path: `assets/images/parks/${id}/thumb/${image.clientId}.webp`,
             message: `Add thumb image for ${id}`,
-            content: thumb.toString("base64"),
+            content: thumb.buffer.toString("base64"),
         });
     }
 
