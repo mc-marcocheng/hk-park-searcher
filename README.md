@@ -1,4 +1,4 @@
-# Hong Kong Park Searcher
+# Hong Kong Park Searcher 香港街健公園搜尋器
 
 ![Park Searcher Preview](assets/preview.png)
 
@@ -6,62 +6,17 @@
 
 A web application to find street workout parks in Hong Kong.
 
+<p align="center">
+  <a href="https://mc-marcocheng.github.io/hk-park-searcher/docs"><img src="https://img.shields.io/badge/docs-MkDocs%20Material-8ed653?logo=materialformkdocs&logoColor=111510" alt="Docs" /></a>
+</p>
+
 ## 提交資料與貢獻 Contribute
 
 我們非常歡迎任何形式的貢獻！無論是提交新公園資料、報告錯誤或改進程式碼。
 
 We welcome all forms of contribution! Whether it's submitting new park data, reporting bugs, or improving the code.
 
-- **提交資料 Submit Data**: [香港街健公園資料提交 (Google Form)](https://forms.gle/tBqyQ5meYqtdXcja7)
-- **貢獻指南 Contributing Guide**: 請參閱 [CONTRIBUTING.md](CONTRIBUTING.md) 了解更多詳情。
-
-## Setup
-
-1. Install dependencies for linting and formatting:
-   ```bash
-   npm install
-   ```
-
-2. Start a local server:
-   ```bash
-   npx serve
-   # or
-   python -m http.server
-   ```
-
-## Development
-
-- `npm run format`: Formats code with Prettier.
-- `npm run lint`: Lints JavaScript files using ESLint.
-
-## Image optimisation workflow
-
-Raw photos are kept outside the repo and processed into committed WebP assets.
-
-```
-_originals/          ← gitignored, drop raw photos here
-  {parkId}/
-    overview_1.jpg
-    other_1.jpg
-    ...
-
-assets/images/parks/ ← committed, generated output
-  {parkId}/
-    thumb/           ← 200 px wide, WebP q75  (used in list cards)
-      overview_1.webp
-    med/             ← 800 px wide, WebP q80  (used in modal gallery)
-      overview_1.webp
-```
-
-### Adding photos for a park
-
-1. Create `_originals/{parkId}/` and drop the raw files in.
-2. Add the base names (no extension) to `assets/data/parks.json` under `park_images` or `equipment[].images`.
-3. Run `npm run images` — only new or changed files are processed.
-4. Commit the generated files under `assets/images/parks/`.
-
-### Rebuilding everything from scratch
-
-```bash
-npm run images:clean
-```
+- **網頁投稿 Submit via web form**: [提交公園資料 / Submit park data](https://mc-marcocheng.github.io/hk-park-searcher/contribute.html)
+- **Google Form 仍可使用 Google Form is still available**: [香港街健公園資料提交](https://forms.gle/tBqyQ5meYqtdXcja7)
+- **貢獻指南 Contributing Guide**: 請參閱 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- **開發及部署文件 Developer and deployment docs**: 請參閱 [docs/](https://mc-marcocheng.github.io/hk-park-searcher/docs)。

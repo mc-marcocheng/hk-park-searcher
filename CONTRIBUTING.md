@@ -1,44 +1,144 @@
 # Contributing to Park Searcher
 
-Thank you for your interest in contributing to Park Searcher! There are two ways you can help: by submitting park data or by contributing to the codebase.
+Thank you for your interest in contributing to Park Searcher! You can help by submitting park data, adding images, improving the codebase, or improving the documentation.
 
-## 1. Submitting Park Data (Non-Technical)
+## 1. Submitting Park Data
 
-The easiest way to help is by providing information about street workout parks in Hong Kong. We use a Google Form to collect this data:
+### Recommended: web contribution form
+
+The easiest way to submit a park is the new contribution page:
+
+👉 **[Submit park data](https://mc-marcocheng.github.io/hk-park-searcher/contribute.html)**
+
+The form lets you:
+
+- Add a missing street workout park.
+- Upload park environment photos.
+- Upload equipment-specific photos.
+- Select the park location on a map.
+- Create a public GitHub Pull Request for maintainer review.
+
+Submissions are not published immediately. A maintainer will review and merge the generated Pull Request before the park appears on the public map.
+
+### Google Form fallback
+
+The original Google Form is still available:
 
 👉 **[Hong Kong Street Workout Park Data Submission Form](https://forms.gle/tBqyQ5meYqtdXcja7)**
 
-Use this form if:
+Use either form if:
+
 - You know a park that is missing from our map.
-- You found incorrect information (e.g., wrong equipment list, incorrect location).
-- You have photos of a park that you'd like to share.
+- You found incorrect information, such as a wrong equipment list or location.
+- You have photos of a park that you are allowed to share publicly.
 
-## 2. Contributing Code or Images (Technical)
+## 2. Contributing Code, Data, or Images
 
-If you are a developer or comfortable with Git, you can contribute directly to this repository.
+If you are comfortable with Git, you can contribute directly by opening a Pull Request.
 
-### Adding New Parks via Pull Request
+### Adding or editing park data
 
-1. **Park Data**: Update `assets/data/parks.json` with the new park details.
-2. **Images**: 
-   - Follow the [Image Optimisation Workflow](README.md#image-optimisation-workflow) described in the README.
-   - Drop raw images into `_originals/{parkId}/`.
-   - Run `npm run images` to generate the WebP assets.
-   - Commit the generated files under `assets/images/parks/`.
+Park source files live in:
 
-### Development Setup
+```text
+data/parks/{parkId}.json
+```
 
-1. Fork and clone the repository.
-2. Install dependencies: `npm install`.
-3. Start a local server: `npx serve`.
-4. Ensure your code follows our linting and formatting rules:
-   - `npm run lint`
-   - `npm run format`
+After editing source data, rebuild the generated aggregate file:
 
-### Submission Guidelines
+```bash
+npm run validate:data
+npm run build:data
+```
 
-- **Pull Requests**: Keep your PRs focused on a single change or a single park addition.
-- **Commit Messages**: Use clear and descriptive commit messages (e.g., `feat: add Causeway Bay Sports Ground`, `fix: update pull-up bar count at Victoria Park`).
+The generated public data file is:
+
+```text
+assets/data/parks.json
+```
+
+Please commit both the source JSON change and the rebuilt aggregate file when needed.
+
+### Adding photos for a park
+
+1. Create a raw image folder:
+
+   ```text
+   _originals/{parkId}/
+   ```
+
+2. Drop raw photos into that folder.
+
+3. Add the image base names, without extensions, to the relevant park JSON fields:
+
+   - `park_images`
+   - `equipment[].images`
+
+4. Run:
+
+   ```bash
+   npm run images
+   ```
+
+5. Commit the generated WebP files under:
+
+   ```text
+   assets/images/parks/{parkId}/thumb/
+   assets/images/parks/{parkId}/med/
+   ```
+
+Raw files in `_originals/` are intentionally gitignored.
+
+### Development setup
+
+Install project dependencies:
+
+```bash
+npm install
+```
+
+Build and validate data:
+
+```bash
+npm run validate:data
+npm run build:data
+```
+
+Start a local static server:
+
+```bash
+npx serve .
+# or
+python -m http.server
+```
+
+Run linting and formatting:
+
+```bash
+npm run lint
+npm run format
+```
+
+Backend development lives in `backend/`:
+
+```bash
+cd backend
+npm install
+npm run test
+npm run start
+```
+
+See the documentation in [`docs/`](docs/index.md) for full setup, Vercel deployment, GitHub App configuration, Turnstile, Upstash Redis, and security notes.
+
+## 3. Submission Guidelines
+
+- Keep Pull Requests focused on a single change or a single park addition.
+- Use clear commit messages, for example:
+  - `feat: add Causeway Bay Sports Ground`
+  - `fix: update pull-up bar count at Victoria Park`
+  - `docs: add backend deployment guide`
+- Do not include private personal information in park data or comments.
+- Only upload photos that you took yourself or are authorised to share publicly.
 
 ---
 
