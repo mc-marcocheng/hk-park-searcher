@@ -1,0 +1,46 @@
+name: Delete Contribution Branch
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  delete-branch:
+    name: Delete remote contribution branch
+    runs-on: ubuntu-latest
+
+    # Only delete same-repository contribution/* branches.
+    # This avoids touching fork branches or unrelated PR branches.
+    if: >
+      startsWith(github.head_ref, 'contribution/') &&
+      github.event.pull_request.head.repo.full_name == github.repository
+
+    steps:
+      - name: Delete branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.payload.pull_request.head.ref;
+
+            core.info(`Deleting branch: ${branch}`);
+
+            try {
+              await github.rest.git.deleteRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `heads/${branch}`,
+              });
+
+              core.info(`Deleted branch: ${branch}`);
+            } catch (error) {
+              if (error.status === 422 || error.status === 404) {
+                core.warning(`Branch ${branch} was already deleted or does not exist.`);
+                return;
+              }
+
+              throw error;
+            }
