@@ -1,0 +1,36 @@
+{
+  "id": "park",
+  "name": {
+    "zh": "街健公園",
+    "en": "Park"
+  },
+  "coords": {
+    "lat": 22.337914,
+    "lng": 114.006052
+  },
+  "district": {
+    "zh": "大埔區",
+    "en": "Tai Po"
+  },
+  "address": {
+    "zh": "addr1",
+    "en": "addr2"
+  },
+  "equipment": [
+    {
+      "type": "parallel_bars",
+      "images": [
+        "parallel_bars_1"
+      ]
+    }
+  ],
+  "park_images": [
+    "overview_1"
+  ],
+  "metrics": {
+    "quality": 3
+  },
+  "comment": "Comment",
+  "comment_format": "plain",
+  "contributedAt": "2026-07-18T18:33:45.631Z"
+}
