@@ -104,9 +104,15 @@ The main schema lives in:
 backend/lib/schema.js
 ```
 
+Submissions use **version 2** and are a discriminated union on `operation`:
+
+- `create` — adds a new park. Rejects `retainedImages`.
+- `update` — improves an existing park. Requires `parkId`, a 40-character
+  `baseBlobSha`, and a `retainedImages` array.
+
 Validation includes:
 
-- Submission version
+- Submission version (`2`)
 - UUID submission key
 - Hong Kong coordinate bounds
 - District code
@@ -117,6 +123,43 @@ Validation includes:
 - Maximum combined processed image size
 - Required attestations
 - Base64 byte length checks
+- For `update`: retained image references must exist in the current park file
+
+## Park id and image naming
+
+The backend is **authoritative** for identifiers. The browser must never
+propose a park id, filename, or existing-image reference.
+
+- **Park ids** are human-readable slugs derived from the English name, then the
+  English address, then a deterministic coordinate fallback
+  (`{district}-park-{lat}-{lng}`). Collisions append `-2`, `-3`, etc. Chinese-only
+  submissions fall back to the coordinate slug rather than a random id.
+- **Image filenames** are semantic: environment photos become `overview_1`,
+  `overview_2`, … and equipment photos become `{equipmentType}_1`, … (for
+  example `high_pull_up_bar_1`). Client-supplied UUIDs are never persisted.
+
+## Canonical park endpoint
+
+The browser loads the current canonical park before an update via:
+
+```text
+GET /api/park?id={parkId}
+```
+
+It returns the park record, its current blob SHA, and the base commit SHA. The
+blob SHA is sent back as `baseBlobSha` so the backend can detect concurrent
+edits (stale-update → `409`).
+
+```mermaid
+sequenceDiagram
+    participant Browser
+    participant API as Vercel API
+    participant GitHub
+
+    Browser->>API: GET /api/park?id={parkId}
+    API->>GitHub: Read data/parks/{parkId}.json at base commit
+    API-->>Browser: { park, blobSha, baseCommitSha }
+```
 
 ## Image handling
 
@@ -146,12 +189,23 @@ For each accepted submission, the GitHub App creates a branch like:
 contribution/park-YYYYMMDD-xxxxxxxx
 ```
 
-The Pull Request contains:
+For a **create** submission the Pull Request contains:
 
 ```text
 data/parks/{generatedParkId}.json
 assets/images/parks/{generatedParkId}/med/*.webp
 assets/images/parks/{generatedParkId}/thumb/*.webp
+```
+
+For an **update** submission the Pull Request contains the modified park JSON
+plus only the added/removed image files (retained images are not re-uploaded):
+
+```text
+data/parks/{parkId}.json
+assets/images/parks/{parkId}/med/{added}.webp      (new images only)
+assets/images/parks/{parkId}/thumb/{added}.webp    (new images only)
+assets/images/parks/{parkId}/med/{removed}.webp    (deleted images)
+assets/images/parks/{parkId}/thumb/{removed}.webp  (deleted images)
 ```
 
 The generated park JSON includes:
@@ -165,6 +219,25 @@ The generated park JSON includes:
 - Quality rating
 - Comment
 - Contribution timestamp
+
+## Update mode
+
+Update submissions are applied as a single atomic commit on top of the base
+commit the browser loaded. The backend re-reads the park file at `baseBlobSha`
+to reject stale edits and to authenticate every retained image reference.
+
+```mermaid
+sequenceDiagram
+    participant Browser
+    participant API as Vercel API
+    participant GitHub
+
+    Browser->>API: POST /api/submissions (operation: update)
+    API->>GitHub: Verify current blob SHA matches baseBlobSha
+    API->>GitHub: Verify retained image references exist in current file
+    API->>GitHub: Create atomic update commit and Pull Request
+    API-->>Browser: Pull Request URL
+```
 
 ## Review model
 

@@ -38,10 +38,19 @@ let marker;
 let turnstileWidgetId = null;
 const processedImages = [];
 
+let contributionOperation = "create";
+let existingPark = null;
+let existingParkBlobSha = null;
+let retainedExistingImages = [];
+let availableParks = [];
+let existingParkLoadVersion = 0;
+
 document.addEventListener("DOMContentLoaded", () => {
     initThemeToggle();
     populateDistricts();
     initMap();
+    initCurrentLocation();
+    initContributionMode();
     populateEquipmentPhotoFields();
     initImageUploaders();
     initForm();
@@ -126,23 +135,65 @@ function populateEquipmentPhotoFields() {
         help.className = "form-help";
         help.textContent = equipmentHelp[type];
 
-        const input = document.createElement("input");
-        input.id = `equipment-image-${type}`;
-        input.className = "file-input";
-        input.type = "file";
-        input.accept = "image/jpeg,image/png,image/webp";
-        input.multiple = true;
-        input.dataset.role = "equipment";
-        input.dataset.equipmentType = type;
-        input.setAttribute("aria-label", `${equipmentLabels[type]}照片`);
+        const actions = document.createElement("div");
+        actions.className = "image-source-actions";
+
+        const upload = createImageInputControl({
+            id: `equipment-image-${type}`,
+            label: "選擇相片",
+            accept: "image/jpeg,image/png,image/webp",
+            multiple: true,
+            role: "equipment",
+            equipmentType: type,
+        });
+
+        const camera = createImageInputControl({
+            id: `equipment-camera-${type}`,
+            label: "開啟相機拍攝",
+            accept: "image/*",
+            capture: "environment",
+            multiple: false,
+            role: "equipment",
+            equipmentType: type,
+        });
 
         const previews = document.createElement("div");
         previews.id = `equipment-preview-${type}`;
         previews.className = "image-preview-list";
 
-        section.append(heading, help, input, previews);
+        actions.append(upload.wrapper, camera.wrapper);
+        section.append(heading, help, actions, previews);
         container.appendChild(section);
     }
+}
+
+function createImageInputControl({ id, label, accept, capture, multiple, role, equipmentType }) {
+    const wrapper = document.createElement("div");
+
+    const labelElement = document.createElement("label");
+    labelElement.className = "button-tertiary";
+    labelElement.htmlFor = id;
+    labelElement.textContent = label;
+
+    const input = document.createElement("input");
+    input.id = id;
+    input.className = "file-input visually-hidden-file";
+    input.type = "file";
+    input.accept = accept;
+    input.multiple = Boolean(multiple);
+    input.dataset.imageRole = role;
+
+    if (equipmentType) {
+        input.dataset.equipmentType = equipmentType;
+    }
+
+    if (capture) {
+        input.setAttribute("capture", capture);
+    }
+
+    wrapper.append(labelElement, input);
+
+    return { wrapper, input };
 }
 
 function initMap() {
@@ -215,17 +266,118 @@ function syncCoordsFromInputs() {
     lngInput.addEventListener("change", update);
 }
 
-function initImageUploaders() {
-    const parkInput = document.getElementById("park-image-input");
+function initCurrentLocation() {
+    const button = document.getElementById("use-current-location");
+    const status = document.getElementById("current-location-status");
 
-    parkInput?.addEventListener("change", async () => {
-        await addSelectedFiles(parkInput, "park", null);
+    if (!button || !status) return;
+
+    if (!("geolocation" in navigator)) {
+        button.disabled = true;
+        status.textContent = "此瀏覽器不支援定位功能。";
+        return;
+    }
+
+    button.addEventListener("click", () => {
+        button.disabled = true;
+        button.setAttribute("aria-busy", "true");
+        status.textContent = "正在取得目前位置…";
+
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                const { latitude, longitude, accuracy } = position.coords;
+
+                if (!isWithinHongKong(latitude, longitude)) {
+                    status.textContent = "目前位置不在支援的香港範圍內。";
+                    finish();
+                    return;
+                }
+
+                setCoords(latitude, longitude);
+
+                if (map) {
+                    map.setView([latitude, longitude], 17);
+                }
+
+                clearCoordinateErrors();
+
+                const roundedAccuracy = Number.isFinite(accuracy) ? Math.round(accuracy) : null;
+
+                status.textContent = roundedAccuracy
+                    ? `已使用目前位置，估計誤差約 ${roundedAccuracy} 米。請確認地圖標記是否正確。`
+                    : "已使用目前位置。請確認地圖標記是否正確。";
+
+                finish();
+            },
+            (error) => {
+                status.textContent = getGeolocationErrorMessage(error);
+                finish();
+            },
+            {
+                enableHighAccuracy: true,
+                timeout: 15_000,
+                maximumAge: 30_000,
+            }
+        );
     });
 
+    function finish() {
+        button.disabled = false;
+        button.removeAttribute("aria-busy");
+    }
+}
+
+function isWithinHongKong(lat, lng) {
+    return (
+        Number.isFinite(lat) &&
+        Number.isFinite(lng) &&
+        lat >= HONG_KONG_BOUNDS.latMin &&
+        lat <= HONG_KONG_BOUNDS.latMax &&
+        lng >= HONG_KONG_BOUNDS.lngMin &&
+        lng <= HONG_KONG_BOUNDS.lngMax
+    );
+}
+
+function clearCoordinateErrors() {
+    for (const id of ["lat-error", "lng-error"]) {
+        const error = document.getElementById(id);
+        if (error) {
+            error.hidden = true;
+            error.textContent = "";
+        }
+    }
+
+    setInvalid("lat", false);
+    setInvalid("lng", false);
+}
+
+function getGeolocationErrorMessage(error) {
+    switch (error.code) {
+        case error.PERMISSION_DENIED:
+            return "無法取得位置。請在瀏覽器設定中允許位置權限。";
+        case error.POSITION_UNAVAILABLE:
+            return "目前無法取得位置，請在地圖上手動選擇。";
+        case error.TIMEOUT:
+            return "定位逾時，請再試一次或在地圖上手動選擇。";
+        default:
+            return "無法取得目前位置，請在地圖上手動選擇。";
+    }
+}
+
+function initImageUploaders() {
+    bindImageInput(document.getElementById("park-image-input"), "park", null);
+    bindImageInput(document.getElementById("park-camera-input"), "park", null);
+
     document.querySelectorAll('#equipment-photo-fields input[type="file"]').forEach((input) => {
-        input.addEventListener("change", async () => {
-            await addSelectedFiles(input, "equipment", input.dataset.equipmentType);
-        });
+        bindImageInput(input, "equipment", input.dataset.equipmentType);
+    });
+}
+
+function bindImageInput(input, role, equipmentType) {
+    if (!input) return;
+
+    input.addEventListener("change", async () => {
+        await addSelectedFiles(input, role, equipmentType);
     });
 }
 
@@ -340,7 +492,22 @@ function initForm() {
     renderTurnstile();
 }
 
+function isLocalDev() {
+    const host = window.location.hostname;
+    return (
+        host === "localhost" ||
+        host === "127.0.0.1" ||
+        host === "[::1]" ||
+        window.PARK_CONTRIBUTION_CONFIG.disableTurnstile
+    );
+}
+
 function renderTurnstile() {
+    if (isLocalDev()) {
+        turnstileWidgetId = null;
+        return;
+    }
+
     if (typeof window.turnstile === "undefined") {
         window.addEventListener("load", renderTurnstile, { once: true });
         return;
@@ -432,14 +599,7 @@ function validateForm() {
     const lat = Number.parseFloat(document.getElementById("lat").value);
     const lng = Number.parseFloat(document.getElementById("lng").value);
 
-    if (
-        !Number.isFinite(lat) ||
-        !Number.isFinite(lng) ||
-        lat < HONG_KONG_BOUNDS.latMin ||
-        lat > HONG_KONG_BOUNDS.latMax ||
-        lng < HONG_KONG_BOUNDS.lngMin ||
-        lng > HONG_KONG_BOUNDS.lngMax
-    ) {
+    if (!isWithinHongKong(lat, lng)) {
         showFieldError("lat-error", "請在地圖上選擇香港範圍內的位置。");
         showFieldError("lng-error", "請在地圖上選擇香港範圍內的位置。");
         setInvalid("lat", true);
@@ -448,11 +608,46 @@ function validateForm() {
         if (!firstInvalidId) firstInvalidId = "lat";
     }
 
-    if (!processedImages.some((image) => image.role === "park")) {
-        showFieldError("images-error", "請至少上傳一張公園全景／環境照片。");
+    if (!getResultingImages().some((image) => image.role === "park")) {
+        showFieldError("images-error", "請至少保留或新增一張公園全景／環境照片。");
         setInvalid("park-image-input", true);
         errors.push("images");
         if (!firstInvalidId) firstInvalidId = "park-image-input";
+    }
+
+    const selectedEquipmentTypes = [
+        ...new Set([
+            ...retainedExistingImages
+                .filter((image) => image.role === "equipment")
+                .map((image) => image.equipmentType),
+            ...processedImages
+                .filter((image) => image.role === "equipment")
+                .map((image) => image.equipmentType),
+        ]),
+    ];
+
+    for (const type of selectedEquipmentTypes) {
+        const hasImage = getResultingImages().some(
+            (image) => image.role === "equipment" && image.equipmentType === type
+        );
+
+        if (!hasImage) {
+            showFieldError(
+                `equipment-error-${type}`,
+                `請為「${equipmentLabels[type]}」上傳或保留至少一張照片。`
+            );
+            setInvalid(`equipment-image-${type}`, true);
+            errors.push(`equipment-${type}`);
+            if (!firstInvalidId) firstInvalidId = `equipment-image-${type}`;
+        }
+    }
+
+    if (contributionOperation === "update") {
+        if (!existingPark || !existingParkBlobSha) {
+            showFieldError("existing-park-status", "請選擇並成功載入要更新的公園。");
+            errors.push("existing-park");
+            if (!firstInvalidId) firstInvalidId = "existing-park";
+        }
     }
 
     const selectedRating = document.querySelector('input[name="quality"]:checked');
@@ -495,6 +690,543 @@ function validateForm() {
     return { valid: errors.length === 0, firstInvalidId, errors };
 }
 
+function getResultingImages() {
+    return [
+        ...(contributionOperation === "update" ? retainedExistingImages : []),
+        ...processedImages.map((image) => ({
+            role: image.role,
+            equipmentType: image.equipmentType,
+        })),
+    ];
+}
+
+function normalizeParkSearchText(value) {
+    return String(value || "")
+        .normalize("NFKC")
+        .toLocaleLowerCase("zh-HK")
+        .replace(/[\p{P}\p{S}]+/gu, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function compactParkSearchText(value) {
+    return normalizeParkSearchText(value).replace(/\s+/g, "");
+}
+
+function getParkSearchFields(park) {
+    return {
+        nameZh: compactParkSearchText(park.name?.zh),
+        nameEn: compactParkSearchText(park.name?.en),
+        districtZh: compactParkSearchText(park.district?.zh),
+        districtEn: compactParkSearchText(park.district?.en),
+        addressZh: compactParkSearchText(park.address?.zh),
+        addressEn: compactParkSearchText(park.address?.en),
+        id: compactParkSearchText(park.id),
+    };
+}
+
+function getParkSearchScore(park, query) {
+    const normalizedQuery = normalizeParkSearchText(query);
+    const compactQuery = compactParkSearchText(query);
+
+    if (!compactQuery) return 1;
+
+    const queryTokens = normalizedQuery.split(" ").map(compactParkSearchText).filter(Boolean);
+
+    const fields = getParkSearchFields(park);
+    const searchableValues = Object.values(fields);
+    const combined = searchableValues.join(" ");
+
+    const matchesEveryToken = queryTokens.every((token) =>
+        searchableValues.some((value) => value.includes(token))
+    );
+
+    if (!matchesEveryToken && !combined.includes(compactQuery)) {
+        return 0;
+    }
+
+    if (fields.nameZh === compactQuery || fields.nameEn === compactQuery) {
+        return 100;
+    }
+
+    if (fields.nameZh.startsWith(compactQuery) || fields.nameEn.startsWith(compactQuery)) {
+        return 90;
+    }
+
+    if (fields.nameZh.includes(compactQuery) || fields.nameEn.includes(compactQuery)) {
+        return 80;
+    }
+
+    if (fields.districtZh === compactQuery || fields.districtEn === compactQuery) {
+        return 70;
+    }
+
+    if (fields.districtZh.includes(compactQuery) || fields.districtEn.includes(compactQuery)) {
+        return 60;
+    }
+
+    if (fields.addressZh.includes(compactQuery) || fields.addressEn.includes(compactQuery)) {
+        return 50;
+    }
+
+    if (fields.id.includes(compactQuery)) {
+        return 40;
+    }
+
+    return 10;
+}
+
+function filterAndRankParks(parks, query) {
+    return parks
+        .map((park) => ({
+            park,
+            score: getParkSearchScore(park, query),
+        }))
+        .filter((result) => result.score > 0)
+        .sort((left, right) => {
+            if (left.score !== right.score) {
+                return right.score - left.score;
+            }
+
+            const leftName = left.park.name?.zh || left.park.name?.en || left.park.id;
+
+            const rightName = right.park.name?.zh || right.park.name?.en || right.park.id;
+
+            return leftName.localeCompare(rightName, "zh-HK", {
+                numeric: true,
+                sensitivity: "base",
+            });
+        })
+        .map((result) => result.park);
+}
+
+function renderExistingParkOptions(query = "") {
+    const selectedParkField = document.getElementById("existing-park");
+    const searchInput = document.getElementById("existing-park-search");
+    const resultsContainer = document.getElementById("existing-park-results");
+    const resultCount = document.getElementById("existing-park-result-count");
+
+    if (!selectedParkField || !searchInput || !resultsContainer) {
+        return;
+    }
+
+    const matchingParks = filterAndRankParks(availableParks, query);
+
+    resultsContainer.replaceChildren();
+
+    for (const park of matchingParks) {
+        const resultButton = document.createElement("button");
+        resultButton.type = "button";
+        resultButton.className = "park-search-result";
+        resultButton.dataset.parkId = park.id;
+        resultButton.setAttribute("role", "option");
+        resultButton.setAttribute("aria-selected", String(selectedParkField.value === park.id));
+
+        const name = document.createElement("span");
+        name.className = "park-search-result-name";
+        name.textContent = park.name?.zh || park.name?.en || park.id;
+
+        const details = document.createElement("span");
+        details.className = "park-search-result-details";
+        details.textContent = [
+            park.name?.zh ? park.name?.en : "",
+            park.district?.zh || park.district?.en,
+            park.address?.zh || park.address?.en,
+        ]
+            .filter(Boolean)
+            .join(" · ");
+
+        resultButton.appendChild(name);
+
+        if (details.textContent) {
+            resultButton.appendChild(details);
+        }
+
+        resultsContainer.appendChild(resultButton);
+    }
+
+    const hasResults = matchingParks.length > 0;
+
+    resultsContainer.hidden = !hasResults;
+    searchInput.setAttribute("aria-expanded", String(hasResults));
+
+    if (resultCount) {
+        const trimmedQuery = query.trim();
+
+        resultCount.textContent = trimmedQuery
+            ? `找到 ${matchingParks.length} 個符合的公園。`
+            : `共有 ${matchingParks.length} 個公園。輸入關鍵字可縮窄結果。`;
+    }
+}
+
+function chooseExistingPark(parkId) {
+    const selectedParkField = document.getElementById("existing-park");
+    const searchInput = document.getElementById("existing-park-search");
+
+    const park = availableParks.find((candidate) => candidate.id === parkId);
+
+    if (!selectedParkField || !searchInput || !park) {
+        return;
+    }
+
+    selectedParkField.value = park.id;
+
+    // Make the visible input reflect the selected park.
+    searchInput.value = park.name?.zh || park.name?.en || park.id;
+
+    renderExistingParkOptions(searchInput.value);
+
+    selectedParkField.dispatchEvent(new Event("change", { bubbles: true }));
+}
+
+async function initContributionMode() {
+    const picker = document.getElementById("existing-park-picker");
+    const selectedParkField = document.getElementById("existing-park");
+    const searchInput = document.getElementById("existing-park-search");
+    const resultsContainer = document.getElementById("existing-park-results");
+    const status = document.getElementById("existing-park-status");
+
+    if (!picker || !selectedParkField || !searchInput || !resultsContainer) {
+        return;
+    }
+
+    selectedParkField.disabled = true;
+    searchInput.disabled = true;
+
+    if (status) {
+        status.textContent = "正在載入公園清單…";
+    }
+
+    try {
+        const response = await fetch("./assets/data/parks.json");
+
+        if (!response.ok) {
+            throw new Error("無法載入公園清單。");
+        }
+
+        const parks = await response.json();
+
+        if (!Array.isArray(parks)) {
+            throw new Error("公園清單格式錯誤。");
+        }
+
+        availableParks = parks;
+        selectedParkField.disabled = false;
+        searchInput.disabled = false;
+
+        renderExistingParkOptions();
+
+        if (status) {
+            status.textContent = "";
+        }
+    } catch (error) {
+        availableParks = [];
+        selectedParkField.disabled = true;
+        searchInput.disabled = true;
+
+        if (status) {
+            status.textContent = error.message || "無法載入公園清單。";
+        }
+    }
+
+    document.querySelectorAll('input[name="contribution-operation"]').forEach((radio) => {
+        radio.addEventListener("change", () => {
+            contributionOperation = radio.value;
+            picker.hidden = contributionOperation !== "update";
+
+            if (contributionOperation === "create") {
+                resetExistingParkState();
+                selectedParkField.value = "";
+                searchInput.value = "";
+                renderExistingParkOptions();
+                return;
+            }
+
+            requestAnimationFrame(() => {
+                searchInput.focus();
+            });
+        });
+    });
+
+    searchInput.addEventListener("input", () => {
+        if (selectedParkField.value) {
+            selectedParkField.value = "";
+            resetExistingParkState();
+        }
+
+        renderExistingParkOptions(searchInput.value);
+    });
+
+    searchInput.addEventListener("keydown", (event) => {
+        // Do not intercept Enter while a Chinese IME is composing.
+        if (event.isComposing || event.keyCode === 229) {
+            return;
+        }
+
+        const firstResult = resultsContainer.querySelector(".park-search-result");
+
+        if (event.key === "ArrowDown" && firstResult) {
+            event.preventDefault();
+            firstResult.focus();
+            return;
+        }
+
+        if (event.key === "Enter" && searchInput.value.trim() && firstResult) {
+            event.preventDefault();
+            firstResult.click();
+            return;
+        }
+
+        if (event.key === "Escape") {
+            selectedParkField.value = "";
+            searchInput.value = "";
+            resetExistingParkState();
+            renderExistingParkOptions();
+        }
+    });
+
+    resultsContainer.addEventListener("click", (event) => {
+        const result = event.target.closest("[data-park-id]");
+
+        if (!result) return;
+
+        chooseExistingPark(result.dataset.parkId);
+    });
+
+    resultsContainer.addEventListener("keydown", (event) => {
+        const results = Array.from(resultsContainer.querySelectorAll(".park-search-result"));
+
+        const currentIndex = results.indexOf(document.activeElement);
+
+        if (event.key === "ArrowDown") {
+            event.preventDefault();
+
+            const nextIndex = Math.min(currentIndex + 1, results.length - 1);
+
+            results[nextIndex]?.focus();
+        }
+
+        if (event.key === "ArrowUp") {
+            event.preventDefault();
+
+            if (currentIndex <= 0) {
+                searchInput.focus();
+            } else {
+                results[currentIndex - 1].focus();
+            }
+        }
+
+        if (event.key === "Escape") {
+            event.preventDefault();
+            searchInput.focus();
+        }
+    });
+
+    selectedParkField.addEventListener("change", async () => {
+        if (!selectedParkField.value) {
+            resetExistingParkState();
+            return;
+        }
+
+        await loadExistingPark(selectedParkField.value);
+    });
+}
+
+function resetExistingParkState() {
+    existingParkLoadVersion++;
+
+    existingPark = null;
+    existingParkBlobSha = null;
+    retainedExistingImages = [];
+
+    const status = document.getElementById("existing-park-status");
+    if (status) status.textContent = "";
+
+    const container = document.getElementById("existing-images");
+    if (container) container.innerHTML = "";
+}
+
+async function loadExistingPark(parkId) {
+    const status = document.getElementById("existing-park-status");
+    const select = document.getElementById("existing-park");
+    const loadVersion = ++existingParkLoadVersion;
+
+    if (status) {
+        status.textContent = "正在載入公園資料…";
+    }
+
+    if (select) {
+        select.disabled = true;
+    }
+
+    try {
+        const url = new URL(window.PARK_CONTRIBUTION_CONFIG.parkApiUrl);
+        url.searchParams.set("id", parkId);
+
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            throw new Error("未能載入現有公園資料。");
+        }
+
+        const result = await response.json();
+
+        // Ignore a response if another park was selected while it was loading.
+        if (loadVersion !== existingParkLoadVersion) return;
+
+        existingPark = result.park;
+        existingParkBlobSha = result.blobSha;
+
+        prefillParkForm(existingPark);
+        initializeRetainedImages(existingPark);
+        renderExistingImages(existingPark);
+
+        if (status) {
+            status.textContent = `已載入「${
+                existingPark.name?.zh || existingPark.name?.en || existingPark.id
+            }」。`;
+        }
+    } catch (error) {
+        if (loadVersion !== existingParkLoadVersion) return;
+
+        existingPark = null;
+        existingParkBlobSha = null;
+        retainedExistingImages = [];
+
+        if (status) {
+            status.textContent = error.message || "未能載入現有公園資料。";
+        }
+    } finally {
+        if (loadVersion === existingParkLoadVersion && select) {
+            select.disabled = false;
+        }
+    }
+}
+
+function findDistrictCode(district) {
+    if (!district) return "";
+
+    return (
+        Object.entries(districts).find(([, candidate]) => {
+            return candidate.zh === district.zh || candidate.en === district.en;
+        })?.[0] || ""
+    );
+}
+
+function prefillParkForm(park) {
+    document.getElementById("name-zh").value = park.name?.zh || "";
+    document.getElementById("name-en").value = park.name?.en || "";
+    document.getElementById("district").value = findDistrictCode(park.district);
+    document.getElementById("address-zh").value = park.address?.zh || "";
+    document.getElementById("address-en").value = park.address?.en || "";
+    document.getElementById("comment").value = park.comment || "";
+
+    if (park.coords) {
+        setCoords(park.coords.lat, park.coords.lng);
+        map?.setView([park.coords.lat, park.coords.lng], 16);
+    }
+
+    const quality = park.metrics?.quality;
+    const rating = document.querySelector(`input[name="quality"][value="${quality}"]`);
+
+    if (rating) rating.checked = true;
+}
+
+function flattenExistingImages(park) {
+    const images = [];
+
+    for (const reference of park.park_images || []) {
+        images.push({
+            reference,
+            role: "park",
+            equipmentType: null,
+        });
+    }
+
+    for (const equipment of park.equipment || []) {
+        for (const reference of equipment.images || []) {
+            images.push({
+                reference,
+                role: "equipment",
+                equipmentType: equipment.type,
+            });
+        }
+    }
+
+    return images;
+}
+
+function initializeRetainedImages(park) {
+    retainedExistingImages = flattenExistingImages(park);
+}
+
+function existingImageUrl(parkId, reference, size = "thumb") {
+    if (/^https?:\/\//i.test(reference)) return reference;
+
+    return `./assets/images/parks/${parkId}/${size}/${reference}.webp`;
+}
+
+function renderExistingImages(park) {
+    const container = document.getElementById("existing-images");
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    const images = flattenExistingImages(park);
+
+    for (const image of images) {
+        const field = document.createElement("div");
+        field.className = "existing-image-field";
+
+        const img = document.createElement("img");
+        img.src = existingImageUrl(park.id, image.reference);
+        img.alt =
+            image.role === "park"
+                ? "現有公園環境照片"
+                : `${equipmentLabels[image.equipmentType]}照片`;
+
+        const meta = document.createElement("div");
+        meta.className = "existing-image-meta";
+
+        const label = document.createElement("label");
+        label.className = "checkbox-label";
+
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = true;
+        checkbox.dataset.reference = image.reference;
+        checkbox.dataset.role = image.role;
+        if (image.equipmentType) {
+            checkbox.dataset.equipmentType = image.equipmentType;
+        }
+
+        checkbox.addEventListener("change", () => {
+            if (checkbox.checked) {
+                retainedExistingImages.push(image);
+            } else {
+                const index = retainedExistingImages.findIndex(
+                    (candidate) =>
+                        candidate.reference === image.reference &&
+                        candidate.role === image.role &&
+                        candidate.equipmentType === image.equipmentType
+                );
+                if (index !== -1) retainedExistingImages.splice(index, 1);
+            }
+        });
+
+        const text = document.createElement("span");
+        text.textContent =
+            image.role === "park"
+                ? "保留此公園環境照片"
+                : `保留此${equipmentLabels[image.equipmentType]}照片`;
+
+        label.append(checkbox, text);
+        meta.appendChild(label);
+        field.append(img, meta);
+        container.appendChild(field);
+    }
+}
+
 async function handleSubmit(form) {
     const submitButton = document.getElementById("submit-button");
     const status = document.getElementById("submit-status");
@@ -513,15 +1245,20 @@ async function handleSubmit(form) {
     errorSummary.hidden = true;
     errorSummary.textContent = "";
 
-    if (typeof window.turnstile === "undefined" || turnstileWidgetId === null) {
-        status.textContent = "人機驗證尚未準備好，請稍候再試。";
-        return;
-    }
+    let turnstileToken;
+    if (isLocalDev()) {
+        turnstileToken = "local-dev";
+    } else {
+        if (typeof window.turnstile === "undefined" || turnstileWidgetId === null) {
+            status.textContent = "人機驗證尚未準備好，請稍候再試。";
+            return;
+        }
 
-    const turnstileToken = window.turnstile.getResponse(turnstileWidgetId);
-    if (!turnstileToken) {
-        status.textContent = "請先完成人機驗證。";
-        return;
+        turnstileToken = window.turnstile.getResponse(turnstileWidgetId);
+        if (!turnstileToken) {
+            status.textContent = "請先完成人機驗證。";
+            return;
+        }
     }
 
     const payload = await buildPayload(turnstileToken);
@@ -549,6 +1286,9 @@ async function handleSubmit(form) {
         const result = await response.json();
 
         if (!response.ok) {
+            if (response.status === 409 && contributionOperation === "update") {
+                throw new Error("此公園資料在你填寫期間已被更新。請重新載入公園資料後再試。");
+            }
             throw new Error(result.message || "未能提交資料。");
         }
 
@@ -586,48 +1326,65 @@ async function buildPayload(turnstileToken) {
         });
     }
 
-    const submittedEquipment = [
-        ...new Set(
-            processedImages
-                .filter((image) => image.role === "equipment")
-                .map((image) => image.equipmentType)
-        ),
-    ];
-
-    const quality = Number(document.querySelector('input[name="quality"]:checked')?.value);
-
-    return {
-        submissionVersion: 1,
+    const common = {
+        submissionVersion: 2,
+        operation: contributionOperation,
         submissionKey,
         startedAt,
         website: document.getElementById("website").value,
         turnstileToken,
-        park: {
-            name: {
-                zh: document.getElementById("name-zh").value.trim(),
-                en: document.getElementById("name-en").value.trim(),
-            },
-            districtCode: document.getElementById("district").value,
-            address: {
-                zh: document.getElementById("address-zh").value.trim(),
-                en: document.getElementById("address-en").value.trim(),
-            },
-            coords: {
-                lat: Number.parseFloat(document.getElementById("lat").value),
-                lng: Number.parseFloat(document.getElementById("lng").value),
-            },
-            equipment: submittedEquipment,
-            metrics: {
-                quality,
-            },
-            comment: document.getElementById("comment").value,
-        },
+        park: buildParkFormValue(),
         images,
         attestations: {
             accurate: document.getElementById("attest-accurate").checked,
             imageRights: document.getElementById("attest-image-rights").checked,
             publicSubmission: document.getElementById("attest-public").checked,
         },
+    };
+
+    if (contributionOperation === "create") {
+        return common;
+    }
+
+    return {
+        ...common,
+        parkId: existingPark.id,
+        baseBlobSha: existingParkBlobSha,
+        retainedImages: retainedExistingImages,
+    };
+}
+
+function buildParkFormValue() {
+    const submittedEquipment = [
+        ...new Set([
+            ...retainedExistingImages
+                .filter((image) => image.role === "equipment")
+                .map((image) => image.equipmentType),
+            ...processedImages
+                .filter((image) => image.role === "equipment")
+                .map((image) => image.equipmentType),
+        ]),
+    ];
+
+    return {
+        name: {
+            zh: document.getElementById("name-zh").value.trim(),
+            en: document.getElementById("name-en").value.trim(),
+        },
+        districtCode: document.getElementById("district").value,
+        address: {
+            zh: document.getElementById("address-zh").value.trim(),
+            en: document.getElementById("address-en").value.trim(),
+        },
+        coords: {
+            lat: Number.parseFloat(document.getElementById("lat").value),
+            lng: Number.parseFloat(document.getElementById("lng").value),
+        },
+        equipment: submittedEquipment,
+        metrics: {
+            quality: Number(document.querySelector('input[name="quality"]:checked')?.value),
+        },
+        comment: document.getElementById("comment").value,
     };
 }
 
@@ -725,7 +1482,7 @@ async function encodeWebp(bitmap, options) {
 }
 
 async function processSourceImage(file) {
-    if (!ACCEPTED_SOURCE_TYPES.has(file.type)) {
+    if (file.type && !ACCEPTED_SOURCE_TYPES.has(file.type)) {
         throw new Error("只接受 JPEG、PNG 或 WebP 圖片。");
     }
 
@@ -733,9 +1490,15 @@ async function processSourceImage(file) {
         throw new Error("原始圖片不可超過 12 MB。");
     }
 
-    const bitmap = await createImageBitmap(file, {
-        imageOrientation: "from-image",
-    });
+    let bitmap;
+
+    try {
+        bitmap = await createImageBitmap(file, {
+            imageOrientation: "from-image",
+        });
+    } catch {
+        throw new Error("此圖片格式無法處理。請使用 JPEG、PNG 或 WebP。");
+    }
 
     try {
         if (bitmap.width * bitmap.height > IMAGE_LIMITS.maxSourcePixels) {

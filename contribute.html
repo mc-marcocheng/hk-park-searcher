@@ -73,6 +73,82 @@
                         ></div>
 
                         <fieldset class="form-card">
+                            <legend>投稿類型</legend>
+
+                            <label class="radio-card">
+                                <input
+                                    type="radio"
+                                    name="contribution-operation"
+                                    value="create"
+                                    checked
+                                />
+                                <span>
+                                    <strong>新增公園</strong>
+                                    <small>提交目前資料庫中未有的公園。</small>
+                                </span>
+                            </label>
+
+                            <label class="radio-card">
+                                <input type="radio" name="contribution-operation" value="update" />
+                                <span>
+                                    <strong>改善現有公園資料</strong>
+                                    <small>修正地址、位置、器材、相片或其他資料。</small>
+                                </span>
+                            </label>
+
+                            <div id="existing-park-picker" hidden>
+                                <div class="form-group">
+                                    <label class="form-label" for="existing-park-search">
+                                        搜尋現有公園
+                                    </label>
+
+                                    <input
+                                        id="existing-park-search"
+                                        class="text-input"
+                                        type="search"
+                                        role="combobox"
+                                        aria-autocomplete="list"
+                                        aria-controls="existing-park-results"
+                                        aria-expanded="false"
+                                        aria-describedby="existing-park-search-help existing-park-result-count"
+                                        placeholder="輸入公園名稱、地區或地址"
+                                        autocomplete="off"
+                                        spellcheck="false"
+                                    />
+
+                                    <p id="existing-park-search-help" class="form-help">
+                                        輸入關鍵字後，直接從下方結果選擇公園。
+                                    </p>
+
+                                    <p
+                                        id="existing-park-result-count"
+                                        class="form-help"
+                                        role="status"
+                                        aria-live="polite"
+                                    ></p>
+
+                                    <div
+                                        id="existing-park-results"
+                                        class="park-search-results"
+                                        role="listbox"
+                                        aria-label="公園搜尋結果"
+                                        hidden
+                                    ></div>
+
+                                    <!-- Stores the selected park ID for the existing contribution logic. -->
+                                    <input id="existing-park" type="hidden" />
+
+                                    <p
+                                        id="existing-park-status"
+                                        class="form-help"
+                                        role="status"
+                                        aria-live="polite"
+                                    ></p>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-card">
                             <legend>
                                 <span class="form-step">01</span>
                                 公園資料
@@ -162,10 +238,29 @@
                             </legend>
 
                             <p class="form-help">
-                                在下方地圖上點擊以選擇位置，或使用下方的經緯度輸入框。
+                                在下方地圖上點擊、輸入經緯度，或使用裝置目前位置來選擇公園位置。
                             </p>
 
                             <div id="contribution-map" aria-label="選擇公園位置"></div>
+
+                            <div class="location-picker-actions">
+                                <button
+                                    id="use-current-location"
+                                    class="button-tertiary"
+                                    type="button"
+                                    aria-describedby="current-location-status"
+                                >
+                                    <span aria-hidden="true">⌖</span>
+                                    使用目前位置
+                                </button>
+
+                                <p
+                                    id="current-location-status"
+                                    class="form-help"
+                                    role="status"
+                                    aria-live="polite"
+                                ></p>
+                            </div>
 
                             <div class="form-group">
                                 <label class="form-label" for="lat">
@@ -217,18 +312,40 @@
                                     請上傳能看到公園整體環境的照片，例如入口、全景、周邊環境等。
                                 </p>
 
-                                <input
-                                    id="park-image-input"
-                                    class="file-input"
-                                    type="file"
-                                    accept="image/jpeg,image/png,image/webp"
-                                    multiple
-                                    required
-                                    aria-required="true"
-                                />
+                                <div class="image-source-actions">
+                                    <div>
+                                        <label class="button-tertiary" for="park-image-input">
+                                            選擇相片
+                                        </label>
+
+                                        <input
+                                            id="park-image-input"
+                                            class="file-input visually-hidden-file"
+                                            type="file"
+                                            accept="image/jpeg,image/png,image/webp"
+                                            multiple
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <label class="button-tertiary" for="park-camera-input">
+                                            開啟相機拍攝
+                                        </label>
+
+                                        <input
+                                            id="park-camera-input"
+                                            class="file-input visually-hidden-file"
+                                            type="file"
+                                            accept="image/*"
+                                            capture="environment"
+                                        />
+                                    </div>
+                                </div>
 
                                 <div id="park-image-preview-list" class="image-preview-list"></div>
                                 <p class="field-error" id="images-error" hidden></p>
+
+                                <div id="existing-images" class="existing-images"></div>
                             </div>
                         </fieldset>
 

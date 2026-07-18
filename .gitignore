@@ -151,3 +151,5 @@ _originals/
 
 # Generated park data bundle (built from data/parks/*.json)
 /assets/data/parks.json
+.vercel
+.env*

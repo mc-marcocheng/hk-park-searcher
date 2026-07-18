@@ -2,6 +2,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { validatePark } from "./lib/park-validation.mjs";
 
 const execFileAsync = promisify(execFile);
 
@@ -24,9 +25,11 @@ function validateRef(headRef) {
 }
 
 async function getDiff(base, head) {
-    const { stdout } = await execFileAsync("git", ["diff", "--name-status", base, head], {
-        maxBuffer: 10 * 1024 * 1024,
-    });
+    const { stdout } = await execFileAsync(
+        "git",
+        ["diff", "--no-renames", "--name-status", base, head],
+        { maxBuffer: 10 * 1024 * 1024 }
+    );
 
     return stdout
         .split("\n")
@@ -38,6 +41,27 @@ async function getDiff(base, head) {
         });
 }
 
+function parseImagePath(filePath) {
+    const imageMatch =
+        /^assets\/images\/parks\/([a-z0-9][a-z0-9_-]{2,79})\/(med|thumb)\/([a-z0-9_-]+)\.webp$/.exec(
+            filePath
+        );
+
+    if (!imageMatch) return null;
+
+    return {
+        parkId: imageMatch[1],
+        variant: imageMatch[2],
+        basename: imageMatch[3],
+    };
+}
+
+function parseParkJsonPath(filePath) {
+    const match = /^data\/parks\/([a-z0-9][a-z0-9_-]{2,79})\.json$/.exec(filePath);
+    if (!match) return null;
+    return { parkId: match[1] };
+}
+
 async function main() {
     if (!BASE_SHA || !HEAD_SHA || !HEAD_REF) {
         fail("BASE_SHA, HEAD_SHA and HEAD_REF must be provided.");
@@ -47,57 +71,88 @@ async function main() {
 
     const changes = await getDiff(BASE_SHA, HEAD_SHA);
 
-    let parkJsonPath = null;
-    const imageFiles = [];
+    let parkJsonChange = null;
+    const imageChanges = [];
     const seenPaths = new Set();
 
     for (const change of changes) {
         const { status, path: filePath } = change;
-
-        if (!status.startsWith("A")) {
-            fail(`Contribution files must be newly added: ${filePath}`);
-        }
 
         if (seenPaths.has(filePath)) {
             fail(`Duplicate path entry: ${filePath}`);
         }
         seenPaths.add(filePath);
 
-        const parkMatch = /^data\/parks\/([a-z0-9][a-z0-9_-]{2,79})\.json$/.exec(filePath);
+        const parkMatch = parseParkJsonPath(filePath);
         if (parkMatch) {
-            if (parkJsonPath) {
+            if (parkJsonChange) {
                 fail(`Multiple park JSON files found: ${filePath}`);
             }
-            parkJsonPath = filePath;
+            parkJsonChange = { ...change, parkId: parkMatch.parkId };
             continue;
         }
 
-        const imageMatch =
-            /^assets\/images\/parks\/[a-z0-9][a-z0-9_-]{2,79}\/(med|thumb)\/([^/]+)\.webp$/.exec(
-                filePath
-            );
-
-        if (!imageMatch) {
-            fail(`Path not permitted on contribution branch: ${filePath}`);
+        const image = parseImagePath(filePath);
+        if (image) {
+            if (!IMAGE_BASENAME.test(image.basename)) {
+                fail(`Unsafe image basename: ${image.basename}`);
+            }
+            imageChanges.push({ ...change, ...image });
+            continue;
         }
 
-        const basename = imageMatch[2];
-        if (!IMAGE_BASENAME.test(basename)) {
-            fail(`Unsafe image basename: ${basename}`);
-        }
-
-        imageFiles.push({ kind: imageMatch[1], basename, path: filePath });
+        fail(`Path not permitted on contribution branch: ${filePath}`);
     }
 
-    if (!parkJsonPath) {
+    if (!parkJsonChange) {
         fail("Expected exactly one park JSON file, found none.");
+    }
+
+    const jsonStatus = parkJsonChange.status[0];
+    let mode;
+    if (jsonStatus === "A") {
+        mode = "create";
+    } else if (jsonStatus === "M") {
+        mode = "update";
+    } else {
+        fail(`Unsupported park JSON status: ${parkJsonChange.status}`);
+    }
+
+    const expectedId = parkJsonChange.parkId;
+
+    // All image paths must belong to the same park id as the JSON.
+    for (const image of imageChanges) {
+        if (image.parkId !== expectedId) {
+            fail(
+                `Image path belongs to "${image.parkId}", expected "${expectedId}".`
+            );
+        }
+    }
+
+    if (mode === "create") {
+        validateCreateDiff(parkJsonChange, imageChanges, expectedId);
+    } else {
+        await validateUpdateDiff(parkJsonChange, imageChanges, expectedId);
+    }
+
+    console.log(
+        `Contribution diff OK (${mode}): 1 park JSON, ${imageChanges.length} image changes, path=${parkJsonChange.path}`
+    );
+}
+
+function validateCreateDiff(parkJsonChange, imageChanges, expectedId) {
+    // Create mode: only additions are allowed.
+    for (const change of imageChanges) {
+        if (change.status[0] !== "A") {
+            fail(`Create mode only allows added images: ${change.path}`);
+        }
     }
 
     const medNames = new Set();
     const thumbNames = new Set();
 
-    for (const image of imageFiles) {
-        if (image.kind === "med") medNames.add(image.basename);
+    for (const image of imageChanges) {
+        if (image.variant === "med") medNames.add(image.basename);
         else thumbNames.add(image.basename);
     }
 
@@ -111,19 +166,112 @@ async function main() {
         }
     }
 
-    if (medNames.size > 8 || imageFiles.length > 16) {
+    if (medNames.size > 8 || imageChanges.length > 16) {
         fail("Too many submitted images; maximum is 8 med/thumb pairs.");
     }
 
-    // Validate that every image referenced by the JSON exists and there are
-    // no unreferenced images, and that the JSON id matches its filename.
-    const parkJsonFullPath = path.join(process.cwd(), parkJsonPath);
-    const park = JSON.parse(await fs.readFile(parkJsonFullPath, "utf8"));
+    validateParkReferences(parkJsonChange, medNames, thumbNames, expectedId);
+}
 
-    const expectedId = path.basename(parkJsonPath, ".json");
+async function validateUpdateDiff(parkJsonChange, imageChanges, expectedId) {
+    const medNames = new Set();
+    const thumbNames = new Set();
+    const addedNames = new Set();
+    const deletedNames = new Set();
+
+    for (const image of imageChanges) {
+        if (image.variant === "med") medNames.add(image.basename);
+        else thumbNames.add(image.basename);
+
+        const status = image.status[0];
+        if (status === "A") addedNames.add(image.basename);
+        else if (status === "D") deletedNames.add(image.basename);
+        else if (status === "M") {
+            fail(`Modified existing image path is not allowed: ${image.path}`);
+        }
+    }
+
+    // Added images must appear in med/thumb pairs.
+    for (const name of addedNames) {
+        if (!medNames.has(name) || !thumbNames.has(name)) {
+            fail(`Added image "${name}" must be added as a med/thumb pair.`);
+        }
+    }
+
+    // Deleted images must appear in med/thumb pairs.
+    for (const name of deletedNames) {
+        if (!medNames.has(name) || !thumbNames.has(name)) {
+            fail(`Deleted image "${name}" must be deleted as a med/thumb pair.`);
+        }
+    }
+
+    if (medNames.size > 8) {
+        fail("Too many images; maximum is 8 med/thumb pairs.");
+    }
+
+    // Load the final park JSON.
+    const parkJsonFullPath = path.join(process.cwd(), parkJsonChange.path);
+    const finalPark = JSON.parse(await fs.readFile(parkJsonFullPath, "utf8"));
+
+    if (finalPark.id !== expectedId) {
+        fail(`Park JSON id "${finalPark.id}" does not match filename "${expectedId}".`);
+    }
+
+    validatePark(finalPark, { fail });
+
+    const finalReferences = new Set([
+        ...(finalPark.park_images || []),
+        ...finalPark.equipment.flatMap((e) => e.images || []),
+    ]);
+
+    // Deleted images must not be referenced in the final JSON.
+    for (const name of deletedNames) {
+        if (finalReferences.has(name)) {
+            fail(`Deleted image "${name}" is still referenced in final JSON.`);
+        }
+    }
+
+    // Added images must be referenced in the final JSON.
+    for (const name of addedNames) {
+        if (!finalReferences.has(name)) {
+            fail(`Added image "${name}" is not referenced in final JSON.`);
+        }
+    }
+
+    // Retained references must exist in the checked-out HEAD.
+    const { stdout: headCat } = await execFileAsync(
+        "git",
+        ["show", `${BASE_SHA}:${parkJsonChange.path}`],
+        { maxBuffer: 10 * 1024 * 1024 }
+    ).catch(() => ({ stdout: "" }));
+
+    if (headCat) {
+        const headPark = JSON.parse(headCat);
+        const headReferences = new Set([
+            ...(headPark.park_images || []),
+            ...headPark.equipment.flatMap((e) => e.images || []),
+        ]);
+
+        for (const reference of finalReferences) {
+            if (/^https?:\/\//i.test(reference)) continue;
+            if (!headReferences.has(reference) && !addedNames.has(reference)) {
+                fail(
+                    `Retained image "${reference}" does not exist in the checked-out HEAD.`
+                );
+            }
+        }
+    }
+}
+
+function validateParkReferences(parkJsonChange, medNames, thumbNames, expectedId) {
+    const parkJsonFullPath = path.join(process.cwd(), parkJsonChange.path);
+    const park = JSON.parse(fs.readFileSync(parkJsonFullPath, "utf8"));
+
     if (park.id !== expectedId) {
         fail(`Park JSON id "${park.id}" does not match filename "${expectedId}".`);
     }
+
+    validatePark(park, { fail });
 
     const referenced = new Set([
         ...(park.park_images || []),
@@ -141,10 +289,6 @@ async function main() {
             fail(`Unreferenced image present: ${name}`);
         }
     }
-
-    console.log(
-        `Contribution diff OK: 1 park JSON, ${imageFiles.length} images, path=${parkJsonPath}`
-    );
 }
 
 main().catch((error) => {

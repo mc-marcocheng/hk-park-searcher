@@ -96,80 +96,128 @@ const parkSchema = z.object({
     comment: z.string().max(2000).optional().default(""),
 });
 
-export const submissionSchema = z
+const retainedImageSchema = z.discriminatedUnion("role", [
+    z.object({
+        reference: z.string().min(1).max(2048),
+        role: z.literal("park"),
+        equipmentType: z.null(),
+    }),
+    z.object({
+        reference: z.string().min(1).max(2048),
+        role: z.literal("equipment"),
+        equipmentType: z.enum(equipmentTypes),
+    }),
+]);
+
+const commonSubmissionFields = {
+    submissionVersion: z.literal(2),
+    submissionKey: z.string().uuid(),
+    startedAt: z.number().int().positive(),
+    website: z.string().max(0).optional().default(""),
+    turnstileToken: z.string().min(1).max(4096),
+    park: parkSchema,
+    attestations: z.object({
+        accurate: z.literal(true),
+        imageRights: z.literal(true),
+        publicSubmission: z.literal(true),
+    }),
+};
+
+const createSubmissionSchema = z
     .object({
-        submissionVersion: z.literal(1),
-        submissionKey: z.string().uuid(),
-        startedAt: z.number().int().positive(),
-        website: z.string().max(0).optional().default(""),
-        turnstileToken: z.string().min(1).max(4096),
-        park: parkSchema,
+        ...commonSubmissionFields,
+        operation: z.literal("create"),
         images: z.array(imageSchema).min(1).max(8),
-        attestations: z.object({
-            accurate: z.literal(true),
-            imageRights: z.literal(true),
-            publicSubmission: z.literal(true),
-        }),
     })
+    .strict();
+
+const updateSubmissionSchema = z.object({
+    ...commonSubmissionFields,
+    operation: z.literal("update"),
+    parkId: z.string().regex(SAFE_ID),
+    baseBlobSha: z.string().regex(/^[a-f0-9]{40}$/i),
+    retainedImages: z.array(retainedImageSchema).max(100),
+    images: z.array(imageSchema).max(8),
+});
+
+export const submissionSchema = z
+    .discriminatedUnion("operation", [createSubmissionSchema, updateSubmissionSchema])
     .superRefine((submission, ctx) => {
-        const imageIds = new Set();
-        const equipmentWithImages = new Set();
-        let hasParkImage = false;
-        let totalImageBytes = 0;
+        validateImagePayload(submission, ctx);
 
-        submission.images.forEach((image, index) => {
-            if (imageIds.has(image.clientId)) {
-                ctx.addIssue({
-                    code: "custom",
-                    path: ["images", index, "clientId"],
-                    message: "duplicate image id",
-                });
-            }
-            imageIds.add(image.clientId);
-
-            totalImageBytes += image.med.byteLength + image.thumb.byteLength;
-
-            if (image.role === "park") {
-                hasParkImage = true;
-            } else {
-                equipmentWithImages.add(image.equipmentType);
-
-                if (!submission.park.equipment.includes(image.equipmentType)) {
-                    ctx.addIssue({
-                        code: "custom",
-                        path: ["images", index, "equipmentType"],
-                        message: "equipment image type is not listed by the park",
-                    });
-                }
-            }
-        });
-
-        if (!hasParkImage) {
-            ctx.addIssue({
-                code: "custom",
-                path: ["images"],
-                message: "at least one park environment image is required",
-            });
+        if (submission.operation === "create") {
+            validateCreateImageCoverage(submission, ctx);
         }
 
-        submission.park.equipment.forEach((type, index) => {
-            if (!equipmentWithImages.has(type)) {
-                ctx.addIssue({
-                    code: "custom",
-                    path: ["park", "equipment", index],
-                    message: "equipment type does not have a corresponding image",
-                });
-            }
-        });
+        // Update coverage must be checked again after the backend has loaded
+        // and authenticated retained canonical references.
+    });
 
-        if (totalImageBytes > 3 * 1024 * 1024) {
+function validateImagePayload(submission, ctx) {
+    const imageIds = new Set();
+    const equipmentWithImages = new Set();
+    let hasParkImage = false;
+    let totalImageBytes = 0;
+
+    submission.images.forEach((image, index) => {
+        if (imageIds.has(image.clientId)) {
             ctx.addIssue({
                 code: "custom",
-                path: ["images"],
-                message: "combined image data is too large",
+                path: ["images", index, "clientId"],
+                message: "duplicate image id",
+            });
+        }
+        imageIds.add(image.clientId);
+
+        totalImageBytes += image.med.byteLength + image.thumb.byteLength;
+
+        if (image.role === "park") {
+            hasParkImage = true;
+        } else {
+            equipmentWithImages.add(image.equipmentType);
+
+            if (!submission.park.equipment.includes(image.equipmentType)) {
+                ctx.addIssue({
+                    code: "custom",
+                    path: ["images", index, "equipmentType"],
+                    message: "equipment image type is not listed by the park",
+                });
+            }
+        }
+    });
+
+    if (totalImageBytes > 3 * 1024 * 1024) {
+        ctx.addIssue({
+            code: "custom",
+            path: ["images"],
+            message: "combined image data is too large",
+        });
+    }
+
+    return { hasParkImage, equipmentWithImages };
+}
+
+function validateCreateImageCoverage(submission, ctx) {
+    const { hasParkImage, equipmentWithImages } = validateImagePayload(submission, ctx);
+
+    if (!hasParkImage) {
+        ctx.addIssue({
+            code: "custom",
+            path: ["images"],
+            message: "at least one park environment image is required",
+        });
+    }
+
+    submission.park.equipment.forEach((type, index) => {
+        if (!equipmentWithImages.has(type)) {
+            ctx.addIssue({
+                code: "custom",
+                path: ["park", "equipment", index],
+                message: "equipment type does not have a corresponding image",
             });
         }
     });
+}
 
 export function validateSubmission(body) {
     return submissionSchema.safeParse(body);

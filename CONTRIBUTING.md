@@ -13,12 +13,32 @@ The easiest way to submit a park is the new contribution page:
 The form lets you:
 
 - Add a missing street workout park.
-- Upload park environment photos.
-- Upload equipment-specific photos.
+- **Improve an existing park** — switch to "改善現有公園資料" to load the current
+  park, then update its details and photos.
+- **Use your device's current location** — tap "使用目前位置" to drop the marker
+  at your live position (must be within Hong Kong).
+- **Take a photo with your camera** — use "開啟相機拍攝" to capture a photo
+  directly, or "選擇相片" to upload from your gallery. Both options remain
+  available for every photo slot.
+- **Upload park environment photos** and **equipment-specific photos**.
+- **Keep or remove existing photos** when improving a park — retained photos are
+  reused, removed photos are deleted from the repository.
 - Select the park location on a map.
 - Create a public GitHub Pull Request for maintainer review.
 
 Submissions are not published immediately. A maintainer will review and merge the generated Pull Request before the park appears on the public map.
+
+### How park ids and photo names are chosen
+
+You do not need to name anything. The backend assigns permanent, human-readable
+identifiers:
+
+- **Park ids** are generated from the park name/address (for example
+  `cornwall-street-park`); collisions get a numeric suffix.
+- **Photo files** are named semantically — environment photos become
+  `overview_1`, `overview_2`, … and equipment photos become
+  `high_pull_up_bar_1`, … . These names are stable, so improving a park later
+  keeps the same file references.
 
 ### Google Form fallback
 

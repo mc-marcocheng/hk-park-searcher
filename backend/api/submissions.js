@@ -1,6 +1,6 @@
 import { validateSubmission } from "../lib/schema.js";
 import { isOriginAllowed, checkRateLimit, verifyTurnstile } from "../lib/security.js";
-import { createContributionPullRequest } from "../lib/github.js";
+import { createContributionPullRequest, HttpError } from "../lib/github.js";
 
 const IDEMPOTENCY_TTL_MS = 10 * 60 * 1000;
 
@@ -90,7 +90,17 @@ export default async function handler(request, response) {
     } catch (error) {
         console.error("Contribution creation failed:", error);
         await releaseLock(lockKey);
-        response.status(500).json({ message: "Failed to create contribution" });
+
+        if (error instanceof HttpError) {
+            response.status(error.status).json({
+                message: error.message,
+            });
+            return;
+        }
+
+        response.status(500).json({
+            message: "Failed to create contribution",
+        });
     }
 }
 
