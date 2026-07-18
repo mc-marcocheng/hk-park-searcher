@@ -1,0 +1,36 @@
+{
+  "id": "test-park",
+  "name": {
+    "zh": "測試公園",
+    "en": "Test Park"
+  },
+  "coords": {
+    "lat": 22.3386,
+    "lng": 114.1741
+  },
+  "district": {
+    "zh": "深水埗區",
+    "en": "Sham Shui Po"
+  },
+  "address": {
+    "zh": "測試地址",
+    "en": "Test Address"
+  },
+  "equipment": [
+    {
+      "type": "high_pull_up_bar",
+      "images": [
+        "high_pull_up_bar_1"
+      ]
+    }
+  ],
+  "park_images": [
+    "overview_1"
+  ],
+  "metrics": {
+    "quality": 4
+  },
+  "comment": "",
+  "comment_format": "plain",
+  "contributedAt": "2026-07-18T17:47:56.085Z"
+}
