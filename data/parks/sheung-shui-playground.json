@@ -1,27 +1,29 @@
 {
-    "id": "sheung-shui-playground",
-    "name": {
-        "en": "Sheung Shui Playground",
-        "zh": "上水遊樂場"
-    },
-    "coords": {
-        "lat": 22.509444,
-        "lng": 114.124167
-    },
-    "district": {
-        "en": "North",
-        "zh": "北區"
-    },
-    "address": {
-        "en": "Po Sheung Tsuen, Sheung Shui Village, Sheung Shui",
-        "zh": "上水上水圍鄉莆上村"
-    },
-    "equipment": [],
-    "park_images": [
-        "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1747_1.jpg"
-    ],
-    "metrics": {
-        "quality": null
-    },
-    "comment": ""
+  "id": "sheung-shui-playground",
+  "name": {
+    "zh": "上水遊樂場",
+    "en": "Sheung Shui Playground"
+  },
+  "coords": {
+    "lat": 22.509444,
+    "lng": 114.124167
+  },
+  "district": {
+    "zh": "北區",
+    "en": "North"
+  },
+  "address": {
+    "zh": "上水上水圍鄉莆上村",
+    "en": "Po Sheung Tsuen, Sheung Shui Village, Sheung Shui"
+  },
+  "equipment": [],
+  "park_images": [
+    "https://www.lcsd.gov.hk/file_upload_clpss/leisure_facilities/en/common/images/facilities/facilitieslist/fitness/1747_1.jpg"
+  ],
+  "metrics": {
+    "quality": 1
+  },
+  "comment": "",
+  "comment_format": "plain",
+  "updatedAt": "2026-07-18T18:38:31.532Z"
 }
