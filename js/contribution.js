@@ -1,4 +1,5 @@
 import { districts, equipmentLabels, equipmentTypes } from "./contribution-catalog.js";
+import { createTileLayer } from "./map.js";
 
 const IMAGE_LIMITS = {
     maxCount: 8,
@@ -202,12 +203,9 @@ function initMap() {
 
     map = L.map(el, {
         zoomControl: true,
-        attributionControl: false,
     }).setView([22.35, 114.06], 12);
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-        maxZoom: 20,
-    }).addTo(map);
+    createTileLayer().addTo(map);
 
     map.on("click", (event) => {
         setCoords(event.latlng.lat, event.latlng.lng);

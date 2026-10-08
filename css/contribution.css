@@ -276,6 +276,19 @@ html[data-theme="dark"] .park-search-result-details {
     background: var(--color-canvas-mint);
 }
 
+html[data-theme="dark"] #contribution-map .leaflet-tile-pane {
+    filter: brightness(0.58) saturate(0.5) contrast(1.18);
+}
+
+html[data-theme="dark"] #contribution-map .leaflet-control-attribution {
+    background: rgba(20, 24, 20, 0.75);
+    color: var(--color-ink-muted);
+}
+
+html[data-theme="dark"] #contribution-map .leaflet-control-attribution a {
+    color: var(--color-ink);
+}
+
 .button-primary,
 .button-tertiary,
 .button-icon-circular {

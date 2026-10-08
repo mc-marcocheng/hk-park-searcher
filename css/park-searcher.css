@@ -96,6 +96,15 @@ html[data-theme="dark"] .leaflet-tile-pane {
     filter: brightness(0.58) saturate(0.5) contrast(1.18);
 }
 
+html[data-theme="dark"] .leaflet-control-attribution {
+    background: rgba(20, 24, 20, 0.75);
+    color: var(--color-ink-muted);
+}
+
+html[data-theme="dark"] .leaflet-control-attribution a {
+    color: var(--color-ink);
+}
+
 .leaflet-tooltip {
     border: 1px solid var(--color-line);
     border-radius: var(--rounded-sm);

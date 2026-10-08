@@ -38,6 +38,12 @@ async function main() {
         await copyEntry(entry, DIST);
     }
 
+    if (process.env.CARTO_API_KEY) {
+        const configPath = path.join(DIST, "js", "map-config.js");
+        const configContent = `(function () {\n    window.PARK_MAP_CONFIG = Object.freeze({\n        cartoApiKey: ${JSON.stringify(process.env.CARTO_API_KEY)},\n    });\n})();\n`;
+        await fs.writeFile(configPath, configContent, "utf8");
+    }
+
     console.log(`Built site into ${DIST}/`);
 }
 

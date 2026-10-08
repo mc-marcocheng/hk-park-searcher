@@ -109,6 +109,23 @@ Check:
 4. `assets/data/parks.json` was committed.
 5. The static site deployment has updated.
 
+## Map displays "API KEY REQUIRED" watermark
+
+CARTO requires an API key for its public raster basemap endpoints (`basemaps.cartocdn.com`). If unauthenticated requests are sent, CARTO overlays an "API KEY REQUIRED" watermark on the tiles.
+
+The application now uses OpenStreetMap standard tiles (`tile.openstreetmap.org`) by default, which is free and does not require an API key.
+
+If you prefer CARTO Voyager styling:
+
+1. Obtain a free non-commercial API key from [carto.com/basemaps/apikey/](https://carto.com/basemaps/apikey/).
+2. For **GitHub Pages**:
+   - Go to your GitHub repository -> **Settings** -> **Secrets and variables** -> **Actions**.
+   - Under **Repository secrets** (or **Variables**), add `CARTO_API_KEY` with your key.
+   - The GitHub Actions workflow (`deploy-docs.yml`) will automatically inject it during build.
+3. For **local development**:
+   - Set `cartoApiKey: "your_key"` in `js/map-config.js`, or
+   - In browser console: `localStorage.setItem("carto_api_key", "your_key");`
+
 ## Image appears broken
 
 Check:

@@ -1,14 +1,37 @@
 export let map, markerLayer, userMarker;
 
+export function createTileLayer() {
+    const cartoKey =
+        (typeof window !== "undefined" &&
+            (window.PARK_MAP_CONFIG?.cartoApiKey ||
+                window.CARTO_API_KEY ||
+                window.localStorage?.getItem("carto_api_key"))) ||
+        "";
+
+    if (cartoKey) {
+        return L.tileLayer(
+            `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=${encodeURIComponent(cartoKey)}`,
+            {
+                maxZoom: 20,
+                attribution:
+                    '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener noreferrer">CARTO</a>',
+            }
+        );
+    }
+
+    return L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors',
+    });
+}
+
 export function initMap(id) {
     map = L.map(id, {
         zoomControl: false,
-        attributionControl: false,
     }).setView([22.35, 114.06], 12);
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-        maxZoom: 20,
-    }).addTo(map);
+    createTileLayer().addTo(map);
 
     markerLayer = L.layerGroup().addTo(map);
 }
